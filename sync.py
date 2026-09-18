@@ -175,7 +175,11 @@ def pull_atp() -> tuple[list[dict], int]:
                     if is_qualifying(c):
                         quals += 1
                         continue
-                    if "singles" not in slug:
+                    # a combined event's ATP feed also carries the WOMEN'S
+                    # singles draw, which at Dubai starts a week earlier than
+                    # the men's. Taking min() over both put the ATP draw eight
+                    # days early, so restrict to this tour's own singles.
+                    if slug != "mens-singles":
                         continue
                     singles += 1
                     # timeValid marks a slot ESPN has really scheduled;
@@ -250,9 +254,22 @@ def merge_combined(rows: list[dict]) -> list[dict]:
             r["tiers"] = {r["tour"]: r["tier"]}
             by_slot[slot] = r
             continue
+        # same city, same week, but if the two draws actually start days
+        # apart they are two tournaments sharing a venue, not one combined
+        # event -- Dubai runs the WTA one week and the ATP the next.
+        gap = abs((datetime.strptime(r["start"], "%Y-%m-%d")
+                   - datetime.strptime(cur["start"], "%Y-%m-%d")).days)
+        if gap > 3:
+            by_slot[(slot, r["tour"])] = dict(
+                r, tours=[r["tour"]], tiers={r["tour"]: r["tier"]})
+            continue
         if r["tour"] not in cur["tours"]:
             cur["tours"].append(r["tour"])
         cur["tiers"][r["tour"]] = r["tier"]
+        # keep BOTH dates: a merged row still has two draws, and discarding
+        # one of them is how a tour ends up shown on the wrong week
+        cur.setdefault("starts", {})[r["tour"]] = r["start"]
+        cur["starts"].setdefault(cur.get("tour", ""), cur["start"])
         # prefer the official WTA dates where the two disagree
         if r.get("start_source") == "official":
             cur["start"], cur["end"] = r["start"], r["end"]

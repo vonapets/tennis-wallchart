@@ -24,9 +24,12 @@ inputs are copied into `config.benchmarks` with their provenance.
                   $35.2M elsewhere. This is a TIEBREAKER, not a law: the
                   cohort is confounded with Kalshi's 11 July launch, and the
                   playbook says so in as many words.
-      the week    a Challenger sharing its week with a Slam or a Masters is
-                  fighting for attention it will not get; one in a bare week
-                  owns the slot.
+  Note what is deliberately NOT a factor: a clash with a big tour event. The
+  playbook this comes from never penalised one -- it ran a Challenger in slot 1
+  every single week, including Shanghai week 2, Paris Masters week, the WTA
+  Finals and the ATP Finals. The 175s in particular are scheduled alongside
+  Masters events on purpose, which is where their top-100 fields come from, so
+  a clash penalty would cut straight against the tier weight.
 
 The output is deliberately a rank, not a dollar figure. A number here would
 look like evidence, and there is none.
@@ -90,11 +93,9 @@ def main() -> int:
         if is_na:
             score *= P["na_premium"]
             why.append(f"North America (x{P['na_premium']} Kalshi median, tiebreaker only)")
-        if not clash:
-            score *= P["quiet_week_bonus"]
-            why.append("clear week - no Slam, 1000 or Finals")
-        else:
-            why.append("shares its week with " + ", ".join(sorted(set(clash))[:2]))
+        # the clash is recorded for context but NOT scored -- see the module note
+        if clash:
+            why.append("runs alongside " + ", ".join(sorted(set(clash))[:2]))
 
         picks.append({
             "name": r["name"], "tier": tier, "venue": r.get("venue", ""),
@@ -103,7 +104,7 @@ def main() -> int:
             "projected": bool(r.get("projected")),
             "score": round(score, 3),
             "north_america": is_na,
-            "clear_week": not clash,
+            "runs_alongside": bool(clash),
             "clash": sorted(set(clash))[:3],
             "evidence": P["evidence_default"],
             "confidence": P["confidence_default"],
@@ -148,8 +149,7 @@ def main() -> int:
     print("  TOP 12 CHALLENGER PICKS")
     for p in picks[:12]:
         flag = "NA" if p["north_america"] else "  "
-        clear = "clear" if p["clear_week"] else "clash"
-        print(f"   {p['rank']:>2}. {p['start']} {p['tier']:15s} {flag} {clear:5s} "
+        print(f"   {p['rank']:>2}. {p['start']} {p['tier']:15s} {flag} "
               f"{p['name'][:32]:34s} {p['venue'][:24]}")
     return 0
 

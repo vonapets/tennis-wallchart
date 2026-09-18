@@ -50,6 +50,7 @@
   tr:last-child td{border-bottom:none}
   .tier{display:inline-block;padding:2px 8px;border-radius:5px;font-size:11px;
         font-weight:600;color:#fff;white-space:nowrap}
+  .tier.lt,.ev.lt{color:#15181d}      /* light fills need dark text, not white */
   .nm{font-weight:600}
   .mut{color:var(--mut);font-size:12.5px}
   .proj{opacity:.62}
@@ -109,6 +110,14 @@ const state = {tiers:new Set(D.default_on), q:'', proj:true, view:'season'};
 
 const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const col = t => COL[t] || '#888';
+// relative luminance: a light fill (ATP 250, WTA 250, WTA 125, Challenger 125)
+// carries white text at about 1.5:1, which is unreadable. Flip those to dark.
+const lum = hex => {
+  const n = parseInt((hex||'#888').slice(1), 16);
+  const f = c => { c/=255; return c<=.03928 ? c/12.92 : Math.pow((c+.055)/1.055, 2.4); };
+  return .2126*f(n>>16&255) + .7152*f(n>>8&255) + .0722*f(n&255);
+};
+const lt = t => lum(col(t)) > 0.42 ? ' lt' : '';
 const fmt = d => new Date(d+'T00:00:00').toLocaleDateString(undefined,{day:'numeric',month:'short'});
 const fmtY = d => new Date(d+'T00:00:00').toLocaleDateString(undefined,{day:'numeric',month:'short',year:'numeric'});
 
@@ -141,19 +150,24 @@ function railInit(){
 
 function season(list){
   if(!list.length) return '<div class="panel mut">Nothing matches those filters.</div>';
-  const ds = list.map(r=>+new Date(r.start+'T00:00:00'));
-  const de = list.map(r=>+new Date((r.end||r.start)+'T00:00:00'));
-  const lo = Math.min(...ds), hi = Math.max(...de), span = Math.max(hi-lo,1);
+  // Each month is its own panel, so each bar is scaled to ITS month. Scaling to
+  // the whole window instead makes every bar a 1%-wide sliver pinned to the
+  // left edge, which is what this did before.
   const byMonth = {};
   list.forEach(r=>{ (byMonth[r.start.slice(0,7)] ||= []).push(r); });
   return Object.keys(byMonth).sort().map(m=>{
     const label = new Date(m+'-01T00:00:00').toLocaleDateString(undefined,{month:'long',year:'numeric'});
+    const [Y0,M0] = m.split('-').map(Number);
+    const lo = +new Date(Y0, M0-1, 1), hi = +new Date(Y0, M0, 1);
+    const span = Math.max(hi-lo, 1);
     const body = byMonth[m].map(r=>{
       const t = r.headline_tier||r.tier;
-      const a=+new Date(r.start+'T00:00:00'), b=+new Date((r.end||r.start)+'T00:00:00');
-      const L=((a-lo)/span*100).toFixed(2), W=Math.max((b-a)/span*100,.7).toFixed(2);
+      const a0=+new Date(r.start+'T00:00:00'), b0=+new Date((r.end||r.start)+'T00:00:00');
+      const a=Math.max(a0,lo), b=Math.min(Math.max(b0,a0+864e5),hi);   // clamp into the month
+      const L=Math.max((a-lo)/span*100,0).toFixed(2);
+      const W=Math.min(Math.max((b-a)/span*100,2.5),100-L).toFixed(2);
       return `<tr class="${r.projected?'proj':''}">
-        <td style="width:120px"><span class="tier" style="background:${col(t)}">${esc(t)}</span></td>
+        <td style="width:120px"><span class="tier${lt(t)}" style="background:${col(t)}">${esc(t)}</span></td>
         <td><span class="nm">${esc(r.name)}</span><div class="mut">${esc(r.venue||'')}</div></td>
         <td class="hide-s" style="width:150px"><span class="mut">${fmt(r.start)} – ${fmt(r.end||r.start)}</span></td>
         <td style="width:42%"><div class="bar"><span class="${r.projected?'p':''}"
@@ -178,7 +192,7 @@ function months(list){
       const on=list.filter(r=> r.start<=iso && iso<=(r.end||r.start));
       cells+=`<div class="day"><div class="n">${d}</div>`+
         on.slice(0,3).map(r=>{const t=r.headline_tier||r.tier;
-          return `<div class="ev" style="background:${col(t)};${r.projected?'opacity:.6':''}"
+          return `<div class="ev${lt(t)}" style="background:${col(t)};${r.projected?'opacity:.6':''}"
                    title="${esc(r.name)}">${esc(r.name)}</div>`;}).join('')+
         (on.length>3?`<div class="n">+${on.length-3}</div>`:'')+`</div>`;
     }
@@ -193,7 +207,7 @@ function listing(list){
   return `<div class="panel"><table>
     <tr><th>Tier</th><th>Tournament</th><th class="hide-s">Tours</th><th>Main draw</th><th class="hide-s">Source</th></tr>
     ${list.map(r=>{const t=r.headline_tier||r.tier;return `<tr class="${r.projected?'proj':''}">
-      <td><span class="tier" style="background:${col(t)}">${esc(t)}</span></td>
+      <td><span class="tier${lt(t)}" style="background:${col(t)}">${esc(t)}</span></td>
       <td><span class="nm">${esc(r.name)}</span><div class="mut">${esc(r.venue||'')}</div></td>
       <td class="hide-s mut">${esc((r.tours||[r.tour]).join(' + '))}</td>
       <td>${fmtY(r.start)}<div class="mut">to ${fmt(r.end||r.start)}</div></td>
@@ -210,7 +224,7 @@ function picksView(){
     <table><tr><th>#</th><th>Tournament</th><th class="hide-s">Week</th><th>Why</th><th>Evidence</th></tr>
     ${shown.map(p=>`<tr class="${p.projected?'proj':''}">
       <td><span class="rank">${p.rank}</span></td>
-      <td><span class="tier" style="background:${col(p.tier)}">${esc(p.tier)}</span>
+      <td><span class="tier${lt(p.tier)}" style="background:${col(p.tier)}">${esc(p.tier)}</span>
           <div class="nm" style="margin-top:3px">${esc(p.name)}</div>
           <div class="mut">${esc(p.venue)}</div></td>
       <td class="hide-s mut">${fmtY(p.start)}</td>

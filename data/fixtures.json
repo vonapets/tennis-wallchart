@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T13:13:45+00:00",
+ "generated": "2026-09-18T13:18:59+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -262,6 +262,10 @@
    "tiers": {
     "WTA": "WTA 1000",
     "ATP": "ATP 500"
+   },
+   "starts": {
+    "ATP": "2026-10-01",
+    "WTA": "2026-09-30"
    },
    "headline_tier": "WTA 1000",
    "projected": false
@@ -938,6 +942,29 @@
     "ATP"
    ],
    "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
+   "projected": false
+  },
+  {
+   "key": "atp:148-2026",
+   "espn_id": "148",
+   "name": "Bybit Stockholm Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2026-11-07",
+   "end": "2026-11-15",
+   "qualifying_start": "2026-11-06",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
     "ATP": "ATP 250"
    },
    "headline_tier": "ATP 250",
@@ -1216,29 +1243,6 @@
    "projected": true
   },
   {
-   "key": "proj:atp:925-2026",
-   "espn_id": "925",
-   "name": "ASB Classic",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Auckland, New Zealand",
-   "start": "2027-01-03",
-   "end": "2027-01-16",
-   "qualifying_start": "2026-01-02",
-   "main_draw_matches": 58,
-   "qualifying_matches": 30,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
    "key": "proj:wta:800:2026-01-04",
    "name": "Brisbane International",
    "tour": "WTA",
@@ -1259,6 +1263,10 @@
    "tiers": {
     "WTA": "WTA 500",
     "ATP": "ATP 250"
+   },
+   "starts": {
+    "ATP": "2026-01-04",
+    "WTA": "2026-01-04"
    },
    "headline_tier": "WTA 500",
    "projected": true
@@ -1361,6 +1369,29 @@
    "projected": true
   },
   {
+   "key": "proj:atp:925-2026",
+   "espn_id": "925",
+   "name": "ASB Classic",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Auckland, New Zealand",
+   "start": "2027-01-10",
+   "end": "2027-01-16",
+   "qualifying_start": "2026-01-02",
+   "main_draw_matches": 27,
+   "qualifying_matches": 30,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
    "key": "proj:wta:2014:2026-01-12",
    "name": "Adelaide International",
    "tour": "WTA",
@@ -1381,6 +1412,10 @@
    "tiers": {
     "WTA": "WTA 500",
     "ATP": "ATP 250"
+   },
+   "starts": {
+    "ATP": "2026-01-12",
+    "WTA": "2026-01-12"
    },
    "headline_tier": "WTA 500",
    "projected": true
@@ -1429,6 +1464,10 @@
    "tiers": {
     "WTA": "Grand Slam",
     "ATP": "Grand Slam"
+   },
+   "starts": {
+    "ATP": "2026-01-18",
+    "WTA": "2026-01-18"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -1757,12 +1796,10 @@
    "start_source": "projected",
    "src": "api.wtatennis.com",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "tiers": {
-    "WTA": "WTA 1000",
-    "ATP": "ATP 500"
+    "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
    "projected": true
@@ -1966,6 +2003,29 @@
    "projected": true
   },
   {
+   "key": "proj:atp:25-2026",
+   "espn_id": "25",
+   "name": "Dubai Duty Free Tennis Championships",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Dubai, United Arab Emirates",
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "qualifying_start": "2026-02-13",
+   "main_draw_matches": 31,
+   "qualifying_matches": 39,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
+   "projected": true
+  },
+  {
    "key": "proj:wta:2085:2026-02-23",
    "name": "M\u00c9RIDA OPEN",
    "tour": "WTA",
@@ -2079,6 +2139,10 @@
     "WTA": "WTA 1000",
     "ATP": "ATP 1000"
    },
+   "starts": {
+    "ATP": "2026-03-04",
+    "WTA": "2026-03-04"
+   },
    "headline_tier": "ATP 1000",
    "projected": true
   },
@@ -2177,6 +2241,10 @@
    "tiers": {
     "WTA": "WTA 1000",
     "ATP": "ATP 1000"
+   },
+   "starts": {
+    "ATP": "2026-03-19",
+    "WTA": "2026-03-17"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -2632,6 +2700,10 @@
     "WTA": "WTA 1000",
     "ATP": "ATP 1000"
    },
+   "starts": {
+    "ATP": "2026-04-22",
+    "WTA": "2026-04-21"
+   },
    "headline_tier": "ATP 1000",
    "projected": true
   },
@@ -2753,6 +2825,10 @@
    "tiers": {
     "WTA": "WTA 1000",
     "ATP": "ATP 1000"
+   },
+   "starts": {
+    "ATP": "2026-05-06",
+    "WTA": "2026-05-05"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -2945,6 +3021,10 @@
     "WTA": "Grand Slam",
     "ATP": "Grand Slam"
    },
+   "starts": {
+    "ATP": "2026-05-24",
+    "WTA": "2026-05-24"
+   },
    "headline_tier": "Grand Slam",
    "projected": true
   },
@@ -3126,6 +3206,10 @@
    "tiers": {
     "WTA": "WTA 250",
     "ATP": "ATP 250"
+   },
+   "starts": {
+    "ATP": "2026-06-08",
+    "WTA": "2026-06-08"
    },
    "headline_tier": "ATP 250",
    "projected": true
@@ -3410,6 +3494,10 @@
     "WTA": "WTA 250",
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2026-06-22",
+    "WTA": "2026-06-22"
+   },
    "headline_tier": "ATP 250",
    "projected": true
   },
@@ -3434,6 +3522,10 @@
    "tiers": {
     "WTA": "Grand Slam",
     "ATP": "Grand Slam"
+   },
+   "starts": {
+    "ATP": "2026-06-29",
+    "WTA": "2026-06-29"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -3536,29 +3628,6 @@
    "projected": true
   },
   {
-   "key": "proj:atp:306-2026",
-   "espn_id": "306",
-   "name": "Nordea Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "B\u00e5stad, Sweden",
-   "start": "2027-07-05",
-   "end": "2027-07-19",
-   "qualifying_start": "2026-07-06",
-   "main_draw_matches": 58,
-   "qualifying_matches": 12,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
    "key": "proj:wta:1130:2026-07-13",
    "name": "ATV BANCOMAT TENNIS OPEN",
    "tour": "WTA",
@@ -3648,6 +3717,29 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:306-2026",
+   "espn_id": "306",
+   "name": "Nordea Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "B\u00e5stad, Sweden",
+   "start": "2027-07-12",
+   "end": "2027-07-19",
+   "qualifying_start": "2026-07-06",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
    "projected": true
   },
   {
@@ -3941,7 +4033,7 @@
    "start": "2027-07-26",
    "end": "2027-08-03",
    "qualifying_start": "2026-07-25",
-   "main_draw_matches": 58,
+   "main_draw_matches": 31,
    "qualifying_matches": 33,
    "start_source": "projected",
    "src": "espn",
@@ -4050,6 +4142,10 @@
     "WTA": "WTA 1000",
     "ATP": "ATP 1000"
    },
+   "starts": {
+    "ATP": "2026-08-02",
+    "WTA": "2026-08-02"
+   },
    "headline_tier": "ATP 1000",
    "projected": true
   },
@@ -4125,6 +4221,10 @@
    "tiers": {
     "WTA": "WTA 1000",
     "ATP": "ATP 1000"
+   },
+   "starts": {
+    "ATP": "2026-08-13",
+    "WTA": "2026-08-13"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -4219,6 +4319,10 @@
    "tiers": {
     "WTA": "Grand Slam",
     "ATP": "Grand Slam"
+   },
+   "starts": {
+    "ATP": "2026-08-30",
+    "WTA": "2026-08-30"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -4719,6 +4823,10 @@
    "tiers": {
     "WTA": "WTA 1000",
     "ATP": "ATP 500"
+   },
+   "starts": {
+    "ATP": "2026-10-01",
+    "WTA": "2026-09-30"
    },
    "headline_tier": "WTA 1000",
    "projected": true
@@ -5387,6 +5495,29 @@
    "start": "2027-11-01",
    "end": "2027-11-08",
    "qualifying_start": "2026-10-31",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:148-2026",
+   "espn_id": "148",
+   "name": "Bybit Stockholm Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-11-06",
+   "end": "2027-11-14",
+   "qualifying_start": "2026-11-06",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
    "start_source": "projected",

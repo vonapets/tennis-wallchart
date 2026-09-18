@@ -61,7 +61,7 @@
   "WTA Finals": "#7c3aed",
   "ATP 1000": "#1d4ed8",
   "WTA 1000": "#be123c",
-  "ATP 500": "#3b82f6",
+  "ATP 500": "#2563eb",
   "WTA 500": "#e11d48",
   "ATP 250": "#7dd3fc",
   "WTA 250": "#fda4af",
@@ -2292,8 +2292,6 @@
    "Challenger 175": 1.75,
    "Challenger 125": 1.0
   },
-  "quiet_week_bonus": 1.25,
-  "_quiet_week_note": "A Challenger competing with a Slam or a Masters is fighting for the same attention; one in a bare week owns it.",
   "north_america": [
    "United States",
    "Canada",
@@ -2301,7 +2299,8 @@
   ],
   "evidence_default": "E",
   "confidence_default": "none",
-  "_confidence_note": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement."
+  "_confidence_note": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
+  "_no_clash_penalty": "Deliberately absent. The 17 Sep playbook ran a Challenger in slot 1 every week regardless of what else was on - Shanghai week 2, Paris Masters, both Finals - and the 175s are scheduled alongside Masters events on purpose, which is where their fields come from."
  },
  "safety": {
   "min_fraction_of_previous": 0.6

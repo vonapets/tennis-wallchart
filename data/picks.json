@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T13:13:45+00:00",
+ "generated": "2026-09-18T13:18:59+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -12,16 +12,15 @@
    "end": "2027-03-14",
    "surface": "Hard",
    "projected": true,
-   "score": 5.206,
+   "score": 4.165,
    "north_america": true,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 175",
-    "North America (x2.38 Kalshi median, tiebreaker only)",
-    "clear week - no Slam, 1000 or Finals"
+    "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
    "rank": 1
   },
@@ -33,16 +32,15 @@
    "end": "2027-03-28",
    "surface": "Hard",
    "projected": true,
-   "score": 2.975,
+   "score": 2.38,
    "north_america": true,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "North America (x2.38 Kalshi median, tiebreaker only)",
-    "clear week - no Slam, 1000 or Finals"
+    "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
    "rank": 2
   },
@@ -54,16 +52,15 @@
    "end": "2027-04-11",
    "surface": "Clay",
    "projected": true,
-   "score": 2.975,
+   "score": 2.38,
    "north_america": true,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "North America (x2.38 Kalshi median, tiebreaker only)",
-    "clear week - no Slam, 1000 or Finals"
+    "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
    "rank": 3
   },
@@ -75,16 +72,15 @@
    "end": "2027-07-11",
    "surface": "Grass",
    "projected": true,
-   "score": 2.975,
+   "score": 2.38,
    "north_america": true,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "North America (x2.38 Kalshi median, tiebreaker only)",
-    "clear week - no Slam, 1000 or Finals"
+    "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
    "rank": 4
   },
@@ -96,39 +92,17 @@
    "end": "2027-07-25",
    "surface": "Hard",
    "projected": true,
-   "score": 2.975,
+   "score": 2.38,
    "north_america": true,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "North America (x2.38 Kalshi median, tiebreaker only)",
-    "clear week - no Slam, 1000 or Finals"
+    "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
    "rank": 5
-  },
-  {
-   "name": "Tiburon Challenger",
-   "tier": "Challenger 125",
-   "venue": "Tiburon, United States",
-   "start": "2027-09-13",
-   "end": "2027-09-19",
-   "surface": "Hard",
-   "projected": true,
-   "score": 2.975,
-   "north_america": true,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "North America (x2.38 Kalshi median, tiebreaker only)",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 6
   },
   {
    "name": "Odlum Brown Vancouver Open",
@@ -140,7 +114,7 @@
    "projected": true,
    "score": 2.38,
    "north_america": true,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "National Bank Open presented by Rogers"
    ],
@@ -149,9 +123,9 @@
    "why": [
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)",
-    "shares its week with National Bank Open presented by Rogers"
+    "runs alongside National Bank Open presented by Rogers"
    ],
-   "rank": 7
+   "rank": 6
   },
   {
    "name": "Canc\u00fan Country Open",
@@ -163,7 +137,7 @@
    "projected": true,
    "score": 2.38,
    "north_america": true,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Cincinnati Open"
    ],
@@ -172,9 +146,9 @@
    "why": [
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)",
-    "shares its week with Cincinnati Open"
+    "runs alongside Cincinnati Open"
    ],
-   "rank": 8
+   "rank": 7
   },
   {
    "name": "Challenger Banque Nationale de Qu\u00e9bec",
@@ -186,7 +160,7 @@
    "projected": true,
    "score": 2.38,
    "north_america": true,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Cincinnati Open"
    ],
@@ -195,7 +169,27 @@
    "why": [
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)",
-    "shares its week with Cincinnati Open"
+    "runs alongside Cincinnati Open"
+   ],
+   "rank": 8
+  },
+  {
+   "name": "Tiburon Challenger",
+   "tier": "Challenger 125",
+   "venue": "Tiburon, United States",
+   "start": "2027-09-13",
+   "end": "2027-09-19",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.38,
+   "north_america": true,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
    "rank": 9
   },
@@ -207,15 +201,14 @@
    "end": "2027-03-14",
    "surface": "Hard",
    "projected": true,
-   "score": 2.188,
+   "score": 1.75,
    "north_america": false,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 175",
-    "clear week - no Slam, 1000 or Finals"
+    "Challenger 175"
    ],
    "rank": 10
   },
@@ -227,15 +220,14 @@
    "end": "2027-05-02",
    "surface": "Clay",
    "projected": true,
-   "score": 2.188,
+   "score": 1.75,
    "north_america": false,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 175",
-    "clear week - no Slam, 1000 or Finals"
+    "Challenger 175"
    ],
    "rank": 11
   },
@@ -247,15 +239,14 @@
    "end": "2027-05-02",
    "surface": "Clay",
    "projected": true,
-   "score": 2.188,
+   "score": 1.75,
    "north_america": false,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 175",
-    "clear week - no Slam, 1000 or Finals"
+    "Challenger 175"
    ],
    "rank": 12
   },
@@ -267,15 +258,14 @@
    "end": "2027-05-16",
    "surface": "Clay",
    "projected": true,
-   "score": 2.188,
+   "score": 1.75,
    "north_america": false,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 175",
-    "clear week - no Slam, 1000 or Finals"
+    "Challenger 175"
    ],
    "rank": 13
   },
@@ -287,15 +277,14 @@
    "end": "2027-05-16",
    "surface": "Clay",
    "projected": true,
-   "score": 2.188,
+   "score": 1.75,
    "north_america": false,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 175",
-    "clear week - no Slam, 1000 or Finals"
+    "Challenger 175"
    ],
    "rank": 14
   },
@@ -307,537 +296,16 @@
    "end": "2026-09-27",
    "surface": "Hard",
    "projected": false,
-   "score": 1.25,
+   "score": 1.0,
    "north_america": false,
-   "clear_week": true,
+   "runs_alongside": false,
    "clash": [],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
+    "Challenger 125"
    ],
    "rank": 15
-  },
-  {
-   "name": "Seoul Open Challenger",
-   "tier": "Challenger 125",
-   "venue": "Seoul, South Korea",
-   "start": "2026-10-26",
-   "end": "2026-11-01",
-   "surface": "Hard",
-   "projected": false,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 16
-  },
-  {
-   "name": "HPP Open",
-   "tier": "Challenger 125",
-   "venue": "Helsinki, Finland",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "surface": "Hard (i)",
-   "projected": false,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 17
-  },
-  {
-   "name": "Metz Challenger",
-   "tier": "Challenger 125",
-   "venue": "Metz, France",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "surface": "Hard (i)",
-   "projected": false,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 18
-  },
-  {
-   "name": "Bengaluru Open",
-   "tier": "Challenger 125",
-   "venue": "Bengaluru, India",
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "surface": "Hard",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 19
-  },
-  {
-   "name": "Canberra Tennis International",
-   "tier": "Challenger 125",
-   "venue": "Canberra, Australia",
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "surface": "Hard",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 20
-  },
-  {
-   "name": "Bahrain Ministry of Interior Tennis Challenger",
-   "tier": "Challenger 125",
-   "venue": "Manama, Bahrain",
-   "start": "2027-01-25",
-   "end": "2027-01-31",
-   "surface": "Hard",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 21
-  },
-  {
-   "name": "Open Quimper Bretagne",
-   "tier": "Challenger 125",
-   "venue": "Quimper, France",
-   "start": "2027-01-25",
-   "end": "2027-01-31",
-   "surface": "Hard (i)",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 22
-  },
-  {
-   "name": "Play In Challenger",
-   "tier": "Challenger 125",
-   "venue": "Lille, France",
-   "start": "2027-02-15",
-   "end": "2027-02-21",
-   "surface": "Hard (i)",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 23
-  },
-  {
-   "name": "Napoli Tennis Cup",
-   "tier": "Challenger 125",
-   "venue": "Naples, Italy",
-   "start": "2027-03-22",
-   "end": "2027-03-28",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 24
-  },
-  {
-   "name": "Monza Open",
-   "tier": "Challenger 125",
-   "venue": "Monza, Italy",
-   "start": "2027-04-05",
-   "end": "2027-04-11",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 25
-  },
-  {
-   "name": "Busan Open",
-   "tier": "Challenger 125",
-   "venue": "Busan, South Korea",
-   "start": "2027-04-12",
-   "end": "2027-04-18",
-   "surface": "Hard",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 26
-  },
-  {
-   "name": "Open de Oeiras",
-   "tier": "Challenger 125",
-   "venue": "Oeiras, Portugal",
-   "start": "2027-04-12",
-   "end": "2027-04-18",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 27
-  },
-  {
-   "name": "Birmingham Open",
-   "tier": "Challenger 125",
-   "venue": "Birmingham, United Kingdom",
-   "start": "2027-05-31",
-   "end": "2027-06-06",
-   "surface": "Grass",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 28
-  },
-  {
-   "name": "Internazionali di Tennis Citt\u00e0 di Perugia",
-   "tier": "Challenger 125",
-   "venue": "Perugia, Italy",
-   "start": "2027-05-31",
-   "end": "2027-06-06",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 29
-  },
-  {
-   "name": "Ilkley Open",
-   "tier": "Challenger 125",
-   "venue": "Ilkley, United Kingdom",
-   "start": "2027-06-07",
-   "end": "2027-06-13",
-   "surface": "Grass",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 30
-  },
-  {
-   "name": "Emilia-Romagna Open",
-   "tier": "Challenger 125",
-   "venue": "Parma, Italy",
-   "start": "2027-06-14",
-   "end": "2027-06-20",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 31
-  },
-  {
-   "name": "Nottingham Open",
-   "tier": "Challenger 125",
-   "venue": "Nottingham, United Kingdom",
-   "start": "2027-06-14",
-   "end": "2027-06-20",
-   "surface": "Grass",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 32
-  },
-  {
-   "name": "Brawo Open",
-   "tier": "Challenger 125",
-   "venue": "Braunschweig, Germany",
-   "start": "2027-07-05",
-   "end": "2027-07-11",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 33
-  },
-  {
-   "name": "Zug Open",
-   "tier": "Challenger 125",
-   "venue": "Zug, Switzerland",
-   "start": "2027-07-19",
-   "end": "2027-07-25",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 34
-  },
-  {
-   "name": "AON Open Challenger",
-   "tier": "Challenger 125",
-   "venue": "Genoa, Italy",
-   "start": "2027-09-06",
-   "end": "2027-09-12",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 35
-  },
-  {
-   "name": "Copa Sevilla",
-   "tier": "Challenger 125",
-   "venue": "Seville, Spain",
-   "start": "2027-09-06",
-   "end": "2027-09-12",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 36
-  },
-  {
-   "name": "Szczecin Open",
-   "tier": "Challenger 125",
-   "venue": "Szczecin, Poland",
-   "start": "2027-09-13",
-   "end": "2027-09-19",
-   "surface": "Clay",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 37
-  },
-  {
-   "name": "Saint-Tropez Open",
-   "tier": "Challenger 125",
-   "venue": "Saint-Tropez, France",
-   "start": "2027-09-20",
-   "end": "2027-09-26",
-   "surface": "Hard",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 38
-  },
-  {
-   "name": "Seoul Open Challenger",
-   "tier": "Challenger 125",
-   "venue": "Seoul, South Korea",
-   "start": "2027-10-25",
-   "end": "2027-10-31",
-   "surface": "Hard",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 39
-  },
-  {
-   "name": "HPP Open",
-   "tier": "Challenger 125",
-   "venue": "Helsinki, Finland",
-   "start": "2027-11-15",
-   "end": "2027-11-21",
-   "surface": "Hard (i)",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 40
-  },
-  {
-   "name": "Metz Challenger",
-   "tier": "Challenger 125",
-   "venue": "Metz, France",
-   "start": "2027-11-15",
-   "end": "2027-11-21",
-   "surface": "Hard (i)",
-   "projected": true,
-   "score": 1.25,
-   "north_america": false,
-   "clear_week": true,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125",
-    "clear week - no Slam, 1000 or Finals"
-   ],
-   "rank": 41
   },
   {
    "name": "Porto Open",
@@ -849,7 +317,7 @@
    "projected": false,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "China Open"
    ],
@@ -857,9 +325,9 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with China Open"
+    "runs alongside China Open"
    ],
-   "rank": 42
+   "rank": 16
   },
   {
    "name": "Jinan Open",
@@ -871,7 +339,7 @@
    "projected": false,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Wuhan Open"
    ],
@@ -879,9 +347,9 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Wuhan Open"
+    "runs alongside Wuhan Open"
    ],
-   "rank": 43
+   "rank": 17
   },
   {
    "name": "Olbia Challenger",
@@ -893,7 +361,7 @@
    "projected": false,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Wuhan Open"
    ],
@@ -901,9 +369,28 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Wuhan Open"
+    "runs alongside Wuhan Open"
    ],
-   "rank": 44
+   "rank": 18
+  },
+  {
+   "name": "Seoul Open Challenger",
+   "tier": "Challenger 125",
+   "venue": "Seoul, South Korea",
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "surface": "Hard",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 19
   },
   {
    "name": "Costa do Sau\u00edpe Open",
@@ -915,17 +402,18 @@
    "projected": false,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
+    "Rolex Paris Masters",
     "WTA Finals Indian Wells"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with WTA Finals Indian Wells"
+    "runs alongside Rolex Paris Masters, WTA Finals Indian Wells"
    ],
-   "rank": 45
+   "rank": 20
   },
   {
    "name": "Open d'Orl\u00e9ans",
@@ -937,7 +425,7 @@
    "projected": false,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Nitto ATP Finals"
    ],
@@ -945,9 +433,123 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Nitto ATP Finals"
+    "runs alongside Nitto ATP Finals"
    ],
-   "rank": 46
+   "rank": 21
+  },
+  {
+   "name": "HPP Open",
+   "tier": "Challenger 125",
+   "venue": "Helsinki, Finland",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "surface": "Hard (i)",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 22
+  },
+  {
+   "name": "Metz Challenger",
+   "tier": "Challenger 125",
+   "venue": "Metz, France",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "surface": "Hard (i)",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 23
+  },
+  {
+   "name": "Bengaluru Open",
+   "tier": "Challenger 125",
+   "venue": "Bengaluru, India",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 24
+  },
+  {
+   "name": "Canberra Tennis International",
+   "tier": "Challenger 125",
+   "venue": "Canberra, Australia",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 25
+  },
+  {
+   "name": "Bahrain Ministry of Interior Tennis Challenger",
+   "tier": "Challenger 125",
+   "venue": "Manama, Bahrain",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 26
+  },
+  {
+   "name": "Open Quimper Bretagne",
+   "tier": "Challenger 125",
+   "venue": "Quimper, France",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 27
   },
   {
    "name": "Rosario Challenger",
@@ -959,7 +561,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Qatar TotalEnergies Open"
    ],
@@ -967,9 +569,9 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Qatar TotalEnergies Open"
+    "runs alongside Qatar TotalEnergies Open"
    ],
-   "rank": 47
+   "rank": 28
   },
   {
    "name": "Ter\u00e9ga Open Pau\u2013Pyr\u00e9n\u00e9es",
@@ -981,7 +583,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Dubai Duty Free Tennis Championships"
    ],
@@ -989,9 +591,237 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Dubai Duty Free Tennis Championships"
+    "runs alongside Dubai Duty Free Tennis Championships"
    ],
-   "rank": 48
+   "rank": 29
+  },
+  {
+   "name": "Play In Challenger",
+   "tier": "Challenger 125",
+   "venue": "Lille, France",
+   "start": "2027-02-15",
+   "end": "2027-02-21",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 30
+  },
+  {
+   "name": "Napoli Tennis Cup",
+   "tier": "Challenger 125",
+   "venue": "Naples, Italy",
+   "start": "2027-03-22",
+   "end": "2027-03-28",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 31
+  },
+  {
+   "name": "Monza Open",
+   "tier": "Challenger 125",
+   "venue": "Monza, Italy",
+   "start": "2027-04-05",
+   "end": "2027-04-11",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 32
+  },
+  {
+   "name": "Busan Open",
+   "tier": "Challenger 125",
+   "venue": "Busan, South Korea",
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 33
+  },
+  {
+   "name": "Open de Oeiras",
+   "tier": "Challenger 125",
+   "venue": "Oeiras, Portugal",
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 34
+  },
+  {
+   "name": "Birmingham Open",
+   "tier": "Challenger 125",
+   "venue": "Birmingham, United Kingdom",
+   "start": "2027-05-31",
+   "end": "2027-06-06",
+   "surface": "Grass",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 35
+  },
+  {
+   "name": "Internazionali di Tennis Citt\u00e0 di Perugia",
+   "tier": "Challenger 125",
+   "venue": "Perugia, Italy",
+   "start": "2027-05-31",
+   "end": "2027-06-06",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 36
+  },
+  {
+   "name": "Ilkley Open",
+   "tier": "Challenger 125",
+   "venue": "Ilkley, United Kingdom",
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "surface": "Grass",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 37
+  },
+  {
+   "name": "Emilia-Romagna Open",
+   "tier": "Challenger 125",
+   "venue": "Parma, Italy",
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 38
+  },
+  {
+   "name": "Nottingham Open",
+   "tier": "Challenger 125",
+   "venue": "Nottingham, United Kingdom",
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "surface": "Grass",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 39
+  },
+  {
+   "name": "Brawo Open",
+   "tier": "Challenger 125",
+   "venue": "Braunschweig, Germany",
+   "start": "2027-07-05",
+   "end": "2027-07-11",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 40
+  },
+  {
+   "name": "Zug Open",
+   "tier": "Challenger 125",
+   "venue": "Zug, Switzerland",
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 41
   },
   {
    "name": "San Marino Open",
@@ -1003,7 +833,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "National Bank Open presented by Rogers"
    ],
@@ -1011,9 +841,85 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with National Bank Open presented by Rogers"
+    "runs alongside National Bank Open presented by Rogers"
    ],
-   "rank": 49
+   "rank": 42
+  },
+  {
+   "name": "AON Open Challenger",
+   "tier": "Challenger 125",
+   "venue": "Genoa, Italy",
+   "start": "2027-09-06",
+   "end": "2027-09-12",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 43
+  },
+  {
+   "name": "Copa Sevilla",
+   "tier": "Challenger 125",
+   "venue": "Seville, Spain",
+   "start": "2027-09-06",
+   "end": "2027-09-12",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 44
+  },
+  {
+   "name": "Szczecin Open",
+   "tier": "Challenger 125",
+   "venue": "Szczecin, Poland",
+   "start": "2027-09-13",
+   "end": "2027-09-19",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 45
+  },
+  {
+   "name": "Saint-Tropez Open",
+   "tier": "Challenger 125",
+   "venue": "Saint-Tropez, France",
+   "start": "2027-09-20",
+   "end": "2027-09-26",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 46
   },
   {
    "name": "Porto Open",
@@ -1025,7 +931,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "China Open"
    ],
@@ -1033,9 +939,9 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with China Open"
+    "runs alongside China Open"
    ],
-   "rank": 50
+   "rank": 47
   },
   {
    "name": "Jinan Open",
@@ -1047,7 +953,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Wuhan Open"
    ],
@@ -1055,9 +961,9 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Wuhan Open"
+    "runs alongside Wuhan Open"
    ],
-   "rank": 51
+   "rank": 48
   },
   {
    "name": "Olbia Challenger",
@@ -1069,7 +975,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Wuhan Open"
    ],
@@ -1077,9 +983,28 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Wuhan Open"
+    "runs alongside Wuhan Open"
    ],
-   "rank": 52
+   "rank": 49
+  },
+  {
+   "name": "Seoul Open Challenger",
+   "tier": "Challenger 125",
+   "venue": "Seoul, South Korea",
+   "start": "2027-10-25",
+   "end": "2027-10-31",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 50
   },
   {
    "name": "Costa do Sau\u00edpe Open",
@@ -1091,17 +1016,18 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
+    "Rolex Paris Masters",
     "WTA Finals Indian Wells"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with WTA Finals Indian Wells"
+    "runs alongside Rolex Paris Masters, WTA Finals Indian Wells"
    ],
-   "rank": 53
+   "rank": 51
   },
   {
    "name": "Open d'Orl\u00e9ans",
@@ -1113,7 +1039,7 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "clear_week": false,
+   "runs_alongside": true,
    "clash": [
     "Nitto ATP Finals"
    ],
@@ -1121,7 +1047,45 @@
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "shares its week with Nitto ATP Finals"
+    "runs alongside Nitto ATP Finals"
+   ],
+   "rank": 52
+  },
+  {
+   "name": "HPP Open",
+   "tier": "Challenger 125",
+   "venue": "Helsinki, Finland",
+   "start": "2027-11-15",
+   "end": "2027-11-21",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 53
+  },
+  {
+   "name": "Metz Challenger",
+   "tier": "Challenger 125",
+   "venue": "Metz, France",
+   "start": "2027-11-15",
+   "end": "2027-11-21",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
    ],
    "rank": 54
   }
@@ -1396,12 +1360,26 @@
   },
   {
    "name": "Rolex Paris Masters",
-   "tier": "ATP 250",
+   "tier": "ATP 1000",
    "tours": [
     "ATP"
    ],
    "start": "2026-11-02",
    "end": "2026-11-09",
+   "venue": "",
+   "projected": false,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Bybit Stockholm Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-11-07",
+   "end": "2026-11-15",
    "venue": "",
    "projected": false,
    "benchmark": 13089791,
@@ -1419,20 +1397,6 @@
    "venue": "Perth + Sydney, AUS",
    "projected": true,
    "benchmark": 14069124,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "ASB Classic",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-03",
-   "end": "2027-01-16",
-   "venue": "Auckland, New Zealand",
-   "projected": true,
-   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1474,6 +1438,20 @@
    "start": "2027-01-04",
    "end": "2027-01-11",
    "venue": "Hong Kong, Hong Kong, China",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "ASB Classic",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-10",
+   "end": "2027-01-16",
+   "venue": "Auckland, New Zealand",
    "projected": true,
    "benchmark": 13089791,
    "confidence": "range",
@@ -1639,8 +1617,7 @@
    "name": "Dubai Duty Free Tennis Championships",
    "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-02-14",
    "end": "2027-02-20",
@@ -1717,6 +1694,20 @@
    "venue": "Santiago, Chile",
    "projected": true,
    "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Dubai Duty Free Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "venue": "Dubai, United Arab Emirates",
+   "projected": true,
+   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2191,20 +2182,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Nordea Open",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-07-05",
-   "end": "2027-07-19",
-   "venue": "B\u00e5stad, Sweden",
-   "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "EFG Swiss Open Gstaad",
    "tier": "ATP 250",
    "tours": [
@@ -2213,6 +2190,20 @@
    "start": "2027-07-12",
    "end": "2027-07-19",
    "venue": "Gstaad, Switzerland",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Nordea Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-12",
+   "end": "2027-07-19",
+   "venue": "B\u00e5stad, Sweden",
    "projected": true,
    "benchmark": 13089791,
    "confidence": "range",
@@ -2742,12 +2733,26 @@
   },
   {
    "name": "Rolex Paris Masters",
-   "tier": "ATP 250",
+   "tier": "ATP 1000",
    "tours": [
     "ATP"
    ],
    "start": "2027-11-01",
    "end": "2027-11-08",
+   "venue": "",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Bybit Stockholm Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-11-06",
+   "end": "2027-11-14",
    "venue": "",
    "projected": true,
    "benchmark": 13089791,
