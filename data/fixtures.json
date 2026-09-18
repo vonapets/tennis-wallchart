@@ -1,11 +1,154 @@
 {
- "generated": "2026-09-18T14:06:16+00:00",
+ "generated": "2026-09-18T14:53:34+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
  ],
  "feed_failures": 0,
  "tournaments": [
+  {
+   "key": "wta:2075:2026-09-13",
+   "name": "Guadalajara Open presentado por Santander",
+   "tour": "WTA",
+   "tier": "WTA 500",
+   "venue": "Guadalajara, MEX",
+   "city": "Guadalajara",
+   "start": "2026-09-13",
+   "end": "2026-09-19",
+   "surface": "Hard",
+   "draw": 28,
+   "prize": 1206446,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 500"
+   },
+   "headline_tier": "WTA 500",
+   "projected": false
+  },
+  {
+   "key": "wta:2061:2026-09-14",
+   "name": "BBVA Open Internacional de Valencia",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Valencia, ESP",
+   "city": "Valencia",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
+   "key": "wta:1136:2026-09-14",
+   "name": "Caldas da Rainha Ladies Open",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Caldas Da Rainha, POR",
+   "city": "Caldas Da Rainha",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
+   "key": "wta:1139:2026-09-14",
+   "name": "SP Open",
+   "tour": "WTA",
+   "tier": "WTA 250",
+   "venue": "Sao Paulo, BRA",
+   "city": "Sao Paulo",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 283347,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 250"
+   },
+   "headline_tier": "WTA 250",
+   "projected": false
+  },
+  {
+   "key": "chal:Szczecin Open:2026-09-14",
+   "name": "Szczecin Open",
+   "tour": "Challenger",
+   "tier": "Challenger 125",
+   "venue": "Szczecin, Poland",
+   "country": "Poland",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Clay",
+   "start_source": "static",
+   "src": "wikipedia-static",
+   "projected": false
+  },
+  {
+   "key": "chal:Tiburon Challenger:2026-09-14",
+   "name": "Tiburon Challenger",
+   "tour": "Challenger",
+   "tier": "Challenger 125",
+   "venue": "Tiburon, United States",
+   "country": "United States",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Hard",
+   "start_source": "static",
+   "src": "wikipedia-static",
+   "projected": false
+  },
+  {
+   "key": "wta:2044:2026-09-14",
+   "name": "Zavarovalnica Triglav Ljubljana",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Ljubljana, SLO",
+   "city": "Ljubljana",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
   {
    "key": "wta:1133:2026-09-21",
    "name": "Delta Motors Tolentino Open",
@@ -142,12 +285,12 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Chengdu, China PR",
-   "start": "2026-09-24",
+   "start": "2026-09-23",
    "end": "2026-09-30",
    "qualifying_start": "2026-09-23",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
-   "start_source": "estimated",
+   "start_source": "undrawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -165,12 +308,12 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
-   "start": "2026-09-24",
+   "start": "2026-09-23",
    "end": "2026-09-30",
    "qualifying_start": "2026-09-23",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
-   "start_source": "estimated",
+   "start_source": "undrawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -264,7 +407,7 @@
     "ATP": "ATP 500"
    },
    "starts": {
-    "ATP": "2026-10-01",
+    "ATP": "2026-09-30",
     "WTA": "2026-09-30"
    },
    "headline_tier": "WTA 1000",
@@ -277,12 +420,12 @@
    "tour": "ATP",
    "tier": "ATP 500",
    "venue": "Tokyo, Japan",
-   "start": "2026-10-01",
+   "start": "2026-09-30",
    "end": "2026-10-07",
    "qualifying_start": "2026-09-30",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
-   "start_source": "estimated",
+   "start_source": "undrawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -346,12 +489,12 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "Shanghai, China PR",
-   "start": "2026-10-09",
+   "start": "2026-10-07",
    "end": "2026-10-19",
    "qualifying_start": "2026-10-07",
    "main_draw_matches": 127,
    "qualifying_matches": 0,
-   "start_source": "estimated",
+   "start_source": "undrawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -483,6 +626,75 @@
    "projected": false
   },
   {
+   "key": "atp:708-2026",
+   "espn_id": "708",
+   "name": "Almaty Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Almaty, Kazakhstan",
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "qualifying_start": "2026-10-19",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "undrawn",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
+   "key": "atp:440-2026",
+   "espn_id": "440",
+   "name": "BNP Paribas Fortis European Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Brussels, Belgium",
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "qualifying_start": "2026-10-19",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "undrawn",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
+   "key": "atp:452-2026",
+   "espn_id": "452",
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Lyon, France",
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "qualifying_start": "2026-10-19",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "undrawn",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
    "key": "wta:405:2026-10-19",
    "name": "Kinoshita Group Japan Open",
    "tour": "WTA",
@@ -552,75 +764,6 @@
    "projected": false
   },
   {
-   "key": "atp:708-2026",
-   "espn_id": "708",
-   "name": "Almaty Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Almaty, Kazakhstan",
-   "start": "2026-10-20",
-   "end": "2026-10-26",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": false
-  },
-  {
-   "key": "atp:440-2026",
-   "espn_id": "440",
-   "name": "BNP Paribas Fortis European Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Brussels, Belgium",
-   "start": "2026-10-20",
-   "end": "2026-10-26",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": false
-  },
-  {
-   "key": "atp:452-2026",
-   "espn_id": "452",
-   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Lyon, France",
-   "start": "2026-10-20",
-   "end": "2026-10-26",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": false
-  },
-  {
    "key": "wta:1180:2026-10-26",
    "name": "Curitiba Open",
    "tour": "WTA",
@@ -641,6 +784,29 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
+   "key": "atp:10-2026",
+   "espn_id": "10",
+   "name": "Erste Bank Open",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Vienna, Austria",
+   "start": "2026-10-26",
+   "end": "2026-11-02",
+   "qualifying_start": "2026-10-26",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "undrawn",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
    "projected": false
   },
   {
@@ -704,6 +870,29 @@
    "projected": false
   },
   {
+   "key": "atp:23-2026",
+   "espn_id": "23",
+   "name": "Swiss Indoors Basel",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Basel, Switzerland",
+   "start": "2026-10-26",
+   "end": "2026-11-02",
+   "qualifying_start": "2026-10-26",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "undrawn",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
+   "projected": false
+  },
+  {
    "key": "wta:1056:2026-10-26",
    "name": "Toray Pan Pacific Open Tennis",
    "tour": "WTA",
@@ -747,52 +936,6 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": false
-  },
-  {
-   "key": "atp:10-2026",
-   "espn_id": "10",
-   "name": "Erste Bank Open",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Vienna, Austria",
-   "start": "2026-10-27",
-   "end": "2026-11-02",
-   "qualifying_start": "2026-10-26",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
-   "projected": false
-  },
-  {
-   "key": "atp:23-2026",
-   "espn_id": "23",
-   "name": "Swiss Indoors Basel",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Basel, Switzerland",
-   "start": "2026-10-27",
-   "end": "2026-11-02",
-   "qualifying_start": "2026-10-26",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
    "projected": false
   },
   {
@@ -954,7 +1097,7 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "",
-   "start": "2026-11-07",
+   "start": "2026-11-08",
    "end": "2026-11-15",
    "qualifying_start": "2026-11-06",
    "main_draw_matches": 0,
@@ -1031,29 +1174,6 @@
    "projected": false
   },
   {
-   "key": "atp:339-2026",
-   "espn_id": "339",
-   "name": "Nitto ATP Finals",
-   "tour": "ATP",
-   "tier": "ATP Finals",
-   "venue": "",
-   "start": "2026-11-15",
-   "end": "2026-11-23",
-   "qualifying_start": "2026-11-14",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP Finals"
-   },
-   "headline_tier": "ATP Finals",
-   "projected": false
-  },
-  {
    "key": "chal:HPP Open:2026-11-16",
    "name": "HPP Open",
    "tour": "Challenger",
@@ -1102,6 +1222,29 @@
    "surface": "Hard (i)",
    "start_source": "static",
    "src": "wikipedia-static",
+   "projected": false
+  },
+  {
+   "key": "atp:339-2026",
+   "espn_id": "339",
+   "name": "Nitto ATP Finals",
+   "tour": "ATP",
+   "tier": "ATP Finals",
+   "venue": "",
+   "start": "2026-11-16",
+   "end": "2026-11-23",
+   "qualifying_start": "2026-11-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP Finals"
+   },
+   "headline_tier": "ATP Finals",
    "projected": false
   },
   {
@@ -1180,7 +1323,7 @@
    "tour": "ATP",
    "tier": "Next Gen ATP Finals",
    "venue": "",
-   "start": "2026-12-09",
+   "start": "2026-12-10",
    "end": "2026-12-14",
    "qualifying_start": "2026-12-08",
    "main_draw_matches": 0,
@@ -4703,7 +4846,7 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Chengdu, China PR",
-   "start": "2027-09-23",
+   "start": "2027-09-22",
    "end": "2027-09-29",
    "qualifying_start": "2026-09-23",
    "main_draw_matches": 31,
@@ -4726,7 +4869,7 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
-   "start": "2027-09-23",
+   "start": "2027-09-22",
    "end": "2027-09-29",
    "qualifying_start": "2026-09-23",
    "main_draw_matches": 31,
@@ -4825,7 +4968,7 @@
     "ATP": "ATP 500"
    },
    "starts": {
-    "ATP": "2026-10-01",
+    "ATP": "2026-09-30",
     "WTA": "2026-09-30"
    },
    "headline_tier": "WTA 1000",
@@ -4838,7 +4981,7 @@
    "tour": "ATP",
    "tier": "ATP 500",
    "venue": "Tokyo, Japan",
-   "start": "2027-09-30",
+   "start": "2027-09-29",
    "end": "2027-10-06",
    "qualifying_start": "2026-09-30",
    "main_draw_matches": 31,
@@ -4907,7 +5050,7 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "Shanghai, China PR",
-   "start": "2027-10-08",
+   "start": "2027-10-06",
    "end": "2027-10-18",
    "qualifying_start": "2026-10-07",
    "main_draw_matches": 127,
@@ -5044,6 +5187,75 @@
    "projected": true
   },
   {
+   "key": "proj:atp:708-2026",
+   "espn_id": "708",
+   "name": "Almaty Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Almaty, Kazakhstan",
+   "start": "2027-10-18",
+   "end": "2027-10-25",
+   "qualifying_start": "2026-10-19",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:440-2026",
+   "espn_id": "440",
+   "name": "BNP Paribas Fortis European Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Brussels, Belgium",
+   "start": "2027-10-18",
+   "end": "2027-10-25",
+   "qualifying_start": "2026-10-19",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:452-2026",
+   "espn_id": "452",
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Lyon, France",
+   "start": "2027-10-18",
+   "end": "2027-10-25",
+   "qualifying_start": "2026-10-19",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
    "key": "proj:wta:405:2026-10-19",
    "name": "Kinoshita Group Japan Open",
    "tour": "WTA",
@@ -5113,75 +5325,6 @@
    "projected": true
   },
   {
-   "key": "proj:atp:708-2026",
-   "espn_id": "708",
-   "name": "Almaty Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Almaty, Kazakhstan",
-   "start": "2027-10-19",
-   "end": "2027-10-25",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
-   "key": "proj:atp:440-2026",
-   "espn_id": "440",
-   "name": "BNP Paribas Fortis European Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Brussels, Belgium",
-   "start": "2027-10-19",
-   "end": "2027-10-25",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
-   "key": "proj:atp:452-2026",
-   "espn_id": "452",
-   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Lyon, France",
-   "start": "2027-10-19",
-   "end": "2027-10-25",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
    "key": "proj:wta:1180:2026-10-26",
    "name": "Curitiba Open",
    "tour": "WTA",
@@ -5202,6 +5345,29 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:10-2026",
+   "espn_id": "10",
+   "name": "Erste Bank Open",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Vienna, Austria",
+   "start": "2027-10-25",
+   "end": "2027-11-01",
+   "qualifying_start": "2026-10-26",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
    "projected": true
   },
   {
@@ -5265,6 +5431,29 @@
    "projected": true
   },
   {
+   "key": "proj:atp:23-2026",
+   "espn_id": "23",
+   "name": "Swiss Indoors Basel",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Basel, Switzerland",
+   "start": "2027-10-25",
+   "end": "2027-11-01",
+   "qualifying_start": "2026-10-26",
+   "main_draw_matches": 31,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
+   "projected": true
+  },
+  {
    "key": "proj:wta:1056:2026-10-26",
    "name": "Toray Pan Pacific Open Tennis",
    "tour": "WTA",
@@ -5308,52 +5497,6 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
-  },
-  {
-   "key": "proj:atp:10-2026",
-   "espn_id": "10",
-   "name": "Erste Bank Open",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Vienna, Austria",
-   "start": "2027-10-26",
-   "end": "2027-11-01",
-   "qualifying_start": "2026-10-26",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
-   "projected": true
-  },
-  {
-   "key": "proj:atp:23-2026",
-   "espn_id": "23",
-   "name": "Swiss Indoors Basel",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Basel, Switzerland",
-   "start": "2027-10-26",
-   "end": "2027-11-01",
-   "qualifying_start": "2026-10-26",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
    "projected": true
   },
   {
@@ -5515,7 +5658,7 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "",
-   "start": "2027-11-06",
+   "start": "2027-11-07",
    "end": "2027-11-14",
    "qualifying_start": "2026-11-06",
    "main_draw_matches": 0,
@@ -5592,29 +5735,6 @@
    "projected": true
   },
   {
-   "key": "proj:atp:339-2026",
-   "espn_id": "339",
-   "name": "Nitto ATP Finals",
-   "tour": "ATP",
-   "tier": "ATP Finals",
-   "venue": "",
-   "start": "2027-11-14",
-   "end": "2027-11-22",
-   "qualifying_start": "2026-11-14",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP Finals"
-   },
-   "headline_tier": "ATP Finals",
-   "projected": true
-  },
-  {
    "key": "proj:chal:HPP Open:2026-11-16",
    "name": "HPP Open",
    "tour": "Challenger",
@@ -5663,6 +5783,29 @@
    "surface": "Hard (i)",
    "start_source": "projected",
    "src": "wikipedia-static",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:339-2026",
+   "espn_id": "339",
+   "name": "Nitto ATP Finals",
+   "tour": "ATP",
+   "tier": "ATP Finals",
+   "venue": "",
+   "start": "2027-11-15",
+   "end": "2027-11-22",
+   "qualifying_start": "2026-11-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP Finals"
+   },
+   "headline_tier": "ATP Finals",
    "projected": true
   },
   {
@@ -5741,7 +5884,7 @@
    "tour": "ATP",
    "tier": "Next Gen ATP Finals",
    "venue": "",
-   "start": "2027-12-08",
+   "start": "2027-12-09",
    "end": "2027-12-13",
    "qualifying_start": "2026-12-08",
    "main_draw_matches": 0,

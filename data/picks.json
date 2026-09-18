@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T14:06:16+00:00",
+ "generated": "2026-09-18T14:53:34+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -25,6 +25,26 @@
    "rank": 1
   },
   {
+   "name": "Tiburon Challenger",
+   "tier": "Challenger 125",
+   "venue": "Tiburon, United States",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Hard",
+   "projected": false,
+   "score": 2.38,
+   "north_america": true,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)"
+   ],
+   "rank": 2
+  },
+  {
    "name": "Morelia Open",
    "tier": "Challenger 125",
    "venue": "Morelia, Mexico",
@@ -42,7 +62,7 @@
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
-   "rank": 2
+   "rank": 3
   },
   {
    "name": "Mexico City Open",
@@ -62,7 +82,7 @@
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
-   "rank": 3
+   "rank": 4
   },
   {
    "name": "Hall of Fame Open",
@@ -82,7 +102,7 @@
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
-   "rank": 4
+   "rank": 5
   },
   {
    "name": "Cranbrook Tennis Classic",
@@ -102,7 +122,7 @@
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
-   "rank": 5
+   "rank": 6
   },
   {
    "name": "Odlum Brown Vancouver Open",
@@ -125,7 +145,7 @@
     "North America (x2.38 Kalshi median, tiebreaker only)",
     "runs alongside National Bank Open presented by Rogers"
    ],
-   "rank": 6
+   "rank": 7
   },
   {
    "name": "Canc\u00fan Country Open",
@@ -148,7 +168,7 @@
     "North America (x2.38 Kalshi median, tiebreaker only)",
     "runs alongside Cincinnati Open"
    ],
-   "rank": 7
+   "rank": 8
   },
   {
    "name": "Challenger Banque Nationale de Qu\u00e9bec",
@@ -171,7 +191,7 @@
     "North America (x2.38 Kalshi median, tiebreaker only)",
     "runs alongside Cincinnati Open"
    ],
-   "rank": 8
+   "rank": 9
   },
   {
    "name": "Tiburon Challenger",
@@ -191,7 +211,7 @@
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)"
    ],
-   "rank": 9
+   "rank": 10
   },
   {
    "name": "Copa Cap Cana",
@@ -210,7 +230,7 @@
    "why": [
     "Challenger 175"
    ],
-   "rank": 10
+   "rank": 11
   },
   {
    "name": "Open Aix Provence",
@@ -229,7 +249,7 @@
    "why": [
     "Challenger 175"
    ],
-   "rank": 11
+   "rank": 12
   },
   {
    "name": "Sardegna Open",
@@ -248,7 +268,7 @@
    "why": [
     "Challenger 175"
    ],
-   "rank": 12
+   "rank": 13
   },
   {
    "name": "BNP Paribas Primrose Bordeaux",
@@ -267,7 +287,7 @@
    "why": [
     "Challenger 175"
    ],
-   "rank": 13
+   "rank": 14
   },
   {
    "name": "Copa Faulconbridge",
@@ -286,7 +306,26 @@
    "why": [
     "Challenger 175"
    ],
-   "rank": 14
+   "rank": 15
+  },
+  {
+   "name": "Szczecin Open",
+   "tier": "Challenger 125",
+   "venue": "Szczecin, Poland",
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "surface": "Clay",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 16
   },
   {
    "name": "Saint-Tropez Open",
@@ -305,7 +344,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 15
+   "rank": 17
   },
   {
    "name": "Porto Open",
@@ -327,7 +366,7 @@
     "Challenger 125",
     "runs alongside China Open"
    ],
-   "rank": 16
+   "rank": 18
   },
   {
    "name": "Jinan Open",
@@ -349,7 +388,7 @@
     "Challenger 125",
     "runs alongside Wuhan Open"
    ],
-   "rank": 17
+   "rank": 19
   },
   {
    "name": "Olbia Challenger",
@@ -371,7 +410,7 @@
     "Challenger 125",
     "runs alongside Wuhan Open"
    ],
-   "rank": 18
+   "rank": 20
   },
   {
    "name": "Seoul Open Challenger",
@@ -390,7 +429,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 19
+   "rank": 21
   },
   {
    "name": "Costa do Sau\u00edpe Open",
@@ -413,7 +452,7 @@
     "Challenger 125",
     "runs alongside Rolex Paris Masters, WTA Finals Indian Wells"
    ],
-   "rank": 20
+   "rank": 22
   },
   {
    "name": "Open d'Orl\u00e9ans",
@@ -421,6 +460,25 @@
    "venue": "Orl\u00e9ans, France",
    "start": "2026-11-09",
    "end": "2026-11-15",
+   "surface": "Hard (i)",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 23
+  },
+  {
+   "name": "HPP Open",
+   "tier": "Challenger 125",
+   "venue": "Helsinki, Finland",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
    "surface": "Hard (i)",
    "projected": false,
    "score": 1.0,
@@ -435,26 +493,7 @@
     "Challenger 125",
     "runs alongside Nitto ATP Finals"
    ],
-   "rank": 21
-  },
-  {
-   "name": "HPP Open",
-   "tier": "Challenger 125",
-   "venue": "Helsinki, Finland",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "surface": "Hard (i)",
-   "projected": false,
-   "score": 1.0,
-   "north_america": false,
-   "runs_alongside": false,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125"
-   ],
-   "rank": 22
+   "rank": 24
   },
   {
    "name": "Metz Challenger",
@@ -466,14 +505,17 @@
    "projected": false,
    "score": 1.0,
    "north_america": false,
-   "runs_alongside": false,
-   "clash": [],
+   "runs_alongside": true,
+   "clash": [
+    "Nitto ATP Finals"
+   ],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 125"
+    "Challenger 125",
+    "runs alongside Nitto ATP Finals"
    ],
-   "rank": 23
+   "rank": 25
   },
   {
    "name": "Bengaluru Open",
@@ -492,7 +534,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 24
+   "rank": 26
   },
   {
    "name": "Canberra Tennis International",
@@ -511,7 +553,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 25
+   "rank": 27
   },
   {
    "name": "Bahrain Ministry of Interior Tennis Challenger",
@@ -530,7 +572,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 26
+   "rank": 28
   },
   {
    "name": "Open Quimper Bretagne",
@@ -549,7 +591,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 27
+   "rank": 29
   },
   {
    "name": "Rosario Challenger",
@@ -571,7 +613,7 @@
     "Challenger 125",
     "runs alongside Qatar TotalEnergies Open"
    ],
-   "rank": 28
+   "rank": 30
   },
   {
    "name": "Ter\u00e9ga Open Pau\u2013Pyr\u00e9n\u00e9es",
@@ -593,7 +635,7 @@
     "Challenger 125",
     "runs alongside Dubai Duty Free Tennis Championships"
    ],
-   "rank": 29
+   "rank": 31
   },
   {
    "name": "Play In Challenger",
@@ -612,7 +654,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 30
+   "rank": 32
   },
   {
    "name": "Napoli Tennis Cup",
@@ -631,7 +673,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 31
+   "rank": 33
   },
   {
    "name": "Monza Open",
@@ -650,7 +692,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 32
+   "rank": 34
   },
   {
    "name": "Busan Open",
@@ -669,7 +711,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 33
+   "rank": 35
   },
   {
    "name": "Open de Oeiras",
@@ -688,7 +730,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 34
+   "rank": 36
   },
   {
    "name": "Birmingham Open",
@@ -707,7 +749,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 35
+   "rank": 37
   },
   {
    "name": "Internazionali di Tennis Citt\u00e0 di Perugia",
@@ -726,7 +768,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 36
+   "rank": 38
   },
   {
    "name": "Ilkley Open",
@@ -745,7 +787,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 37
+   "rank": 39
   },
   {
    "name": "Emilia-Romagna Open",
@@ -764,7 +806,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 38
+   "rank": 40
   },
   {
    "name": "Nottingham Open",
@@ -783,7 +825,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 39
+   "rank": 41
   },
   {
    "name": "Brawo Open",
@@ -802,7 +844,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 40
+   "rank": 42
   },
   {
    "name": "Zug Open",
@@ -821,7 +863,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 41
+   "rank": 43
   },
   {
    "name": "San Marino Open",
@@ -843,7 +885,7 @@
     "Challenger 125",
     "runs alongside National Bank Open presented by Rogers"
    ],
-   "rank": 42
+   "rank": 44
   },
   {
    "name": "AON Open Challenger",
@@ -862,7 +904,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 43
+   "rank": 45
   },
   {
    "name": "Copa Sevilla",
@@ -881,7 +923,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 44
+   "rank": 46
   },
   {
    "name": "Szczecin Open",
@@ -900,7 +942,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 45
+   "rank": 47
   },
   {
    "name": "Saint-Tropez Open",
@@ -919,7 +961,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 46
+   "rank": 48
   },
   {
    "name": "Porto Open",
@@ -941,7 +983,7 @@
     "Challenger 125",
     "runs alongside China Open"
    ],
-   "rank": 47
+   "rank": 49
   },
   {
    "name": "Jinan Open",
@@ -963,7 +1005,7 @@
     "Challenger 125",
     "runs alongside Wuhan Open"
    ],
-   "rank": 48
+   "rank": 50
   },
   {
    "name": "Olbia Challenger",
@@ -985,7 +1027,7 @@
     "Challenger 125",
     "runs alongside Wuhan Open"
    ],
-   "rank": 49
+   "rank": 51
   },
   {
    "name": "Seoul Open Challenger",
@@ -1004,7 +1046,7 @@
    "why": [
     "Challenger 125"
    ],
-   "rank": 50
+   "rank": 52
   },
   {
    "name": "Costa do Sau\u00edpe Open",
@@ -1027,7 +1069,7 @@
     "Challenger 125",
     "runs alongside Rolex Paris Masters, WTA Finals Indian Wells"
    ],
-   "rank": 51
+   "rank": 53
   },
   {
    "name": "Open d'Orl\u00e9ans",
@@ -1035,6 +1077,25 @@
    "venue": "Orl\u00e9ans, France",
    "start": "2027-11-08",
    "end": "2027-11-14",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "runs_alongside": false,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125"
+   ],
+   "rank": 54
+  },
+  {
+   "name": "HPP Open",
+   "tier": "Challenger 125",
+   "venue": "Helsinki, Finland",
+   "start": "2027-11-15",
+   "end": "2027-11-21",
    "surface": "Hard (i)",
    "projected": true,
    "score": 1.0,
@@ -1049,26 +1110,7 @@
     "Challenger 125",
     "runs alongside Nitto ATP Finals"
    ],
-   "rank": 52
-  },
-  {
-   "name": "HPP Open",
-   "tier": "Challenger 125",
-   "venue": "Helsinki, Finland",
-   "start": "2027-11-15",
-   "end": "2027-11-21",
-   "surface": "Hard (i)",
-   "projected": true,
-   "score": 1.0,
-   "north_america": false,
-   "runs_alongside": false,
-   "clash": [],
-   "evidence": "E",
-   "confidence": "none",
-   "why": [
-    "Challenger 125"
-   ],
-   "rank": 53
+   "rank": 55
   },
   {
    "name": "Metz Challenger",
@@ -1080,17 +1122,48 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "runs_alongside": false,
-   "clash": [],
+   "runs_alongside": true,
+   "clash": [
+    "Nitto ATP Finals"
+   ],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 125"
+    "Challenger 125",
+    "runs alongside Nitto ATP Finals"
    ],
-   "rank": 54
+   "rank": 56
   }
  ],
  "tour_events": [
+  {
+   "name": "Guadalajara Open presentado por Santander",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-09-13",
+   "end": "2026-09-19",
+   "venue": "Guadalajara, MEX",
+   "projected": false,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "SP Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "venue": "Sao Paulo, BRA",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
   {
    "name": "Korea Open",
    "tier": "WTA 250",
@@ -1125,7 +1198,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2026-09-24",
+   "start": "2026-09-23",
    "end": "2026-09-30",
    "venue": "Chengdu, China PR",
    "projected": false,
@@ -1139,7 +1212,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2026-09-24",
+   "start": "2026-09-23",
    "end": "2026-09-30",
    "venue": "Hangzhou, China PR",
    "projected": false,
@@ -1168,7 +1241,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2026-10-01",
+   "start": "2026-09-30",
    "end": "2026-10-07",
    "venue": "Tokyo, Japan",
    "projected": false,
@@ -1182,7 +1255,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2026-10-09",
+   "start": "2026-10-07",
    "end": "2026-10-19",
    "venue": "Shanghai, China PR",
    "projected": false,
@@ -1201,6 +1274,48 @@
    "venue": "Wuhan, CHN",
    "projected": false,
    "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Almaty Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "venue": "Almaty, Kazakhstan",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BNP Paribas Fortis European Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "venue": "Brussels, Belgium",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "venue": "Lyon, France",
+   "projected": false,
+   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1233,44 +1348,16 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Almaty Open",
-   "tier": "ATP 250",
+   "name": "Erste Bank Open",
+   "tier": "ATP 500",
    "tours": [
     "ATP"
    ],
-   "start": "2026-10-20",
-   "end": "2026-10-26",
-   "venue": "Almaty, Kazakhstan",
+   "start": "2026-10-26",
+   "end": "2026-11-02",
+   "venue": "Vienna, Austria",
    "projected": false,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "BNP Paribas Fortis European Open",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2026-10-20",
-   "end": "2026-10-26",
-   "venue": "Brussels, Belgium",
-   "projected": false,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2026-10-20",
-   "end": "2026-10-26",
-   "venue": "Lyon, France",
-   "projected": false,
-   "benchmark": 13089791,
+   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1289,6 +1376,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Swiss Indoors Basel",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-26",
+   "end": "2026-11-02",
+   "venue": "Basel, Switzerland",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Toray Pan Pacific Open Tennis",
    "tier": "WTA 500",
    "tours": [
@@ -1299,34 +1400,6 @@
    "venue": "Tokyo, JPN",
    "projected": false,
    "benchmark": 14069124,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Erste Bank Open",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2026-10-27",
-   "end": "2026-11-02",
-   "venue": "Vienna, Austria",
-   "projected": false,
-   "benchmark": 20495380,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Swiss Indoors Basel",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2026-10-27",
-   "end": "2026-11-02",
-   "venue": "Basel, Switzerland",
-   "projected": false,
-   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1378,7 +1451,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2026-11-07",
+   "start": "2026-11-08",
    "end": "2026-11-15",
    "venue": "",
    "projected": false,
@@ -2498,7 +2571,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-09-23",
+   "start": "2027-09-22",
    "end": "2027-09-29",
    "venue": "Chengdu, China PR",
    "projected": true,
@@ -2512,7 +2585,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-09-23",
+   "start": "2027-09-22",
    "end": "2027-09-29",
    "venue": "Hangzhou, China PR",
    "projected": true,
@@ -2541,7 +2614,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-09-30",
+   "start": "2027-09-29",
    "end": "2027-10-06",
    "venue": "Tokyo, Japan",
    "projected": true,
@@ -2555,7 +2628,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-10-08",
+   "start": "2027-10-06",
    "end": "2027-10-18",
    "venue": "Shanghai, China PR",
    "projected": true,
@@ -2574,6 +2647,48 @@
    "venue": "Wuhan, CHN",
    "projected": true,
    "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Almaty Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-18",
+   "end": "2027-10-25",
+   "venue": "Almaty, Kazakhstan",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BNP Paribas Fortis European Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-18",
+   "end": "2027-10-25",
+   "venue": "Brussels, Belgium",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-18",
+   "end": "2027-10-25",
+   "venue": "Lyon, France",
+   "projected": true,
+   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2606,44 +2721,16 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Almaty Open",
-   "tier": "ATP 250",
+   "name": "Erste Bank Open",
+   "tier": "ATP 500",
    "tours": [
     "ATP"
    ],
-   "start": "2027-10-19",
-   "end": "2027-10-25",
-   "venue": "Almaty, Kazakhstan",
+   "start": "2027-10-25",
+   "end": "2027-11-01",
+   "venue": "Vienna, Austria",
    "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "BNP Paribas Fortis European Open",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-10-19",
-   "end": "2027-10-25",
-   "venue": "Brussels, Belgium",
-   "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-10-19",
-   "end": "2027-10-25",
-   "venue": "Lyon, France",
-   "projected": true,
-   "benchmark": 13089791,
+   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2662,6 +2749,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Swiss Indoors Basel",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-25",
+   "end": "2027-11-01",
+   "venue": "Basel, Switzerland",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Toray Pan Pacific Open Tennis",
    "tier": "WTA 500",
    "tours": [
@@ -2672,34 +2773,6 @@
    "venue": "Tokyo, JPN",
    "projected": true,
    "benchmark": 14069124,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Erste Bank Open",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-10-26",
-   "end": "2027-11-01",
-   "venue": "Vienna, Austria",
-   "projected": true,
-   "benchmark": 20495380,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Swiss Indoors Basel",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-10-26",
-   "end": "2027-11-01",
-   "venue": "Basel, Switzerland",
-   "projected": true,
-   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2751,7 +2824,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-11-06",
+   "start": "2027-11-07",
    "end": "2027-11-14",
    "venue": "",
    "projected": true,

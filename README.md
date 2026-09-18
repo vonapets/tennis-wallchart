@@ -24,7 +24,7 @@ Open `calendar.html` from disk. One self-contained file, no server, no network.
 | Tour | ATP and WTA, 250 / 500 / 1000, the four Slams, both Finals |
 | Sub-tour | WTA 125, ATP Challenger 175 and 125 |
 | Excluded | **all qualifying**, doubles, ITF, Challenger 100 and below |
-| Window | 18 Sep 2026 → 31 Dec 2027 |
+| Window | 18 Sep 2026 → 31 Dec 2027, including anything still on court today |
 | Combined events | 17 of them are **one row with two draws**, not two rows |
 
 Four views: **Season** (a Gantt of the whole window), **Months** (calendar
@@ -46,11 +46,29 @@ and stops. Asked that way the WTA season ends on 5 October and the WTA Finals,
 Wuhan, Ningbo and Tokyo do not exist — 25 tournaments deleted without one failed
 request. Every ESPN pull is windowed a month at a time and merged by id.
 
-**2. The ESPN event date is the *qualifying* start.** The US Open is published
-as 24 August; its main draw began on the 30th. Roland Garros is published as
-18 May and starts on the 24th. A calendar that reads the event date is a week
-early on every Slam. The main-draw Monday is derived from the rounds, and where
-a draw does not exist yet it is estimated from the tier and labelled `estimated`.
+**2. The ESPN event date is *sometimes* the qualifying start — and only
+sometimes.** The US Open is published as 24 August; its main draw began on the
+30th. Roland Garros is published as 18 May and starts on the 24th. But Chengdu,
+Hangzhou, Tokyo and Beijing are published on the exact day their main draw
+begins. The difference is whether **qualifying has been scheduled yet**: ESPN
+extends an event's window backwards once it adds qualifying rounds, and before
+that the event date already *is* the main-draw Monday.
+
+Getting this wrong is a silent one-day error on every undrawn tournament, which
+is what an earlier version of this did. So the date is resolved in three steps,
+and every row says which one it used:
+
+| `start_source` | Meaning |
+|---|---|
+| `official` | the WTA API's own main-draw date — exact |
+| `drawn` | ESPN has timed the real main draw; earliest non-qualifying match |
+| `undrawn` | no qualifying rows exist, so ESPN's event date is the main draw |
+| `estimated` | qualifying is on the board but the main draw is not timed yet |
+
+Only `estimated` uses an offset, and the offsets are **measured, not assumed**:
+the median gap across every 2026 event that carries both a qualifying date and a
+real main draw — **+7 for a Slam, +2 for everything else**. All four categories
+were checked against Flashscore and agree to the day.
 
 **3. ESPN carries no tier.** No 250, no 500, no 1000; `major` is true only for
 the four Slams. ATP tiers come from `config.json`, keyed on the ESPN tournament

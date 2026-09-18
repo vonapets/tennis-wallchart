@@ -167,6 +167,7 @@ def pull_atp() -> tuple[list[dict], int]:
             if not tier:
                 continue                       # not a tour-level event we map
             venue, main, singles, quals = "", [], 0, 0
+            placeholder = []      # non-qualifying rounds ESPN has not timed yet
             for g in e.get("groupings", []):
                 slug = (g.get("grouping") or {}).get("slug", "")
                 for c in g.get("competitions", []):
@@ -182,6 +183,8 @@ def pull_atp() -> tuple[list[dict], int]:
                     if slug != "mens-singles":
                         continue
                     singles += 1
+                    if c.get("date"):
+                        placeholder.append(c["date"][:10])
                     # timeValid marks a slot ESPN has really scheduled;
                     # placeholder rows before a draw all carry the event date
                     # and would drag the start back onto qualifying week.
@@ -190,7 +193,16 @@ def pull_atp() -> tuple[list[dict], int]:
             qual_start = e.get("date", "")[:10]
             if main:
                 start, how = min(main), "drawn"
+            elif quals == 0 and placeholder:
+                # No qualifying rows exist yet, so ESPN has not extended the
+                # event window backwards and its date is ALREADY the main-draw
+                # Monday. Adding a tier offset here is what put Chengdu,
+                # Hangzhou, Tokyo and Beijing a day later than they run.
+                start, how = min(placeholder), "undrawn"
             else:
+                # Qualifying is on the board but the main draw is not timed.
+                # Offsets are the measured medians from the 2026 events that
+                # do have both: +7 for a Slam, +2 for everything else.
                 days = offsets.get(tier, offsets["_default"])
                 start = (datetime.strptime(qual_start, "%Y-%m-%d")
                          + timedelta(days=days)).strftime("%Y-%m-%d")
@@ -354,7 +366,11 @@ def main() -> int:
     lo, hi = CFG["window_start"], CFG["window_end"]
     # everything above is pulled from fetch_start so the projection has a whole
     # season to shift; only now is the display window applied.
-    rows = [r for r in rows if r.get("start") and lo <= r["start"] <= hi]
+    # keep anything still RUNNING at the window start, not just starting after
+    # it. Guadalajara and Sao Paulo both began before 18 Sep and are still on
+    # court, and a forward-looking chart that hides today's tennis is wrong.
+    rows = [r for r in rows
+            if r.get("start") and r["start"] <= hi and (r.get("end") or r["start"]) >= lo]
     rows.sort(key=lambda r: (r["start"], r.get("name") or ""))
 
     out = DATA / "fixtures.json"

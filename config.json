@@ -71,9 +71,7 @@
  },
  "main_draw_offset_days": {
   "Grand Slam": 7,
-  "ATP 1000": 2,
-  "WTA 1000": 2,
-  "_default": 1
+  "_default": 2
  },
  "atp_tiers": {
   "970": "ATP 250",
@@ -2315,5 +2313,6 @@
   "mason": "cincinnati",
   "nanterre": "paris"
  },
- "_city_aliases_note": "The two sources name the same place differently - the WTA calls Wimbledon 'Wimbledon' and ESPN calls it 'London'. Merging is by host city and ISO week, so an unaliased pair lists the tournament twice."
+ "_city_aliases_note": "The two sources name the same place differently - the WTA calls Wimbledon 'Wimbledon' and ESPN calls it 'London'. Merging is by host city and ISO week, so an unaliased pair lists the tournament twice.",
+ "_main_draw_offset_note": "Measured, not assumed: the median gap between ESPN's event date and the first main-draw match across the 2026 events that carry both. Only used when qualifying is on the board but the main draw is not yet timed - if there are no qualifying rows at all, ESPN's event date is already the main-draw Monday and is used unchanged."
 }
