@@ -1,0 +1,2758 @@
+{
+ "generated": "2026-09-18T13:13:45+00:00",
+ "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
+ "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
+ "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
+ "challenger_picks": [
+  {
+   "name": "Arizona Tennis Classic",
+   "tier": "Challenger 175",
+   "venue": "Phoenix, United States",
+   "start": "2027-03-08",
+   "end": "2027-03-14",
+   "surface": "Hard",
+   "projected": true,
+   "score": 5.206,
+   "north_america": true,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 175",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 1
+  },
+  {
+   "name": "Morelia Open",
+   "tier": "Challenger 125",
+   "venue": "Morelia, Mexico",
+   "start": "2027-03-22",
+   "end": "2027-03-28",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.975,
+   "north_america": true,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 2
+  },
+  {
+   "name": "Mexico City Open",
+   "tier": "Challenger 125",
+   "venue": "Mexico City, Mexico",
+   "start": "2027-04-05",
+   "end": "2027-04-11",
+   "surface": "Clay",
+   "projected": true,
+   "score": 2.975,
+   "north_america": true,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 3
+  },
+  {
+   "name": "Hall of Fame Open",
+   "tier": "Challenger 125",
+   "venue": "Newport, United States",
+   "start": "2027-07-05",
+   "end": "2027-07-11",
+   "surface": "Grass",
+   "projected": true,
+   "score": 2.975,
+   "north_america": true,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 4
+  },
+  {
+   "name": "Cranbrook Tennis Classic",
+   "tier": "Challenger 125",
+   "venue": "Bloomfield Hills, United States",
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.975,
+   "north_america": true,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 5
+  },
+  {
+   "name": "Tiburon Challenger",
+   "tier": "Challenger 125",
+   "venue": "Tiburon, United States",
+   "start": "2027-09-13",
+   "end": "2027-09-19",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.975,
+   "north_america": true,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 6
+  },
+  {
+   "name": "Odlum Brown Vancouver Open",
+   "tier": "Challenger 125",
+   "venue": "Vancouver, Canada",
+   "start": "2027-07-26",
+   "end": "2027-08-01",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.38,
+   "north_america": true,
+   "clear_week": false,
+   "clash": [
+    "National Bank Open presented by Rogers"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "shares its week with National Bank Open presented by Rogers"
+   ],
+   "rank": 7
+  },
+  {
+   "name": "Canc\u00fan Country Open",
+   "tier": "Challenger 125",
+   "venue": "Canc\u00fan, Mexico",
+   "start": "2027-08-09",
+   "end": "2027-08-15",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.38,
+   "north_america": true,
+   "clear_week": false,
+   "clash": [
+    "Cincinnati Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "shares its week with Cincinnati Open"
+   ],
+   "rank": 8
+  },
+  {
+   "name": "Challenger Banque Nationale de Qu\u00e9bec",
+   "tier": "Challenger 125",
+   "venue": "Quebec City, Canada",
+   "start": "2027-08-09",
+   "end": "2027-08-15",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.38,
+   "north_america": true,
+   "clear_week": false,
+   "clash": [
+    "Cincinnati Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "North America (x2.38 Kalshi median, tiebreaker only)",
+    "shares its week with Cincinnati Open"
+   ],
+   "rank": 9
+  },
+  {
+   "name": "Copa Cap Cana",
+   "tier": "Challenger 175",
+   "venue": "Punta Cana, Dominican Republic",
+   "start": "2027-03-08",
+   "end": "2027-03-14",
+   "surface": "Hard",
+   "projected": true,
+   "score": 2.188,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 175",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 10
+  },
+  {
+   "name": "Open Aix Provence",
+   "tier": "Challenger 175",
+   "venue": "Aix-en-Provence, France",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "surface": "Clay",
+   "projected": true,
+   "score": 2.188,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 175",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 11
+  },
+  {
+   "name": "Sardegna Open",
+   "tier": "Challenger 175",
+   "venue": "Cagliari, Italy",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "surface": "Clay",
+   "projected": true,
+   "score": 2.188,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 175",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 12
+  },
+  {
+   "name": "BNP Paribas Primrose Bordeaux",
+   "tier": "Challenger 175",
+   "venue": "Bordeaux, France",
+   "start": "2027-05-10",
+   "end": "2027-05-16",
+   "surface": "Clay",
+   "projected": true,
+   "score": 2.188,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 175",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 13
+  },
+  {
+   "name": "Copa Faulconbridge",
+   "tier": "Challenger 175",
+   "venue": "Valencia, Spain",
+   "start": "2027-05-10",
+   "end": "2027-05-16",
+   "surface": "Clay",
+   "projected": true,
+   "score": 2.188,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 175",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 14
+  },
+  {
+   "name": "Saint-Tropez Open",
+   "tier": "Challenger 125",
+   "venue": "Saint-Tropez, France",
+   "start": "2026-09-21",
+   "end": "2026-09-27",
+   "surface": "Hard",
+   "projected": false,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 15
+  },
+  {
+   "name": "Seoul Open Challenger",
+   "tier": "Challenger 125",
+   "venue": "Seoul, South Korea",
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "surface": "Hard",
+   "projected": false,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 16
+  },
+  {
+   "name": "HPP Open",
+   "tier": "Challenger 125",
+   "venue": "Helsinki, Finland",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "surface": "Hard (i)",
+   "projected": false,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 17
+  },
+  {
+   "name": "Metz Challenger",
+   "tier": "Challenger 125",
+   "venue": "Metz, France",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "surface": "Hard (i)",
+   "projected": false,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 18
+  },
+  {
+   "name": "Bengaluru Open",
+   "tier": "Challenger 125",
+   "venue": "Bengaluru, India",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 19
+  },
+  {
+   "name": "Canberra Tennis International",
+   "tier": "Challenger 125",
+   "venue": "Canberra, Australia",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 20
+  },
+  {
+   "name": "Bahrain Ministry of Interior Tennis Challenger",
+   "tier": "Challenger 125",
+   "venue": "Manama, Bahrain",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 21
+  },
+  {
+   "name": "Open Quimper Bretagne",
+   "tier": "Challenger 125",
+   "venue": "Quimper, France",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 22
+  },
+  {
+   "name": "Play In Challenger",
+   "tier": "Challenger 125",
+   "venue": "Lille, France",
+   "start": "2027-02-15",
+   "end": "2027-02-21",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 23
+  },
+  {
+   "name": "Napoli Tennis Cup",
+   "tier": "Challenger 125",
+   "venue": "Naples, Italy",
+   "start": "2027-03-22",
+   "end": "2027-03-28",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 24
+  },
+  {
+   "name": "Monza Open",
+   "tier": "Challenger 125",
+   "venue": "Monza, Italy",
+   "start": "2027-04-05",
+   "end": "2027-04-11",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 25
+  },
+  {
+   "name": "Busan Open",
+   "tier": "Challenger 125",
+   "venue": "Busan, South Korea",
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 26
+  },
+  {
+   "name": "Open de Oeiras",
+   "tier": "Challenger 125",
+   "venue": "Oeiras, Portugal",
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 27
+  },
+  {
+   "name": "Birmingham Open",
+   "tier": "Challenger 125",
+   "venue": "Birmingham, United Kingdom",
+   "start": "2027-05-31",
+   "end": "2027-06-06",
+   "surface": "Grass",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 28
+  },
+  {
+   "name": "Internazionali di Tennis Citt\u00e0 di Perugia",
+   "tier": "Challenger 125",
+   "venue": "Perugia, Italy",
+   "start": "2027-05-31",
+   "end": "2027-06-06",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 29
+  },
+  {
+   "name": "Ilkley Open",
+   "tier": "Challenger 125",
+   "venue": "Ilkley, United Kingdom",
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "surface": "Grass",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 30
+  },
+  {
+   "name": "Emilia-Romagna Open",
+   "tier": "Challenger 125",
+   "venue": "Parma, Italy",
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 31
+  },
+  {
+   "name": "Nottingham Open",
+   "tier": "Challenger 125",
+   "venue": "Nottingham, United Kingdom",
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "surface": "Grass",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 32
+  },
+  {
+   "name": "Brawo Open",
+   "tier": "Challenger 125",
+   "venue": "Braunschweig, Germany",
+   "start": "2027-07-05",
+   "end": "2027-07-11",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 33
+  },
+  {
+   "name": "Zug Open",
+   "tier": "Challenger 125",
+   "venue": "Zug, Switzerland",
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 34
+  },
+  {
+   "name": "AON Open Challenger",
+   "tier": "Challenger 125",
+   "venue": "Genoa, Italy",
+   "start": "2027-09-06",
+   "end": "2027-09-12",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 35
+  },
+  {
+   "name": "Copa Sevilla",
+   "tier": "Challenger 125",
+   "venue": "Seville, Spain",
+   "start": "2027-09-06",
+   "end": "2027-09-12",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 36
+  },
+  {
+   "name": "Szczecin Open",
+   "tier": "Challenger 125",
+   "venue": "Szczecin, Poland",
+   "start": "2027-09-13",
+   "end": "2027-09-19",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 37
+  },
+  {
+   "name": "Saint-Tropez Open",
+   "tier": "Challenger 125",
+   "venue": "Saint-Tropez, France",
+   "start": "2027-09-20",
+   "end": "2027-09-26",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 38
+  },
+  {
+   "name": "Seoul Open Challenger",
+   "tier": "Challenger 125",
+   "venue": "Seoul, South Korea",
+   "start": "2027-10-25",
+   "end": "2027-10-31",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 39
+  },
+  {
+   "name": "HPP Open",
+   "tier": "Challenger 125",
+   "venue": "Helsinki, Finland",
+   "start": "2027-11-15",
+   "end": "2027-11-21",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 40
+  },
+  {
+   "name": "Metz Challenger",
+   "tier": "Challenger 125",
+   "venue": "Metz, France",
+   "start": "2027-11-15",
+   "end": "2027-11-21",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.25,
+   "north_america": false,
+   "clear_week": true,
+   "clash": [],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "clear week - no Slam, 1000 or Finals"
+   ],
+   "rank": 41
+  },
+  {
+   "name": "Porto Open",
+   "tier": "Challenger 125",
+   "venue": "Porto, Portugal",
+   "start": "2026-09-28",
+   "end": "2026-10-04",
+   "surface": "Hard",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "China Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with China Open"
+   ],
+   "rank": 42
+  },
+  {
+   "name": "Jinan Open",
+   "tier": "Challenger 125",
+   "venue": "Jinan, China",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "surface": "Hard",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Wuhan Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Wuhan Open"
+   ],
+   "rank": 43
+  },
+  {
+   "name": "Olbia Challenger",
+   "tier": "Challenger 125",
+   "venue": "Olbia, Italy",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "surface": "Hard",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Wuhan Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Wuhan Open"
+   ],
+   "rank": 44
+  },
+  {
+   "name": "Costa do Sau\u00edpe Open",
+   "tier": "Challenger 125",
+   "venue": "Sauipe, Brazil",
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "surface": "Clay",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "WTA Finals Indian Wells"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with WTA Finals Indian Wells"
+   ],
+   "rank": 45
+  },
+  {
+   "name": "Open d'Orl\u00e9ans",
+   "tier": "Challenger 125",
+   "venue": "Orl\u00e9ans, France",
+   "start": "2026-11-09",
+   "end": "2026-11-15",
+   "surface": "Hard (i)",
+   "projected": false,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Nitto ATP Finals"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Nitto ATP Finals"
+   ],
+   "rank": 46
+  },
+  {
+   "name": "Rosario Challenger",
+   "tier": "Challenger 125",
+   "venue": "Rosario, Argentina",
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Qatar TotalEnergies Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Qatar TotalEnergies Open"
+   ],
+   "rank": 47
+  },
+  {
+   "name": "Ter\u00e9ga Open Pau\u2013Pyr\u00e9n\u00e9es",
+   "tier": "Challenger 125",
+   "venue": "Pau, France",
+   "start": "2027-02-08",
+   "end": "2027-02-14",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Dubai Duty Free Tennis Championships"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Dubai Duty Free Tennis Championships"
+   ],
+   "rank": 48
+  },
+  {
+   "name": "San Marino Open",
+   "tier": "Challenger 125",
+   "venue": "San Marino, San Marino",
+   "start": "2027-07-26",
+   "end": "2027-08-01",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "National Bank Open presented by Rogers"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with National Bank Open presented by Rogers"
+   ],
+   "rank": 49
+  },
+  {
+   "name": "Porto Open",
+   "tier": "Challenger 125",
+   "venue": "Porto, Portugal",
+   "start": "2027-09-27",
+   "end": "2027-10-03",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "China Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with China Open"
+   ],
+   "rank": 50
+  },
+  {
+   "name": "Jinan Open",
+   "tier": "Challenger 125",
+   "venue": "Jinan, China",
+   "start": "2027-10-11",
+   "end": "2027-10-17",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Wuhan Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Wuhan Open"
+   ],
+   "rank": 51
+  },
+  {
+   "name": "Olbia Challenger",
+   "tier": "Challenger 125",
+   "venue": "Olbia, Italy",
+   "start": "2027-10-11",
+   "end": "2027-10-17",
+   "surface": "Hard",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Wuhan Open"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Wuhan Open"
+   ],
+   "rank": 52
+  },
+  {
+   "name": "Costa do Sau\u00edpe Open",
+   "tier": "Challenger 125",
+   "venue": "Sauipe, Brazil",
+   "start": "2027-11-01",
+   "end": "2027-11-07",
+   "surface": "Clay",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "WTA Finals Indian Wells"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with WTA Finals Indian Wells"
+   ],
+   "rank": 53
+  },
+  {
+   "name": "Open d'Orl\u00e9ans",
+   "tier": "Challenger 125",
+   "venue": "Orl\u00e9ans, France",
+   "start": "2027-11-08",
+   "end": "2027-11-14",
+   "surface": "Hard (i)",
+   "projected": true,
+   "score": 1.0,
+   "north_america": false,
+   "clear_week": false,
+   "clash": [
+    "Nitto ATP Finals"
+   ],
+   "evidence": "E",
+   "confidence": "none",
+   "why": [
+    "Challenger 125",
+    "shares its week with Nitto ATP Finals"
+   ],
+   "rank": 54
+  }
+ ],
+ "tour_events": [
+  {
+   "name": "Korea Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-09-21",
+   "end": "2026-09-27",
+   "venue": "Seoul, KOR",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Singapore Tennis Open presented by BNP Paribas",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-09-21",
+   "end": "2026-09-27",
+   "venue": "Singapore, SIN",
+   "projected": false,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Chengdu Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-09-24",
+   "end": "2026-09-30",
+   "venue": "Chengdu, China PR",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Hangzhou Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-09-24",
+   "end": "2026-09-30",
+   "venue": "Hangzhou, China PR",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "China Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2026-09-30",
+   "end": "2026-10-11",
+   "venue": "Beijing, CHN",
+   "projected": false,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Kinoshita Group Japan Open Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-01",
+   "end": "2026-10-07",
+   "venue": "Tokyo, Japan",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Rolex Shanghai Masters",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-09",
+   "end": "2026-10-19",
+   "venue": "Shanghai, China PR",
+   "projected": false,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Wuhan Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "venue": "Wuhan, CHN",
+   "projected": false,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Kinoshita Group Japan Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-10-19",
+   "end": "2026-10-25",
+   "venue": "Osaka, JPN",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Ningbo Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-10-19",
+   "end": "2026-10-25",
+   "venue": "Ningbo, CHN",
+   "projected": false,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Almaty Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-20",
+   "end": "2026-10-26",
+   "venue": "Almaty, Kazakhstan",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BNP Paribas Fortis European Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-20",
+   "end": "2026-10-26",
+   "venue": "Brussels, Belgium",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-20",
+   "end": "2026-10-26",
+   "venue": "Lyon, France",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Guangzhou Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "venue": "Guangzhou, CHN",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Toray Pan Pacific Open Tennis",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "venue": "Tokyo, JPN",
+   "projected": false,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Erste Bank Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-27",
+   "end": "2026-11-02",
+   "venue": "Vienna, Austria",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Swiss Indoors Basel",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-10-27",
+   "end": "2026-11-02",
+   "venue": "Basel, Switzerland",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Chennai Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "venue": "Chennai, IND",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Prudential Hong Kong Tennis Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "venue": "Hong Kong, HKG",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Rolex Paris Masters",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-11-02",
+   "end": "2026-11-09",
+   "venue": "",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "United Cup",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-01",
+   "end": "2027-01-10",
+   "venue": "Perth + Sydney, AUS",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "ASB Classic",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-03",
+   "end": "2027-01-16",
+   "venue": "Auckland, New Zealand",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Brisbane International",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-01-03",
+   "end": "2027-01-10",
+   "venue": "Brisbane, AUS",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "ASB Classic",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "venue": "Auckland, NZL",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Bank of China Hong Kong Tennis Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-04",
+   "end": "2027-01-11",
+   "venue": "Hong Kong, Hong Kong, China",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Adelaide International",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-01-11",
+   "end": "2027-01-16",
+   "venue": "Adelaide, AUS",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Hobart International",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-11",
+   "end": "2027-01-16",
+   "venue": "Hobart, AUS",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Australian Open",
+   "tier": "Grand Slam",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-01-17",
+   "end": "2027-01-31",
+   "venue": "Melbourne, AUS",
+   "projected": true,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Mubadala Abu Dhabi Open presented by Abu Dhabi Sports Council",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-31",
+   "end": "2027-02-06",
+   "venue": "Abu Dhabi, UAE",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Ostrava Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-31",
+   "end": "2027-02-06",
+   "venue": "Ostrava, CZE",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Transylvania Open powered by Kaufland - Cluj",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-31",
+   "end": "2027-02-06",
+   "venue": "Cluj-Napoca, ROU",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Open Occitanie",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-01",
+   "end": "2027-02-08",
+   "venue": "Montpellier, France",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Qatar TotalEnergies Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-02-07",
+   "end": "2027-02-13",
+   "venue": "Doha, QAT",
+   "projected": true,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "ABN Amro Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-08",
+   "end": "2027-02-15",
+   "venue": "Rotterdam, Netherlands",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "IEB+ Argentina Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-08",
+   "end": "2027-02-15",
+   "venue": "Buenos Aires, Argentina",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Nexo Dallas Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-08",
+   "end": "2027-02-15",
+   "venue": "Dallas, USA",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Dubai Duty Free Tennis Championships",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-02-14",
+   "end": "2027-02-20",
+   "venue": "Dubai, UAE",
+   "projected": true,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Delray Beach Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-15",
+   "end": "2027-02-22",
+   "venue": "Delray Beach, USA",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Qatar ExxonMobil Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-15",
+   "end": "2027-02-21",
+   "venue": "Doha, Qatar",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Rio Open presented by Claro",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-15",
+   "end": "2027-02-22",
+   "venue": "Rio de Janeiro, Brazil",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "ATX Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "venue": "Austin, USA",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BCI Seguros Chile Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-22",
+   "end": "2027-03-01",
+   "venue": "Santiago, Chile",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "M\u00c9RIDA OPEN",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "venue": "M\u00e9rida, MEX",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Abierto Mexicano Telcel presentado por HSBC",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-23",
+   "end": "2027-02-28",
+   "venue": "Acapulco, Mexico",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BNP Paribas Open",
+   "tier": "ATP 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-03-03",
+   "end": "2027-03-14",
+   "venue": "Indian Wells, USA",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Miami Open presented by Ita\u00fa",
+   "tier": "ATP 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "venue": "Miami, USA",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Copa Colsanitas Colsubsidio",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-03-29",
+   "end": "2027-04-04",
+   "venue": "Bogota, COL",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Credit One Charleston Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-03-29",
+   "end": "2027-04-04",
+   "venue": "Charleston, USA",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Fayez Sarofim & Co. U.S. Men's Clay Court Championship",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-03-29",
+   "end": "2027-04-05",
+   "venue": "Houston, USA",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Hassan II",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-03-29",
+   "end": "2027-04-05",
+   "venue": "Marrakech, Morocco",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Tiriac Open presented by UniCredit Bank",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-03-30",
+   "end": "2027-04-05",
+   "venue": "Bucharest, Romania",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Rolex Monte-Carlo Masters",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-04-04",
+   "end": "2027-04-12",
+   "venue": "Monte-Carlo, Monaco",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Upper Austria Ladies Linz",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-04-05",
+   "end": "2027-04-11",
+   "venue": "Linz, AUT",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BMW Open by Bitpanda",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-04-12",
+   "end": "2027-04-19",
+   "venue": "Munich, Germany",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Barcelona Open Banc Sabadell",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-04-12",
+   "end": "2027-04-19",
+   "venue": "Barcelona, Spain",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Open Capfinances Rouen M\u00e9tropole",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "venue": "Rouen, FRA",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Porsche Tennis Grand Prix",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "venue": "Stuttgart, GER",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Mutua Madrid Open",
+   "tier": "ATP 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-04-20",
+   "end": "2027-05-02",
+   "venue": "Madrid, ESP",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Internazionali BNL d'Italia",
+   "tier": "ATP 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-05-04",
+   "end": "2027-05-16",
+   "venue": "Rome, ITA",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Bitpanda Hamburg Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-05-16",
+   "end": "2027-05-23",
+   "venue": "Hamburg, Germany",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Gonet Geneva Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-05-16",
+   "end": "2027-05-23",
+   "venue": "Geneva, Switzerland",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Internationaux de Strasbourg presented by Mammotion",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-05-16",
+   "end": "2027-05-22",
+   "venue": "Strasbourg, FRA",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Son Altesse Royale La Princesse Lalla Meryem",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-05-17",
+   "end": "2027-05-22",
+   "venue": "Rabat, MAR",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Roland Garros",
+   "tier": "Grand Slam",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-05-23",
+   "end": "2027-06-06",
+   "venue": "Paris, FRA",
+   "projected": true,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Boss Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-07",
+   "end": "2027-06-14",
+   "venue": "Stuttgart, Germany",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Lib\u00e9ma Open - 's",
+   "tier": "ATP 250",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "venue": "'S-Hertogenbosch, NED",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "The HSBC Championships",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "venue": "London, GBR",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "HSBC Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-14",
+   "end": "2027-06-21",
+   "venue": "London, Great Britain",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Lexus Nottingham Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "venue": "Nottingham, GBR",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Terra Wortmann Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-14",
+   "end": "2027-06-21",
+   "venue": "Halle, Germany",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "VANDA Pharmaceuticals Berlin Tennis Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "venue": "Berlin, GER",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Bad Homburg Open powered by Solarwatt",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-06-20",
+   "end": "2027-06-26",
+   "venue": "Bad Homburg, GER",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Vanda Pharmaceuticals Mallorca Championships",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-20",
+   "end": "2027-06-27",
+   "venue": "Mallorca, Spain",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Lexus Eastbourne Open",
+   "tier": "ATP 250",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-06-21",
+   "end": "2027-06-26",
+   "venue": "Eastbourne, GREAT BRITAIN",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "The Championships, Wimbledon",
+   "tier": "Grand Slam",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-06-28",
+   "end": "2027-07-11",
+   "venue": "Wimbledon, GBR",
+   "projected": true,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Nordea Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-05",
+   "end": "2027-07-19",
+   "venue": "B\u00e5stad, Sweden",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "EFG Swiss Open Gstaad",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-12",
+   "end": "2027-07-19",
+   "venue": "Gstaad, Switzerland",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Plava Laguna Croatia Open Umag",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-12",
+   "end": "2027-07-18",
+   "venue": "Umag, Croatia",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "UniCredit Iasi Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-12",
+   "end": "2027-07-18",
+   "venue": "Iasi, ROU",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Vanda Pharmaceuticals Athens Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-12",
+   "end": "2027-07-18",
+   "venue": "Athens, GRE",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Generali Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "venue": "Kitzb\u00fchel, Austria",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Livesport Prague Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "venue": "Prague, CZE",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "MSC Hamburg Ladies Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "venue": "Hamburg, GER",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Millennium Estoril Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-19",
+   "end": "2027-07-26",
+   "venue": "Estoril, Portugal",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Mubadala DC Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-26",
+   "end": "2027-08-01",
+   "venue": "Washington Dc, USA",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Mubadala DC Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-26",
+   "end": "2027-08-03",
+   "venue": "Washington, USA",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "The Memphis Classic",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-26",
+   "end": "2027-08-01",
+   "venue": "Memphis, USA",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Mifel Tennis Open by Telcel Oppo",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-27",
+   "end": "2027-08-01",
+   "venue": "Los Cabos, Mexico",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "National Bank Open presented by Rogers",
+   "tier": "ATP 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-08-01",
+   "end": "2027-08-12",
+   "venue": "Toronto, CAN",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Cincinnati Open",
+   "tier": "ATP 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-08-12",
+   "end": "2027-08-22",
+   "venue": "Cincinnati, USA",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Abierto GNP Seguros",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-08-22",
+   "end": "2027-08-28",
+   "venue": "Monterrey, MEX",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Winston-Salem Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-08-22",
+   "end": "2027-08-29",
+   "venue": "Winston-Salem, USA",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "US Open",
+   "tier": "Grand Slam",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-08-29",
+   "end": "2027-09-12",
+   "venue": "New York, USA",
+   "projected": true,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Guadalajara Open presentado por Santander",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-09-12",
+   "end": "2027-09-18",
+   "venue": "Guadalajara, MEX",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "SP Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-09-13",
+   "end": "2027-09-19",
+   "venue": "Sao Paulo, BRA",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Korea Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-09-20",
+   "end": "2027-09-26",
+   "venue": "Seoul, KOR",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Singapore Tennis Open presented by BNP Paribas",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-09-20",
+   "end": "2027-09-26",
+   "venue": "Singapore, SIN",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Chengdu Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-09-23",
+   "end": "2027-09-29",
+   "venue": "Chengdu, China PR",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Hangzhou Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-09-23",
+   "end": "2027-09-29",
+   "venue": "Hangzhou, China PR",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "China Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA",
+    "ATP"
+   ],
+   "start": "2027-09-29",
+   "end": "2027-10-10",
+   "venue": "Beijing, CHN",
+   "projected": true,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Kinoshita Group Japan Open Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-09-30",
+   "end": "2027-10-06",
+   "venue": "Tokyo, Japan",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Rolex Shanghai Masters",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-08",
+   "end": "2027-10-18",
+   "venue": "Shanghai, China PR",
+   "projected": true,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Wuhan Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-11",
+   "end": "2027-10-17",
+   "venue": "Wuhan, CHN",
+   "projected": true,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Kinoshita Group Japan Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-18",
+   "end": "2027-10-24",
+   "venue": "Osaka, JPN",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Ningbo Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-18",
+   "end": "2027-10-24",
+   "venue": "Ningbo, CHN",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Almaty Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-19",
+   "end": "2027-10-25",
+   "venue": "Almaty, Kazakhstan",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "BNP Paribas Fortis European Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-19",
+   "end": "2027-10-25",
+   "venue": "Brussels, Belgium",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-19",
+   "end": "2027-10-25",
+   "venue": "Lyon, France",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Guangzhou Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-25",
+   "end": "2027-10-31",
+   "venue": "Guangzhou, CHN",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Toray Pan Pacific Open Tennis",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-25",
+   "end": "2027-10-31",
+   "venue": "Tokyo, JPN",
+   "projected": true,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Erste Bank Open",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-26",
+   "end": "2027-11-01",
+   "venue": "Vienna, Austria",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Swiss Indoors Basel",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-10-26",
+   "end": "2027-11-01",
+   "venue": "Basel, Switzerland",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Chennai Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-11-01",
+   "end": "2027-11-07",
+   "venue": "Chennai, IND",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Prudential Hong Kong Tennis Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-11-01",
+   "end": "2027-11-07",
+   "venue": "Hong Kong, HKG",
+   "projected": true,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Rolex Paris Masters",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-11-01",
+   "end": "2027-11-08",
+   "venue": "",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  }
+ ]
+}
