@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T23:20:36+00:00",
+ "generated": "2026-09-21T08:02:05+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -311,7 +311,7 @@
    "start": "2026-09-23",
    "end": "2026-09-30",
    "qualifying_start": "2026-09-23",
-   "main_draw_matches": 31,
+   "main_draw_matches": 27,
    "qualifying_matches": 0,
    "start_source": "undrawn",
    "src": "espn",
@@ -4872,7 +4872,7 @@
    "start": "2027-09-22",
    "end": "2027-09-29",
    "qualifying_start": "2026-09-23",
-   "main_draw_matches": 31,
+   "main_draw_matches": 27,
    "qualifying_matches": 0,
    "start_source": "projected",
    "src": "espn",
