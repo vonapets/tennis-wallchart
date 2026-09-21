@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T08:02:05+00:00",
+ "generated": "2026-09-21T16:31:57+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -279,18 +279,18 @@
    "projected": false
   },
   {
-   "key": "atp:441-2026",
-   "espn_id": "441",
-   "name": "Chengdu Open",
+   "key": "atp:1001-2026",
+   "espn_id": "1001",
+   "name": "AITO Hangzhou Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Chengdu, China PR",
-   "start": "2026-09-23",
+   "venue": "Hangzhou, China PR",
+   "start": "2026-09-24",
    "end": "2026-09-30",
-   "qualifying_start": "2026-09-23",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_start": "2026-09-22",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -302,18 +302,18 @@
    "projected": false
   },
   {
-   "key": "atp:1001-2026",
-   "espn_id": "1001",
-   "name": "Hangzhou Open",
+   "key": "atp:441-2026",
+   "espn_id": "441",
+   "name": "Chengdu Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Hangzhou, China PR",
-   "start": "2026-09-23",
+   "venue": "Chengdu, China PR",
+   "start": "2026-09-24",
    "end": "2026-09-30",
-   "qualifying_start": "2026-09-23",
+   "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_matches": 12,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -4840,17 +4840,17 @@
    "projected": true
   },
   {
-   "key": "proj:atp:441-2026",
-   "espn_id": "441",
-   "name": "Chengdu Open",
+   "key": "proj:atp:1001-2026",
+   "espn_id": "1001",
+   "name": "AITO Hangzhou Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Chengdu, China PR",
-   "start": "2027-09-22",
+   "venue": "Hangzhou, China PR",
+   "start": "2027-09-23",
    "end": "2027-09-29",
-   "qualifying_start": "2026-09-23",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
+   "qualifying_start": "2026-09-22",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
    "start_source": "projected",
    "src": "espn",
    "tours": [
@@ -4863,17 +4863,17 @@
    "projected": true
   },
   {
-   "key": "proj:atp:1001-2026",
-   "espn_id": "1001",
-   "name": "Hangzhou Open",
+   "key": "proj:atp:441-2026",
+   "espn_id": "441",
+   "name": "Chengdu Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Hangzhou, China PR",
-   "start": "2027-09-22",
+   "venue": "Chengdu, China PR",
+   "start": "2027-09-23",
    "end": "2027-09-29",
-   "qualifying_start": "2026-09-23",
+   "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
-   "qualifying_matches": 0,
+   "qualifying_matches": 12,
    "start_source": "projected",
    "src": "espn",
    "tours": [
