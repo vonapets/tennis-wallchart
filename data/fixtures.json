@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T07:47:37+00:00",
+ "generated": "2026-09-22T15:04:37+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -285,12 +285,12 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
-   "start": "2026-09-24",
+   "start": "2026-09-23",
    "end": "2026-09-30",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
-   "start_source": "estimated",
+   "start_source": "drawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -308,12 +308,12 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Chengdu, China PR",
-   "start": "2026-09-24",
+   "start": "2026-09-23",
    "end": "2026-09-30",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
-   "start_source": "estimated",
+   "start_source": "drawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -4846,7 +4846,7 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
-   "start": "2027-09-23",
+   "start": "2027-09-22",
    "end": "2027-09-29",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
@@ -4869,7 +4869,7 @@
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Chengdu, China PR",
-   "start": "2027-09-23",
+   "start": "2027-09-22",
    "end": "2027-09-29",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
