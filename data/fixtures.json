@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T15:22:28+00:00",
+ "generated": "2026-09-25T23:59:33+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -237,7 +237,7 @@
    "name": "Singapore Tennis Open presented by BNP Paribas",
    "tour": "WTA",
    "tier": "WTA 500",
-   "venue": "Singapore, SIN",
+   "venue": "Singapore, SGP",
    "city": "Singapore",
    "start": "2026-09-21",
    "end": "2026-09-27",
@@ -649,6 +649,29 @@
    "projected": false
   },
   {
+   "key": "wta:2092:2026-10-19",
+   "name": "BNB Ningbo Open",
+   "tour": "WTA",
+   "tier": "WTA 500",
+   "venue": "Ningbo, CHN",
+   "city": "Ningbo",
+   "start": "2026-10-19",
+   "end": "2026-10-25",
+   "surface": "Hard",
+   "draw": 28,
+   "prize": 1206446,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 500"
+   },
+   "headline_tier": "WTA 500",
+   "projected": false
+  },
+  {
    "key": "atp:440-2026",
    "espn_id": "440",
    "name": "BNP Paribas Fortis European Open",
@@ -715,29 +738,6 @@
     "WTA": "WTA 250"
    },
    "headline_tier": "WTA 250",
-   "projected": false
-  },
-  {
-   "key": "wta:2092:2026-10-19",
-   "name": "Ningbo Open",
-   "tour": "WTA",
-   "tier": "WTA 500",
-   "venue": "Ningbo, CHN",
-   "city": "Ningbo",
-   "start": "2026-10-19",
-   "end": "2026-10-25",
-   "surface": "Hard",
-   "draw": 28,
-   "prize": 1206446,
-   "start_source": "official",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 500"
-   },
-   "headline_tier": "WTA 500",
    "projected": false
   },
   {
@@ -2851,12 +2851,12 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1142:2026-04-27",
-   "name": "2026 Huzhou Open \u00b7 HuzhouWuxing",
+   "key": "proj:wta:2034:2026-04-27",
+   "name": "L'Open 35 de Saint Malo",
    "tour": "WTA",
    "tier": "WTA 125",
-   "venue": "Huzhou, CHN",
-   "city": "Huzhou",
+   "venue": "Saint Malo, FRA",
+   "city": "Saint Malo",
    "start": "2027-04-26",
    "end": "2027-05-02",
    "surface": "Clay",
@@ -4798,7 +4798,7 @@
    "name": "Singapore Tennis Open presented by BNP Paribas",
    "tour": "WTA",
    "tier": "WTA 500",
-   "venue": "Singapore, SIN",
+   "venue": "Singapore, SGP",
    "city": "Singapore",
    "start": "2027-09-20",
    "end": "2027-09-26",
@@ -5210,6 +5210,29 @@
    "projected": true
   },
   {
+   "key": "proj:wta:2092:2026-10-19",
+   "name": "BNB Ningbo Open",
+   "tour": "WTA",
+   "tier": "WTA 500",
+   "venue": "Ningbo, CHN",
+   "city": "Ningbo",
+   "start": "2027-10-18",
+   "end": "2027-10-24",
+   "surface": "Hard",
+   "draw": 28,
+   "prize": 1206446,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 500"
+   },
+   "headline_tier": "WTA 500",
+   "projected": true
+  },
+  {
    "key": "proj:atp:440-2026",
    "espn_id": "440",
    "name": "BNP Paribas Fortis European Open",
@@ -5276,29 +5299,6 @@
     "WTA": "WTA 250"
    },
    "headline_tier": "WTA 250",
-   "projected": true
-  },
-  {
-   "key": "proj:wta:2092:2026-10-19",
-   "name": "Ningbo Open",
-   "tour": "WTA",
-   "tier": "WTA 500",
-   "venue": "Ningbo, CHN",
-   "city": "Ningbo",
-   "start": "2027-10-18",
-   "end": "2027-10-24",
-   "surface": "Hard",
-   "draw": 28,
-   "prize": 1206446,
-   "start_source": "projected",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 500"
-   },
-   "headline_tier": "WTA 500",
    "projected": true
   },
   {
