@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T08:47:44+00:00",
+ "generated": "2026-09-28T09:43:54+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -286,7 +286,7 @@
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
    "start": "2026-09-23",
-   "end": "2026-09-30",
+   "end": "2026-09-29",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -309,7 +309,7 @@
    "tier": "ATP 250",
    "venue": "Chengdu, China PR",
    "start": "2026-09-23",
-   "end": "2026-09-30",
+   "end": "2026-09-29",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -385,29 +385,6 @@
    "projected": false
   },
   {
-   "key": "atp:5-2026",
-   "espn_id": "5",
-   "name": "Kinoshita Group Japan Open Tennis Championships",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Tokyo, Japan",
-   "start": "2026-09-29",
-   "end": "2026-10-07",
-   "qualifying_start": "2026-09-27",
-   "main_draw_matches": 31,
-   "qualifying_matches": 12,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
-   "projected": false
-  },
-  {
    "key": "wta:1020:2026-09-30",
    "name": "China Open",
    "tour": "WTA",
@@ -430,10 +407,41 @@
     "ATP": "ATP 500"
    },
    "starts": {
-    "ATP": "2026-09-29",
-    "WTA": "2026-09-30"
+    "WTA": "2026-09-30",
+    "ATP": "2026-09-30"
+   },
+   "ends": {
+    "WTA": "2026-10-11",
+    "ATP": "2026-10-06"
+   },
+   "sources": {
+    "WTA": "official",
+    "ATP": "scheduled"
    },
    "headline_tier": "WTA 1000",
+   "projected": false
+  },
+  {
+   "key": "atp:5-2026",
+   "espn_id": "5",
+   "name": "Kinoshita Group Japan Open Tennis Championships",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Tokyo, Japan",
+   "start": "2026-09-30",
+   "end": "2026-10-06",
+   "qualifying_start": "2026-09-27",
+   "main_draw_matches": 31,
+   "qualifying_matches": 12,
+   "start_source": "scheduled",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
    "projected": false
   },
   {
@@ -490,7 +498,7 @@
    "tier": "ATP 1000",
    "venue": "Shanghai, China PR",
    "start": "2026-10-07",
-   "end": "2026-10-19",
+   "end": "2026-10-18",
    "qualifying_start": "2026-10-07",
    "main_draw_matches": 127,
    "qualifying_matches": 0,
@@ -633,7 +641,7 @@
    "tier": "ATP 250",
    "venue": "Almaty, Kazakhstan",
    "start": "2026-10-19",
-   "end": "2026-10-26",
+   "end": "2026-10-25",
    "qualifying_start": "2026-10-19",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -679,7 +687,7 @@
    "tier": "ATP 250",
    "venue": "Brussels, Belgium",
    "start": "2026-10-19",
-   "end": "2026-10-26",
+   "end": "2026-10-25",
    "qualifying_start": "2026-10-19",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -702,7 +710,7 @@
    "tier": "ATP 250",
    "venue": "Lyon, France",
    "start": "2026-10-19",
-   "end": "2026-10-26",
+   "end": "2026-10-25",
    "qualifying_start": "2026-10-19",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -794,7 +802,7 @@
    "tier": "ATP 500",
    "venue": "Vienna, Austria",
    "start": "2026-10-26",
-   "end": "2026-11-02",
+   "end": "2026-11-01",
    "qualifying_start": "2026-10-26",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -877,7 +885,7 @@
    "tier": "ATP 500",
    "venue": "Basel, Switzerland",
    "start": "2026-10-26",
-   "end": "2026-11-02",
+   "end": "2026-11-01",
    "qualifying_start": "2026-10-26",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -1075,7 +1083,7 @@
    "tier": "ATP 1000",
    "venue": "",
    "start": "2026-11-02",
-   "end": "2026-11-09",
+   "end": "2026-11-08",
    "qualifying_start": "2026-10-31",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -1098,7 +1106,7 @@
    "tier": "ATP 250",
    "venue": "",
    "start": "2026-11-08",
-   "end": "2026-11-15",
+   "end": "2026-11-14",
    "qualifying_start": "2026-11-06",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -1232,7 +1240,7 @@
    "tier": "ATP Finals",
    "venue": "",
    "start": "2026-11-16",
-   "end": "2026-11-23",
+   "end": "2026-11-22",
    "qualifying_start": "2026-11-14",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -1324,7 +1332,7 @@
    "tier": "Next Gen ATP Finals",
    "venue": "",
    "start": "2026-12-10",
-   "end": "2026-12-14",
+   "end": "2026-12-13",
    "qualifying_start": "2026-12-08",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -1408,8 +1416,16 @@
     "ATP": "ATP 250"
    },
    "starts": {
-    "ATP": "2026-01-04",
-    "WTA": "2026-01-04"
+    "WTA": "2027-01-03",
+    "ATP": "2027-01-03"
+   },
+   "ends": {
+    "WTA": "2027-01-10",
+    "ATP": "2027-01-10"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "WTA 500",
    "projected": true
@@ -1445,7 +1461,7 @@
    "tier": "ATP 250",
    "venue": "Hong Kong, Hong Kong, China",
    "start": "2027-01-04",
-   "end": "2027-01-11",
+   "end": "2027-01-10",
    "qualifying_start": "2026-01-03",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -1557,8 +1573,16 @@
     "ATP": "ATP 250"
    },
    "starts": {
-    "ATP": "2026-01-12",
-    "WTA": "2026-01-12"
+    "WTA": "2027-01-11",
+    "ATP": "2027-01-11"
+   },
+   "ends": {
+    "WTA": "2027-01-16",
+    "ATP": "2027-01-16"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "WTA 500",
    "projected": true
@@ -1609,8 +1633,16 @@
     "ATP": "Grand Slam"
    },
    "starts": {
-    "ATP": "2026-01-18",
-    "WTA": "2026-01-18"
+    "WTA": "2027-01-17",
+    "ATP": "2027-01-17"
+   },
+   "ends": {
+    "WTA": "2027-01-31",
+    "ATP": "2027-01-31"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -1766,7 +1798,7 @@
    "tier": "ATP 250",
    "venue": "Montpellier, France",
    "start": "2027-02-01",
-   "end": "2027-02-08",
+   "end": "2027-02-07",
    "qualifying_start": "2026-02-01",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -1826,7 +1858,7 @@
    "tier": "ATP 500",
    "venue": "Rotterdam, Netherlands",
    "start": "2027-02-08",
-   "end": "2027-02-15",
+   "end": "2027-02-14",
    "qualifying_start": "2026-02-07",
    "main_draw_matches": 31,
    "qualifying_matches": 15,
@@ -1849,7 +1881,7 @@
    "tier": "ATP 250",
    "venue": "Buenos Aires, Argentina",
    "start": "2027-02-08",
-   "end": "2027-02-15",
+   "end": "2027-02-14",
    "qualifying_start": "2026-02-07",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -1872,7 +1904,7 @@
    "tier": "ATP 500",
    "venue": "Dallas, USA",
    "start": "2027-02-08",
-   "end": "2027-02-15",
+   "end": "2027-02-14",
    "qualifying_start": "2026-02-07",
    "main_draw_matches": 31,
    "qualifying_matches": 15,
@@ -1955,7 +1987,7 @@
    "tier": "ATP 250",
    "venue": "Delray Beach, USA",
    "start": "2027-02-15",
-   "end": "2027-02-22",
+   "end": "2027-02-21",
    "qualifying_start": "2026-02-14",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -2061,7 +2093,7 @@
    "tier": "ATP 500",
    "venue": "Doha, Qatar",
    "start": "2027-02-15",
-   "end": "2027-02-21",
+   "end": "2027-02-20",
    "qualifying_start": "2026-02-14",
    "main_draw_matches": 31,
    "qualifying_matches": 15,
@@ -2084,7 +2116,7 @@
    "tier": "ATP 500",
    "venue": "Rio de Janeiro, Brazil",
    "start": "2027-02-15",
-   "end": "2027-02-22",
+   "end": "2027-02-21",
    "qualifying_start": "2026-02-14",
    "main_draw_matches": 31,
    "qualifying_matches": 15,
@@ -2130,7 +2162,7 @@
    "tier": "ATP 250",
    "venue": "Santiago, Chile",
    "start": "2027-02-22",
-   "end": "2027-03-01",
+   "end": "2027-02-28",
    "qualifying_start": "2026-02-21",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -2153,7 +2185,7 @@
    "tier": "ATP 500",
    "venue": "Dubai, United Arab Emirates",
    "start": "2027-02-22",
-   "end": "2027-02-28",
+   "end": "2027-02-27",
    "qualifying_start": "2026-02-13",
    "main_draw_matches": 31,
    "qualifying_matches": 39,
@@ -2283,8 +2315,16 @@
     "ATP": "ATP 1000"
    },
    "starts": {
-    "ATP": "2026-03-04",
-    "WTA": "2026-03-04"
+    "WTA": "2027-03-03",
+    "ATP": "2027-03-03"
+   },
+   "ends": {
+    "WTA": "2027-03-14",
+    "ATP": "2027-03-14"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -2386,8 +2426,16 @@
     "ATP": "ATP 1000"
    },
    "starts": {
-    "ATP": "2026-03-19",
-    "WTA": "2026-03-17"
+    "WTA": "2027-03-16",
+    "ATP": "2027-03-18"
+   },
+   "ends": {
+    "WTA": "2027-03-28",
+    "ATP": "2027-03-28"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -2497,7 +2545,7 @@
    "tier": "ATP 250",
    "venue": "Houston, USA",
    "start": "2027-03-29",
-   "end": "2027-04-05",
+   "end": "2027-04-04",
    "qualifying_start": "2026-03-28",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -2520,7 +2568,7 @@
    "tier": "ATP 250",
    "venue": "Marrakech, Morocco",
    "start": "2027-03-29",
-   "end": "2027-04-05",
+   "end": "2027-04-04",
    "qualifying_start": "2026-03-29",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -2543,7 +2591,7 @@
    "tier": "ATP 250",
    "venue": "Bucharest, Romania",
    "start": "2027-03-30",
-   "end": "2027-04-05",
+   "end": "2027-04-04",
    "qualifying_start": "2026-03-30",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -2566,7 +2614,7 @@
    "tier": "ATP 1000",
    "venue": "Monte-Carlo, Monaco",
    "start": "2027-04-04",
-   "end": "2027-04-12",
+   "end": "2027-04-11",
    "qualifying_start": "2026-04-04",
    "main_draw_matches": 55,
    "qualifying_matches": 21,
@@ -2663,7 +2711,7 @@
    "tier": "ATP 500",
    "venue": "Munich, Germany",
    "start": "2027-04-12",
-   "end": "2027-04-19",
+   "end": "2027-04-18",
    "qualifying_start": "2026-04-11",
    "main_draw_matches": 31,
    "qualifying_matches": 15,
@@ -2686,7 +2734,7 @@
    "tier": "ATP 500",
    "venue": "Barcelona, Spain",
    "start": "2027-04-12",
-   "end": "2027-04-19",
+   "end": "2027-04-18",
    "qualifying_start": "2026-04-11",
    "main_draw_matches": 31,
    "qualifying_matches": 21,
@@ -2844,8 +2892,16 @@
     "ATP": "ATP 1000"
    },
    "starts": {
-    "ATP": "2026-04-22",
-    "WTA": "2026-04-21"
+    "WTA": "2027-04-20",
+    "ATP": "2027-04-21"
+   },
+   "ends": {
+    "WTA": "2027-05-02",
+    "ATP": "2027-05-02"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -2970,8 +3026,16 @@
     "ATP": "ATP 1000"
    },
    "starts": {
-    "ATP": "2026-05-06",
-    "WTA": "2026-05-05"
+    "WTA": "2027-05-04",
+    "ATP": "2027-05-05"
+   },
+   "ends": {
+    "WTA": "2027-05-16",
+    "ATP": "2027-05-16"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -3058,7 +3122,7 @@
    "tier": "ATP 500",
    "venue": "Hamburg, Germany",
    "start": "2027-05-16",
-   "end": "2027-05-23",
+   "end": "2027-05-22",
    "qualifying_start": "2026-05-16",
    "main_draw_matches": 31,
    "qualifying_matches": 15,
@@ -3081,7 +3145,7 @@
    "tier": "ATP 250",
    "venue": "Geneva, Switzerland",
    "start": "2027-05-16",
-   "end": "2027-05-23",
+   "end": "2027-05-22",
    "qualifying_start": "2026-05-16",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -3165,8 +3229,16 @@
     "ATP": "Grand Slam"
    },
    "starts": {
-    "ATP": "2026-05-24",
-    "WTA": "2026-05-24"
+    "WTA": "2027-05-23",
+    "ATP": "2027-05-23"
+   },
+   "ends": {
+    "WTA": "2027-06-06",
+    "ATP": "2027-06-06"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -3276,7 +3348,7 @@
    "tier": "ATP 250",
    "venue": "Stuttgart, Germany",
    "start": "2027-06-07",
-   "end": "2027-06-14",
+   "end": "2027-06-13",
    "qualifying_start": "2026-06-06",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -3351,8 +3423,16 @@
     "ATP": "ATP 250"
    },
    "starts": {
-    "ATP": "2026-06-08",
-    "WTA": "2026-06-08"
+    "WTA": "2027-06-07",
+    "ATP": "2027-06-07"
+   },
+   "ends": {
+    "WTA": "2027-06-13",
+    "ATP": "2027-06-13"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 250",
    "projected": true
@@ -3448,7 +3528,7 @@
    "tier": "ATP 500",
    "venue": "London, Great Britain",
    "start": "2027-06-14",
-   "end": "2027-06-21",
+   "end": "2027-06-20",
    "qualifying_start": "2026-06-13",
    "main_draw_matches": 31,
    "qualifying_matches": 13,
@@ -3531,7 +3611,7 @@
    "tier": "ATP 500",
    "venue": "Halle, Germany",
    "start": "2027-06-14",
-   "end": "2027-06-21",
+   "end": "2027-06-20",
    "qualifying_start": "2026-06-13",
    "main_draw_matches": 31,
    "qualifying_matches": 14,
@@ -3600,7 +3680,7 @@
    "tier": "ATP 250",
    "venue": "Mallorca, Spain",
    "start": "2027-06-20",
-   "end": "2027-06-27",
+   "end": "2027-06-26",
    "qualifying_start": "2026-06-20",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -3638,8 +3718,16 @@
     "ATP": "ATP 250"
    },
    "starts": {
-    "ATP": "2026-06-22",
-    "WTA": "2026-06-22"
+    "WTA": "2027-06-21",
+    "ATP": "2027-06-21"
+   },
+   "ends": {
+    "WTA": "2027-06-26",
+    "ATP": "2027-06-27"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 250",
    "projected": true
@@ -3667,8 +3755,16 @@
     "ATP": "Grand Slam"
    },
    "starts": {
-    "ATP": "2026-06-29",
-    "WTA": "2026-06-29"
+    "WTA": "2027-06-28",
+    "ATP": "2027-06-28"
+   },
+   "ends": {
+    "WTA": "2027-07-11",
+    "ATP": "2027-07-11"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -3801,7 +3897,7 @@
    "tier": "ATP 250",
    "venue": "Gstaad, Switzerland",
    "start": "2027-07-12",
-   "end": "2027-07-19",
+   "end": "2027-07-18",
    "qualifying_start": "2026-07-11",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -3870,7 +3966,7 @@
    "tier": "ATP 250",
    "venue": "B\u00e5stad, Sweden",
    "start": "2027-07-12",
-   "end": "2027-07-19",
+   "end": "2027-07-18",
    "qualifying_start": "2026-07-06",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -3893,7 +3989,7 @@
    "tier": "ATP 250",
    "venue": "Umag, Croatia",
    "start": "2027-07-12",
-   "end": "2027-07-18",
+   "end": "2027-07-17",
    "qualifying_start": "2026-07-11",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -3999,7 +4095,7 @@
    "tier": "ATP 250",
    "venue": "Kitzb\u00fchel, Austria",
    "start": "2027-07-19",
-   "end": "2027-07-25",
+   "end": "2027-07-24",
    "qualifying_start": "2026-07-18",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -4068,7 +4164,7 @@
    "tier": "ATP 250",
    "venue": "Estoril, Portugal",
    "start": "2027-07-19",
-   "end": "2027-07-26",
+   "end": "2027-07-25",
    "qualifying_start": "2026-07-18",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -4174,7 +4270,7 @@
    "tier": "ATP 500",
    "venue": "Washington, USA",
    "start": "2027-07-26",
-   "end": "2027-08-03",
+   "end": "2027-08-02",
    "qualifying_start": "2026-07-25",
    "main_draw_matches": 31,
    "qualifying_matches": 33,
@@ -4286,8 +4382,16 @@
     "ATP": "ATP 1000"
    },
    "starts": {
-    "ATP": "2026-08-02",
-    "WTA": "2026-08-02"
+    "WTA": "2027-08-01",
+    "ATP": "2027-08-01"
+   },
+   "ends": {
+    "WTA": "2027-08-12",
+    "ATP": "2027-08-13"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -4366,8 +4470,16 @@
     "ATP": "ATP 1000"
    },
    "starts": {
-    "ATP": "2026-08-13",
-    "WTA": "2026-08-13"
+    "WTA": "2027-08-12",
+    "ATP": "2027-08-12"
+   },
+   "ends": {
+    "WTA": "2027-08-22",
+    "ATP": "2027-08-22"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "ATP 1000",
    "projected": true
@@ -4426,7 +4538,7 @@
    "tier": "ATP 250",
    "venue": "Winston-Salem, USA",
    "start": "2027-08-22",
-   "end": "2027-08-29",
+   "end": "2027-08-28",
    "qualifying_start": "2026-08-22",
    "main_draw_matches": 47,
    "qualifying_matches": 12,
@@ -4464,8 +4576,16 @@
     "ATP": "Grand Slam"
    },
    "starts": {
-    "ATP": "2026-08-30",
-    "WTA": "2026-08-30"
+    "WTA": "2027-08-29",
+    "ATP": "2027-08-29"
+   },
+   "ends": {
+    "WTA": "2027-09-12",
+    "ATP": "2027-09-12"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "Grand Slam",
    "projected": true
@@ -4847,7 +4967,7 @@
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
    "start": "2027-09-22",
-   "end": "2027-09-29",
+   "end": "2027-09-28",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -4870,7 +4990,7 @@
    "tier": "ATP 250",
    "venue": "Chengdu, China PR",
    "start": "2027-09-22",
-   "end": "2027-09-29",
+   "end": "2027-09-28",
    "qualifying_start": "2026-09-22",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
@@ -4946,29 +5066,6 @@
    "projected": true
   },
   {
-   "key": "proj:atp:5-2026",
-   "espn_id": "5",
-   "name": "Kinoshita Group Japan Open Tennis Championships",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Tokyo, Japan",
-   "start": "2027-09-28",
-   "end": "2027-10-06",
-   "qualifying_start": "2026-09-27",
-   "main_draw_matches": 31,
-   "qualifying_matches": 12,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
-   "projected": true
-  },
-  {
    "key": "proj:wta:1020:2026-09-30",
    "name": "China Open",
    "tour": "WTA",
@@ -4991,10 +5088,41 @@
     "ATP": "ATP 500"
    },
    "starts": {
-    "ATP": "2026-09-29",
-    "WTA": "2026-09-30"
+    "WTA": "2027-09-29",
+    "ATP": "2027-09-29"
+   },
+   "ends": {
+    "WTA": "2027-10-10",
+    "ATP": "2027-10-05"
+   },
+   "sources": {
+    "WTA": "projected",
+    "ATP": "projected"
    },
    "headline_tier": "WTA 1000",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:5-2026",
+   "espn_id": "5",
+   "name": "Kinoshita Group Japan Open Tennis Championships",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Tokyo, Japan",
+   "start": "2027-09-29",
+   "end": "2027-10-05",
+   "qualifying_start": "2026-09-27",
+   "main_draw_matches": 31,
+   "qualifying_matches": 12,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
    "projected": true
   },
   {
@@ -5051,7 +5179,7 @@
    "tier": "ATP 1000",
    "venue": "Shanghai, China PR",
    "start": "2027-10-06",
-   "end": "2027-10-18",
+   "end": "2027-10-17",
    "qualifying_start": "2026-10-07",
    "main_draw_matches": 127,
    "qualifying_matches": 0,
@@ -5194,7 +5322,7 @@
    "tier": "ATP 250",
    "venue": "Almaty, Kazakhstan",
    "start": "2027-10-18",
-   "end": "2027-10-25",
+   "end": "2027-10-24",
    "qualifying_start": "2026-10-19",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -5240,7 +5368,7 @@
    "tier": "ATP 250",
    "venue": "Brussels, Belgium",
    "start": "2027-10-18",
-   "end": "2027-10-25",
+   "end": "2027-10-24",
    "qualifying_start": "2026-10-19",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -5263,7 +5391,7 @@
    "tier": "ATP 250",
    "venue": "Lyon, France",
    "start": "2027-10-18",
-   "end": "2027-10-25",
+   "end": "2027-10-24",
    "qualifying_start": "2026-10-19",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -5355,7 +5483,7 @@
    "tier": "ATP 500",
    "venue": "Vienna, Austria",
    "start": "2027-10-25",
-   "end": "2027-11-01",
+   "end": "2027-10-31",
    "qualifying_start": "2026-10-26",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -5438,7 +5566,7 @@
    "tier": "ATP 500",
    "venue": "Basel, Switzerland",
    "start": "2027-10-25",
-   "end": "2027-11-01",
+   "end": "2027-10-31",
    "qualifying_start": "2026-10-26",
    "main_draw_matches": 31,
    "qualifying_matches": 0,
@@ -5636,7 +5764,7 @@
    "tier": "ATP 1000",
    "venue": "",
    "start": "2027-11-01",
-   "end": "2027-11-08",
+   "end": "2027-11-07",
    "qualifying_start": "2026-10-31",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -5659,7 +5787,7 @@
    "tier": "ATP 250",
    "venue": "",
    "start": "2027-11-07",
-   "end": "2027-11-14",
+   "end": "2027-11-13",
    "qualifying_start": "2026-11-06",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -5793,7 +5921,7 @@
    "tier": "ATP Finals",
    "venue": "",
    "start": "2027-11-15",
-   "end": "2027-11-22",
+   "end": "2027-11-21",
    "qualifying_start": "2026-11-14",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -5885,7 +6013,7 @@
    "tier": "Next Gen ATP Finals",
    "venue": "",
    "start": "2027-12-09",
-   "end": "2027-12-13",
+   "end": "2027-12-12",
    "qualifying_start": "2026-12-08",
    "main_draw_matches": 0,
    "qualifying_matches": 0,

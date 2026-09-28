@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T08:47:44+00:00",
+ "generated": "2026-09-28T09:43:54+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1199,7 +1199,7 @@
     "ATP"
    ],
    "start": "2026-09-23",
-   "end": "2026-09-30",
+   "end": "2026-09-29",
    "venue": "Hangzhou, China PR",
    "projected": false,
    "benchmark": 13089791,
@@ -1213,24 +1213,10 @@
     "ATP"
    ],
    "start": "2026-09-23",
-   "end": "2026-09-30",
+   "end": "2026-09-29",
    "venue": "Chengdu, China PR",
    "projected": false,
    "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Kinoshita Group Japan Open Tennis Championships",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2026-09-29",
-   "end": "2026-10-07",
-   "venue": "Tokyo, Japan",
-   "projected": false,
-   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1250,13 +1236,27 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Kinoshita Group Japan Open Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2026-09-30",
+   "end": "2026-10-06",
+   "venue": "Tokyo, Japan",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Rolex Shanghai Masters",
    "tier": "ATP 1000",
    "tours": [
     "ATP"
    ],
    "start": "2026-10-07",
-   "end": "2026-10-19",
+   "end": "2026-10-18",
    "venue": "Shanghai, China PR",
    "projected": false,
    "benchmark": 61319889,
@@ -1284,7 +1284,7 @@
     "ATP"
    ],
    "start": "2026-10-19",
-   "end": "2026-10-26",
+   "end": "2026-10-25",
    "venue": "Almaty, Kazakhstan",
    "projected": false,
    "benchmark": 13089791,
@@ -1312,7 +1312,7 @@
     "ATP"
    ],
    "start": "2026-10-19",
-   "end": "2026-10-26",
+   "end": "2026-10-25",
    "venue": "Brussels, Belgium",
    "projected": false,
    "benchmark": 13089791,
@@ -1326,7 +1326,7 @@
     "ATP"
    ],
    "start": "2026-10-19",
-   "end": "2026-10-26",
+   "end": "2026-10-25",
    "venue": "Lyon, France",
    "projected": false,
    "benchmark": 13089791,
@@ -1354,7 +1354,7 @@
     "ATP"
    ],
    "start": "2026-10-26",
-   "end": "2026-11-02",
+   "end": "2026-11-01",
    "venue": "Vienna, Austria",
    "projected": false,
    "benchmark": 20495380,
@@ -1382,7 +1382,7 @@
     "ATP"
    ],
    "start": "2026-10-26",
-   "end": "2026-11-02",
+   "end": "2026-11-01",
    "venue": "Basel, Switzerland",
    "projected": false,
    "benchmark": 20495380,
@@ -1438,7 +1438,7 @@
     "ATP"
    ],
    "start": "2026-11-02",
-   "end": "2026-11-09",
+   "end": "2026-11-08",
    "venue": "",
    "projected": false,
    "benchmark": 61319889,
@@ -1452,7 +1452,7 @@
     "ATP"
    ],
    "start": "2026-11-08",
-   "end": "2026-11-15",
+   "end": "2026-11-14",
    "venue": "",
    "projected": false,
    "benchmark": 13089791,
@@ -1509,7 +1509,7 @@
     "ATP"
    ],
    "start": "2027-01-04",
-   "end": "2027-01-11",
+   "end": "2027-01-10",
    "venue": "Hong Kong, Hong Kong, China",
    "projected": true,
    "benchmark": 13089791,
@@ -1623,7 +1623,7 @@
     "ATP"
    ],
    "start": "2027-02-01",
-   "end": "2027-02-08",
+   "end": "2027-02-07",
    "venue": "Montpellier, France",
    "projected": true,
    "benchmark": 13089791,
@@ -1651,7 +1651,7 @@
     "ATP"
    ],
    "start": "2027-02-08",
-   "end": "2027-02-15",
+   "end": "2027-02-14",
    "venue": "Rotterdam, Netherlands",
    "projected": true,
    "benchmark": 20495380,
@@ -1665,7 +1665,7 @@
     "ATP"
    ],
    "start": "2027-02-08",
-   "end": "2027-02-15",
+   "end": "2027-02-14",
    "venue": "Buenos Aires, Argentina",
    "projected": true,
    "benchmark": 13089791,
@@ -1679,7 +1679,7 @@
     "ATP"
    ],
    "start": "2027-02-08",
-   "end": "2027-02-15",
+   "end": "2027-02-14",
    "venue": "Dallas, USA",
    "projected": true,
    "benchmark": 20495380,
@@ -1707,7 +1707,7 @@
     "ATP"
    ],
    "start": "2027-02-15",
-   "end": "2027-02-22",
+   "end": "2027-02-21",
    "venue": "Delray Beach, USA",
    "projected": true,
    "benchmark": 13089791,
@@ -1721,7 +1721,7 @@
     "ATP"
    ],
    "start": "2027-02-15",
-   "end": "2027-02-21",
+   "end": "2027-02-20",
    "venue": "Doha, Qatar",
    "projected": true,
    "benchmark": 20495380,
@@ -1735,7 +1735,7 @@
     "ATP"
    ],
    "start": "2027-02-15",
-   "end": "2027-02-22",
+   "end": "2027-02-21",
    "venue": "Rio de Janeiro, Brazil",
    "projected": true,
    "benchmark": 20495380,
@@ -1763,7 +1763,7 @@
     "ATP"
    ],
    "start": "2027-02-22",
-   "end": "2027-03-01",
+   "end": "2027-02-28",
    "venue": "Santiago, Chile",
    "projected": true,
    "benchmark": 13089791,
@@ -1777,7 +1777,7 @@
     "ATP"
    ],
    "start": "2027-02-22",
-   "end": "2027-02-28",
+   "end": "2027-02-27",
    "venue": "Dubai, United Arab Emirates",
    "projected": true,
    "benchmark": 20495380,
@@ -1877,7 +1877,7 @@
     "ATP"
    ],
    "start": "2027-03-29",
-   "end": "2027-04-05",
+   "end": "2027-04-04",
    "venue": "Houston, USA",
    "projected": true,
    "benchmark": 13089791,
@@ -1891,7 +1891,7 @@
     "ATP"
    ],
    "start": "2027-03-29",
-   "end": "2027-04-05",
+   "end": "2027-04-04",
    "venue": "Marrakech, Morocco",
    "projected": true,
    "benchmark": 13089791,
@@ -1905,7 +1905,7 @@
     "ATP"
    ],
    "start": "2027-03-30",
-   "end": "2027-04-05",
+   "end": "2027-04-04",
    "venue": "Bucharest, Romania",
    "projected": true,
    "benchmark": 13089791,
@@ -1919,7 +1919,7 @@
     "ATP"
    ],
    "start": "2027-04-04",
-   "end": "2027-04-12",
+   "end": "2027-04-11",
    "venue": "Monte-Carlo, Monaco",
    "projected": true,
    "benchmark": 61319889,
@@ -1947,7 +1947,7 @@
     "ATP"
    ],
    "start": "2027-04-12",
-   "end": "2027-04-19",
+   "end": "2027-04-18",
    "venue": "Munich, Germany",
    "projected": true,
    "benchmark": 20495380,
@@ -1961,7 +1961,7 @@
     "ATP"
    ],
    "start": "2027-04-12",
-   "end": "2027-04-19",
+   "end": "2027-04-18",
    "venue": "Barcelona, Spain",
    "projected": true,
    "benchmark": 20495380,
@@ -2033,7 +2033,7 @@
     "ATP"
    ],
    "start": "2027-05-16",
-   "end": "2027-05-23",
+   "end": "2027-05-22",
    "venue": "Hamburg, Germany",
    "projected": true,
    "benchmark": 20495380,
@@ -2047,7 +2047,7 @@
     "ATP"
    ],
    "start": "2027-05-16",
-   "end": "2027-05-23",
+   "end": "2027-05-22",
    "venue": "Geneva, Switzerland",
    "projected": true,
    "benchmark": 13089791,
@@ -2104,7 +2104,7 @@
     "ATP"
    ],
    "start": "2027-06-07",
-   "end": "2027-06-14",
+   "end": "2027-06-13",
    "venue": "Stuttgart, Germany",
    "projected": true,
    "benchmark": 13089791,
@@ -2147,7 +2147,7 @@
     "ATP"
    ],
    "start": "2027-06-14",
-   "end": "2027-06-21",
+   "end": "2027-06-20",
    "venue": "London, Great Britain",
    "projected": true,
    "benchmark": 20495380,
@@ -2175,7 +2175,7 @@
     "ATP"
    ],
    "start": "2027-06-14",
-   "end": "2027-06-21",
+   "end": "2027-06-20",
    "venue": "Halle, Germany",
    "projected": true,
    "benchmark": 20495380,
@@ -2217,7 +2217,7 @@
     "ATP"
    ],
    "start": "2027-06-20",
-   "end": "2027-06-27",
+   "end": "2027-06-26",
    "venue": "Mallorca, Spain",
    "projected": true,
    "benchmark": 13089791,
@@ -2261,7 +2261,7 @@
     "ATP"
    ],
    "start": "2027-07-12",
-   "end": "2027-07-19",
+   "end": "2027-07-18",
    "venue": "Gstaad, Switzerland",
    "projected": true,
    "benchmark": 13089791,
@@ -2275,7 +2275,7 @@
     "ATP"
    ],
    "start": "2027-07-12",
-   "end": "2027-07-19",
+   "end": "2027-07-18",
    "venue": "B\u00e5stad, Sweden",
    "projected": true,
    "benchmark": 13089791,
@@ -2289,7 +2289,7 @@
     "ATP"
    ],
    "start": "2027-07-12",
-   "end": "2027-07-18",
+   "end": "2027-07-17",
    "venue": "Umag, Croatia",
    "projected": true,
    "benchmark": 13089791,
@@ -2331,7 +2331,7 @@
     "ATP"
    ],
    "start": "2027-07-19",
-   "end": "2027-07-25",
+   "end": "2027-07-24",
    "venue": "Kitzb\u00fchel, Austria",
    "projected": true,
    "benchmark": 13089791,
@@ -2373,7 +2373,7 @@
     "ATP"
    ],
    "start": "2027-07-19",
-   "end": "2027-07-26",
+   "end": "2027-07-25",
    "venue": "Estoril, Portugal",
    "projected": true,
    "benchmark": 13089791,
@@ -2401,7 +2401,7 @@
     "ATP"
    ],
    "start": "2027-07-26",
-   "end": "2027-08-03",
+   "end": "2027-08-02",
    "venue": "Washington, USA",
    "projected": true,
    "benchmark": 20495380,
@@ -2487,7 +2487,7 @@
     "ATP"
    ],
    "start": "2027-08-22",
-   "end": "2027-08-29",
+   "end": "2027-08-28",
    "venue": "Winston-Salem, USA",
    "projected": true,
    "benchmark": 13089791,
@@ -2572,7 +2572,7 @@
     "ATP"
    ],
    "start": "2027-09-22",
-   "end": "2027-09-29",
+   "end": "2027-09-28",
    "venue": "Hangzhou, China PR",
    "projected": true,
    "benchmark": 13089791,
@@ -2586,24 +2586,10 @@
     "ATP"
    ],
    "start": "2027-09-22",
-   "end": "2027-09-29",
+   "end": "2027-09-28",
    "venue": "Chengdu, China PR",
    "projected": true,
    "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Kinoshita Group Japan Open Tennis Championships",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-09-28",
-   "end": "2027-10-06",
-   "venue": "Tokyo, Japan",
-   "projected": true,
-   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2623,13 +2609,27 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Kinoshita Group Japan Open Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-09-29",
+   "end": "2027-10-05",
+   "venue": "Tokyo, Japan",
+   "projected": true,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Rolex Shanghai Masters",
    "tier": "ATP 1000",
    "tours": [
     "ATP"
    ],
    "start": "2027-10-06",
-   "end": "2027-10-18",
+   "end": "2027-10-17",
    "venue": "Shanghai, China PR",
    "projected": true,
    "benchmark": 61319889,
@@ -2657,7 +2657,7 @@
     "ATP"
    ],
    "start": "2027-10-18",
-   "end": "2027-10-25",
+   "end": "2027-10-24",
    "venue": "Almaty, Kazakhstan",
    "projected": true,
    "benchmark": 13089791,
@@ -2685,7 +2685,7 @@
     "ATP"
    ],
    "start": "2027-10-18",
-   "end": "2027-10-25",
+   "end": "2027-10-24",
    "venue": "Brussels, Belgium",
    "projected": true,
    "benchmark": 13089791,
@@ -2699,7 +2699,7 @@
     "ATP"
    ],
    "start": "2027-10-18",
-   "end": "2027-10-25",
+   "end": "2027-10-24",
    "venue": "Lyon, France",
    "projected": true,
    "benchmark": 13089791,
@@ -2727,7 +2727,7 @@
     "ATP"
    ],
    "start": "2027-10-25",
-   "end": "2027-11-01",
+   "end": "2027-10-31",
    "venue": "Vienna, Austria",
    "projected": true,
    "benchmark": 20495380,
@@ -2755,7 +2755,7 @@
     "ATP"
    ],
    "start": "2027-10-25",
-   "end": "2027-11-01",
+   "end": "2027-10-31",
    "venue": "Basel, Switzerland",
    "projected": true,
    "benchmark": 20495380,
@@ -2811,7 +2811,7 @@
     "ATP"
    ],
    "start": "2027-11-01",
-   "end": "2027-11-08",
+   "end": "2027-11-07",
    "venue": "",
    "projected": true,
    "benchmark": 61319889,
@@ -2825,7 +2825,7 @@
     "ATP"
    ],
    "start": "2027-11-07",
-   "end": "2027-11-14",
+   "end": "2027-11-13",
    "venue": "",
    "projected": true,
    "benchmark": 13089791,
