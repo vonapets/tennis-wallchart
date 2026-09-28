@@ -41,7 +41,7 @@ def main() -> int:
         f"{payload['window'][1]} — <b>{len(live)}</b> published, "
         f"<b>{len(proj)}</b> projected into 2027, <b>{len(chal)}</b> Challenger. "
         f"Main draws only; qualifying is excluded everywhere. "
-        f"<b>{len(combined)}</b> combined ATP+WTA events are one row, not two. "
+        f"<b>{len(combined)}</b> combined ATP+WTA events are one row with a bar per draw. "
         f"Pulled {pulled}."
     )
 

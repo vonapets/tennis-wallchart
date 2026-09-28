@@ -25,10 +25,17 @@ Open `calendar.html` from disk. One self-contained file, no server, no network.
 | Sub-tour | WTA 125, ATP Challenger 175 and 125 |
 | Excluded | **all qualifying**, doubles, ITF, Challenger 100 and below |
 | Window | 18 Sep 2026 → 31 Dec 2027, including anything still on court today |
-| Combined events | 17 of them are **one row with two draws**, not two rows |
+| Combined events | **one row, one bar per draw** — each draw keeps its own tier badge and dates (Beijing: ATP 500 to 6 Oct inside a WTA 1000 to 11 Oct) |
 
 Four views: **Season** (a Gantt of the whole window), **Months** (calendar
 grid), **List**, and **Challenger picks** (the ranking, with its evidence).
+A tournament appears in every month it is on court, not only the month it
+starts in — the China Open starts on 30 Sep and belongs in October too.
+
+**Every view draws the draws, not the row's headline tier.** Until 28 Sep 2026
+a combined row showed one badge, its best tier, and the China Open read as a
+WTA 1000 with no ATP event anywhere on the chart. The ATP 500 was in the data
+the whole time. Turning a tier off now hides just that tour's draw.
 
 ## The feeds, and the four ways they lie
 
@@ -48,20 +55,33 @@ request. Every ESPN pull is windowed a month at a time and merged by id.
 
 **2. The ESPN event date is *sometimes* the qualifying start — and only
 sometimes.** The US Open is published as 24 August; its main draw began on the
-30th. Roland Garros is published as 18 May and starts on the 24th. But Chengdu,
-Hangzhou, Tokyo and Beijing are published on the exact day their main draw
-begins. The difference is whether **qualifying has been scheduled yet**: ESPN
-extends an event's window backwards once it adds qualifying rounds, and before
-that the event date already *is* the main-draw Monday.
+30th. Roland Garros is published as 18 May and starts on the 24th. The
+difference is whether **qualifying has been scheduled yet**: ESPN extends an
+event's window backwards once it adds qualifying rounds, and before that the
+event date already *is* the main-draw Monday. It moves under you: on 18 Sep
+Tokyo and Beijing were published on their main-draw day, and by 27 Sep ESPN
+had added their qualifying and pushed both event dates back to the 27th.
+
+What does not move is the **round-by-round placeholder dates**. Once ESPN lays
+the rounds out, round 1 sits on its own day after the event date, untimed but
+correct: on 28 Sep they matched the WTA's official main-draw dates on all 17
+events checked, start *and* end. The old +2 offset put Beijing and Tokyo on
+29 Sep; they start on the 30th.
+
+The **end** date needs the same care. ESPN's `endDate` is midnight US Eastern
+written in UTC, so its date is the day *after* the final — and on a combined
+event it is the *women's* final. Beijing's men finish on 6 Oct; `endDate` says
+the 12th. Before this was fixed, 38 ATP events ended on a Monday.
 
 Getting this wrong is a silent one-day error on every undrawn tournament, which
-is what an earlier version of this did. So the date is resolved in three steps,
+is what an earlier version of this did. So the date is resolved in four steps,
 and every row says which one it used:
 
 | `start_source` | Meaning |
 |---|---|
 | `official` | the WTA API's own main-draw date — exact |
 | `drawn` | ESPN has timed the real main draw; earliest non-qualifying match |
+| `scheduled` | nothing timed yet, but ESPN has laid round 1 out on its own day |
 | `undrawn` | no qualifying rows exist, so ESPN's event date is the main draw |
 | `estimated` | qualifying is on the board but the main draw is not timed yet |
 

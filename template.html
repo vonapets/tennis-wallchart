@@ -51,6 +51,7 @@
   .tier{display:inline-block;padding:2px 8px;border-radius:5px;font-size:11px;
         font-weight:600;color:#fff;white-space:nowrap}
   .tier.lt,.ev.lt{color:#15181d}      /* light fills need dark text, not white */
+  .tiers{display:flex;flex-wrap:wrap;gap:3px}
   .nm{font-weight:600}
   .mut{color:var(--mut);font-size:12.5px}
   .proj{opacity:.62}
@@ -58,7 +59,7 @@
   .bar{position:relative;height:22px;background:var(--line);border-radius:4px;overflow:hidden}
   .bar span{position:absolute;top:0;bottom:0;border-radius:4px}
   .bar span.p{background-image:repeating-linear-gradient(45deg,transparent,transparent 4px,rgba(255,255,255,.45) 4px,rgba(255,255,255,.45) 8px)}
-  .mon{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+  .mon{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
   .mon .h{font-size:10px;color:var(--mut);text-align:center;padding:3px 0;text-transform:uppercase}
   .day{min-height:62px;border:1px solid var(--line);border-radius:5px;padding:3px 4px;background:var(--card)}
   .day.out{opacity:.3}
@@ -135,6 +136,32 @@ function rows(){
   });
 }
 
+// A combined event is one row with a draw per tour, and the draws are not
+// always alike: Beijing is an ATP 500 that ends on 6 Oct inside a WTA 1000 that
+// ends on the 11th. Drawing only the headline tier hid the ATP China Open
+// entirely, so every view renders these draws, not the row's headline.
+// Identical draws (a Slam: same tier, same days) collapse into one.
+function draws(r){
+  const tours = r.tours || [r.tour];
+  const all = tours.length > 1 && r.tiers
+    ? tours.map(t=>({tour:t, tier:r.tiers[t],
+        start:(r.starts||{})[t] || r.start, end:(r.ends||{})[t] || r.end,
+        src:(r.sources||{})[t] || r.start_source}))
+    : [{tour:r.tour, tier:r.headline_tier||r.tier, start:r.start, end:r.end, src:r.start_source}];
+  const out = [];
+  all.filter(d=>state.tiers.has(d.tier)).forEach(d=>{
+    const twin = out.find(o=>o.tier===d.tier && o.start===d.start && o.end===d.end);
+    twin ? twin.tour += ' + '+d.tour : out.push(d);
+  });
+  return out.sort((a,b)=>ORDER.indexOf(a.tier)-ORDER.indexOf(b.tier));
+}
+const sameDays = ds => ds.every(d=>d.start===ds[0].start && d.end===ds[0].end);
+const badges = ds => `<div class="tiers">${ds.map(d=>
+  `<span class="tier${lt(d.tier)}" style="background:${col(d.tier)}">${esc(d.tier)}</span>`).join('')}</div>`;
+const spans = (ds, f) => sameDays(ds)
+  ? f(ds[0])
+  : ds.map(d=>`<div>${esc(d.tour)} ${f(d)}</div>`).join('');
+
 function railInit(){
   const el = document.getElementById('tierRail');
   el.innerHTML = ORDER.map(t=>
@@ -148,30 +175,51 @@ function railInit(){
   });
 }
 
+// Every month a row is on court in, not just the one it starts in: the China
+// Open starts on 30 Sep and plays its whole second week in October, so filing
+// it under September alone left October's panel without it.
+function byMonthOf(list){
+  const out = {};
+  list.forEach(r=>{
+    const last = draws(r).reduce((m,d)=> (d.end||d.start) > m ? (d.end||d.start) : m, r.end||r.start).slice(0,7);
+    for(let m = r.start.slice(0,7); m <= last; ){
+      (out[m] ||= []).push(r);
+      const [y,mo] = m.split('-').map(Number);
+      m = mo===12 ? `${y+1}-01` : `${y}-${String(mo+1).padStart(2,'0')}`;
+    }
+  });
+  return out;
+}
+
 function season(list){
   if(!list.length) return '<div class="panel mut">Nothing matches those filters.</div>';
   // Each month is its own panel, so each bar is scaled to ITS month. Scaling to
   // the whole window instead makes every bar a 1%-wide sliver pinned to the
   // left edge, which is what this did before.
-  const byMonth = {};
-  list.forEach(r=>{ (byMonth[r.start.slice(0,7)] ||= []).push(r); });
+  const byMonth = byMonthOf(list);
   return Object.keys(byMonth).sort().map(m=>{
     const label = new Date(m+'-01T00:00:00').toLocaleDateString(undefined,{month:'long',year:'numeric'});
     const [Y0,M0] = m.split('-').map(Number);
     const lo = +new Date(Y0, M0-1, 1), hi = +new Date(Y0, M0, 1);
     const span = Math.max(hi-lo, 1);
     const body = byMonth[m].map(r=>{
-      const t = r.headline_tier||r.tier;
-      const a0=+new Date(r.start+'T00:00:00'), b0=+new Date((r.end||r.start)+'T00:00:00');
-      const a=Math.max(a0,lo), b=Math.min(Math.max(b0,a0+864e5),hi);   // clamp into the month
-      const L=Math.max((a-lo)/span*100,0).toFixed(2);
-      const W=Math.min(Math.max((b-a)/span*100,2.5),100-L).toFixed(2);
+      const ds = draws(r);
+      // one lane per draw, each in its own tier colour, sharing the bar's height
+      const h = 100/ds.length;
+      const lanes = ds.map((d,i)=>{
+        const a0=+new Date(d.start+'T00:00:00'), b0=+new Date((d.end||d.start)+'T00:00:00');
+        if(b0 < lo || a0 >= hi) return '';   // this draw is over (or not begun) this month
+        const a=Math.max(a0,lo), b=Math.min(Math.max(b0,a0+864e5),hi);   // clamp into the month
+        const L=Math.max((a-lo)/span*100,0).toFixed(2);
+        const W=Math.min(Math.max((b-a)/span*100,2.5),100-L).toFixed(2);
+        return `<span class="${r.projected?'p':''}" title="${esc(d.tour+' '+d.tier)}"
+            style="left:${L}%;width:${W}%;top:${(i*h).toFixed(2)}%;bottom:auto;height:calc(${h.toFixed(2)}% - ${ds.length>1?1:0}px);background:${col(d.tier)}"></span>`;
+      }).join('');
       return `<tr class="${r.projected?'proj':''}">
-        <td style="width:120px"><span class="tier${lt(t)}" style="background:${col(t)}">${esc(t)}</span></td>
+        <td style="width:120px">${badges(ds)}</td>
         <td><span class="nm">${esc(r.name)}</span><div class="mut">${esc(r.venue||'')}</div></td>
-        <td class="hide-s" style="width:150px"><span class="mut">${fmt(r.start)} – ${fmt(r.end||r.start)}</span></td>
-        <td style="width:42%"><div class="bar"><span class="${r.projected?'p':''}"
-            style="left:${L}%;width:${W}%;background:${col(t)}"></span></div></td></tr>`;
+        <td class="hide-s" style="width:150px"><span class="mut">${spans(ds, d=>`${fmt(d.start)} – ${fmt(d.end||d.start)}`)}</span></td>
+        <td style="width:42%"><div class="bar">${lanes}</div></td></tr>`;
     }).join('');
     return `<div class="mhead">${esc(label)}</div><div class="panel" style="padding:10px 14px">
       <table>${body}</table></div>`;
@@ -179,9 +227,20 @@ function season(list){
 }
 
 function months(list){
-  const byMonth={};
-  list.forEach(r=>{ (byMonth[r.start.slice(0,7)] ||= []).push(r); });
+  const byMonth = byMonthOf(list);
   const dows=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  // Indian Wells (ATP 1000 + WTA 1000, same days) stays one chip. Beijing
+  // (ATP 500 to 6 Oct, WTA 1000 to 11 Oct) gets a chip per tour, or the grid
+  // shows no ATP China Open at all.
+  const level = t => t.replace(/^(ATP|WTA) /,'');
+  const chips = list.flatMap(r=>{
+    const ds = draws(r);
+    const split = ds.length>1 && !(sameDays(ds) && ds.every(d=>level(d.tier)===level(ds[0].tier)));
+    const title = r.name+' — '+ds.map(d=>d.tier).join(' + ');
+    return split
+      ? ds.map(d=>({...d, name:`${r.name} · ${d.tour}`, title, projected:r.projected}))
+      : [{...ds[0], name:r.name, title, projected:r.projected}];
+  });
   return Object.keys(byMonth).sort().map(m=>{
     const [Y,M]=m.split('-').map(Number);
     const first=new Date(Y,M-1,1), last=new Date(Y,M,0);
@@ -189,11 +248,11 @@ function months(list){
     for(let i=0;i<pad;i++) cells+='<div class="day out"></div>';
     for(let d=1;d<=last.getDate();d++){
       const iso=`${Y}-${String(M).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-      const on=list.filter(r=> r.start<=iso && iso<=(r.end||r.start));
+      const on=chips.filter(c=> c.start<=iso && iso<=(c.end||c.start));
       cells+=`<div class="day"><div class="n">${d}</div>`+
-        on.slice(0,3).map(r=>{const t=r.headline_tier||r.tier;
-          return `<div class="ev${lt(t)}" style="background:${col(t)};${r.projected?'opacity:.6':''}"
-                   title="${esc(r.name)}">${esc(r.name)}</div>`;}).join('')+
+        on.slice(0,3).map(c=>
+          `<div class="ev${lt(c.tier)}" style="background:${col(c.tier)};${c.projected?'opacity:.6':''}"
+                   title="${esc(c.title)}">${esc(c.name)}</div>`).join('')+
         (on.length>3?`<div class="n">+${on.length-3}</div>`:'')+`</div>`;
     }
     const label=first.toLocaleDateString(undefined,{month:'long',year:'numeric'});
@@ -206,12 +265,12 @@ function listing(list){
   if(!list.length) return '<div class="panel mut">Nothing matches those filters.</div>';
   return `<div class="panel"><table>
     <tr><th>Tier</th><th>Tournament</th><th class="hide-s">Tours</th><th>Main draw</th><th class="hide-s">Source</th></tr>
-    ${list.map(r=>{const t=r.headline_tier||r.tier;return `<tr class="${r.projected?'proj':''}">
-      <td><span class="tier${lt(t)}" style="background:${col(t)}">${esc(t)}</span></td>
+    ${list.map(r=>{const ds=draws(r);return `<tr class="${r.projected?'proj':''}">
+      <td>${badges(ds)}</td>
       <td><span class="nm">${esc(r.name)}</span><div class="mut">${esc(r.venue||'')}</div></td>
       <td class="hide-s mut">${esc((r.tours||[r.tour]).join(' + '))}</td>
-      <td>${fmtY(r.start)}<div class="mut">to ${fmt(r.end||r.start)}</div></td>
-      <td class="hide-s"><span class="flag">${esc(r.start_source)}</span></td></tr>`}).join('')}
+      <td>${spans(ds, d=>`${fmtY(d.start)}<div class="mut">to ${fmt(d.end||d.start)}</div>`)}</td>
+      <td class="hide-s">${[...new Set(ds.map(d=>d.src))].map(s=>`<span class="flag">${esc(s)}</span>`).join(' ')}</td></tr>`}).join('')}
   </table></div>`;
 }
 

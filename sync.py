@@ -128,6 +128,15 @@ def pull_wta() -> tuple[list[dict], int]:
 
 
 # ------------------------------------------------------------------ ATP
+def eastern_date(stamp: str) -> str:
+    """'2026-10-19T03:59Z' -> '2026-10-18'. ESPN ends events at midnight ET."""
+    try:
+        t = datetime.strptime(stamp, "%Y-%m-%dT%H:%MZ")
+    except ValueError:
+        return stamp[:10]
+    return (t - timedelta(hours=5)).strftime("%Y-%m-%d")
+
+
 def is_qualifying(comp: dict) -> bool:
     return ((comp.get("round") or {}).get("displayName", "")
             .strip().lower().startswith("qualif"))
@@ -191,8 +200,15 @@ def pull_atp() -> tuple[list[dict], int]:
                     if c.get("timeValid") and c.get("date"):
                         main.append(c["date"][:10])
             qual_start = e.get("date", "")[:10]
+            # once ESPN lays the rounds out on their own days, round 1 sits
+            # AFTER the event date even though nothing is timed. Those dates
+            # matched the WTA's official main draw on all 17 events checked on
+            # 28 Sep, while the +2 offset put Beijing and Tokyo a day early.
+            laid_out = bool(placeholder) and min(placeholder) > qual_start
             if main:
                 start, how = min(main), "drawn"
+            elif laid_out:
+                start, how = min(placeholder), "scheduled"
             elif quals == 0 and placeholder:
                 # No qualifying rows exist yet, so ESPN has not extended the
                 # event window backwards and its date is ALREADY the main-draw
@@ -207,10 +223,18 @@ def pull_atp() -> tuple[list[dict], int]:
                 start = (datetime.strptime(qual_start, "%Y-%m-%d")
                          + timedelta(days=days)).strftime("%Y-%m-%d")
                 how = "estimated"
+            # ESPN's endDate is midnight US Eastern written in UTC, so its date
+            # is the day AFTER the final -- and on a combined event it is the
+            # WOMEN'S final: Beijing's men finish on 6 Oct, endDate says the
+            # 12th. The men's final placeholder is exact once rounds are laid out.
+            if placeholder and max(placeholder) > qual_start:
+                end = max(placeholder)
+            else:
+                end = eastern_date(e.get("endDate", ""))
             rows.append({
                 "key": f"atp:{e['id']}", "espn_id": tid, "name": e.get("name", ""),
                 "tour": "ATP", "tier": tier, "venue": venue,
-                "start": start, "end": e.get("endDate", "")[:10],
+                "start": start, "end": end,
                 "qualifying_start": qual_start, "main_draw_matches": singles,
                 "qualifying_matches": quals,
                 "start_source": how, "src": "espn",
@@ -278,10 +302,14 @@ def merge_combined(rows: list[dict]) -> list[dict]:
         if r["tour"] not in cur["tours"]:
             cur["tours"].append(r["tour"])
         cur["tiers"][r["tour"]] = r["tier"]
-        # keep BOTH dates: a merged row still has two draws, and discarding
-        # one of them is how a tour ends up shown on the wrong week
-        cur.setdefault("starts", {})[r["tour"]] = r["start"]
-        cur["starts"].setdefault(cur.get("tour", ""), cur["start"])
+        # keep BOTH draws whole: a merged row still has two, and discarding one
+        # is how the ATP China Open (ends 6 Oct) vanished behind the WTA 1000
+        # badge and the WTA's 11 Oct final. Record cur's own draw first,
+        # before the official dates below overwrite its top-level fields.
+        for many, one in (("starts", "start"), ("ends", "end"),
+                          ("sources", "start_source")):
+            cur.setdefault(many, {}).setdefault(cur.get("tour", ""), cur[one])
+            cur[many][r["tour"]] = r[one]
         # prefer the official WTA dates where the two disagree
         if r.get("start_source") == "official":
             cur["start"], cur["end"] = r["start"], r["end"]
@@ -326,6 +354,14 @@ def project(rows: list[dict]) -> list[dict]:
         for k in ("start", "end"):
             if r.get(k):
                 n[k] = (datetime.strptime(r[k], "%Y-%m-%d") + shift).strftime("%Y-%m-%d")
+        # a combined row's per-draw dates move with it, or the projected
+        # China Open draws an ATP bar back in 2026
+        for k in ("starts", "ends"):
+            for tour, d in (n.get(k) or {}).items():
+                if d:
+                    n[k][tour] = (datetime.strptime(d, "%Y-%m-%d") + shift).strftime("%Y-%m-%d")
+        if n.get("sources"):
+            n["sources"] = {tour: "projected" for tour in n["sources"]}
         n["start_source"] = "projected"
         out.append(n)
     return out
