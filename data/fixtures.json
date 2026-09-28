@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T23:51:56+00:00",
+ "generated": "2026-09-28T08:47:44+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -2851,12 +2851,12 @@
    "projected": true
   },
   {
-   "key": "proj:wta:2034:2026-04-27",
-   "name": "L'Open 35 de Saint Malo",
+   "key": "proj:wta:1142:2026-04-27",
+   "name": "2026 Huzhou Open \u00b7 HuzhouWuxing",
    "tour": "WTA",
    "tier": "WTA 125",
-   "venue": "Saint Malo, FRA",
-   "city": "Saint Malo",
+   "venue": "Huzhou, CHN",
+   "city": "Huzhou",
    "start": "2027-04-26",
    "end": "2027-05-02",
    "surface": "Clay",
