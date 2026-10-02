@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T17:04:35+00:00",
+ "generated": "2026-10-02T00:58:11+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -136,14 +136,15 @@
    "north_america": true,
    "runs_alongside": true,
    "clash": [
-    "National Bank Open presented by Rogers"
+    "National Bank Open presented by Rogers",
+    "Omnium Banque Nationale pr\u00e9sent\u00e9 par Rogers"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
     "North America (x2.38 Kalshi median, tiebreaker only)",
-    "runs alongside National Bank Open presented by Rogers"
+    "runs alongside National Bank Open presented by Rogers, Omnium Banque Nationale pr\u00e9sent\u00e9 par Rogers"
    ],
    "rank": 7
   },
@@ -605,13 +606,14 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
+    "Qatar Ladies Open",
     "Qatar TotalEnergies Open"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Qatar TotalEnergies Open"
+    "runs alongside Qatar Ladies Open, Qatar TotalEnergies Open"
    ],
    "rank": 30
   },
@@ -877,13 +879,14 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
-    "National Bank Open presented by Rogers"
+    "National Bank Open presented by Rogers",
+    "Omnium Banque Nationale pr\u00e9sent\u00e9 par Rogers"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside National Bank Open presented by Rogers"
+    "runs alongside National Bank Open presented by Rogers, Omnium Banque Nationale pr\u00e9sent\u00e9 par Rogers"
    ],
    "rank": 44
   },
@@ -1081,12 +1084,15 @@
    "projected": true,
    "score": 1.0,
    "north_america": false,
-   "runs_alongside": false,
-   "clash": [],
+   "runs_alongside": true,
+   "clash": [
+    "WTA Finals Charlotte"
+   ],
    "evidence": "E",
    "confidence": "none",
    "why": [
-    "Challenger 125"
+    "Challenger 125",
+    "runs alongside WTA Finals Charlotte"
    ],
    "rank": 54
   },
@@ -1468,7 +1474,7 @@
    "start": "2027-01-01",
    "end": "2027-01-10",
    "venue": "Perth + Sydney, AUS",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1489,6 +1495,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Brisbane International presented by ANZ",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-01-03",
+   "end": "2027-01-10",
+   "venue": "Brisbane, AUS",
+   "projected": false,
+   "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "ASB Classic",
    "tier": "WTA 250",
    "tours": [
@@ -1497,7 +1517,7 @@
    "start": "2027-01-04",
    "end": "2027-01-10",
    "venue": "Auckland, NZL",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1517,30 +1537,15 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "ASB Classic",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-10",
-   "end": "2027-01-16",
-   "venue": "Auckland, New Zealand",
-   "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "Adelaide International",
    "tier": "WTA 500",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-01-11",
    "end": "2027-01-16",
    "venue": "Adelaide, AUS",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1554,7 +1559,7 @@
    "start": "2027-01-11",
    "end": "2027-01-16",
    "venue": "Hobart, AUS",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1563,13 +1568,12 @@
    "name": "Australian Open",
    "tier": "Grand Slam",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-01-17",
    "end": "2027-01-31",
    "venue": "Melbourne, AUS",
-   "projected": true,
+   "projected": false,
    "benchmark": 134185662,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1583,7 +1587,7 @@
    "start": "2027-01-31",
    "end": "2027-02-06",
    "venue": "Abu Dhabi, UAE",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1597,7 +1601,7 @@
    "start": "2027-01-31",
    "end": "2027-02-06",
    "venue": "Ostrava, CZE",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1611,7 +1615,7 @@
    "start": "2027-01-31",
    "end": "2027-02-06",
    "venue": "Cluj-Napoca, ROU",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1627,6 +1631,20 @@
    "venue": "Montpellier, France",
    "projected": true,
    "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Qatar Ladies Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-02-07",
+   "end": "2027-02-13",
+   "venue": "Doha, QAT",
+   "projected": false,
+   "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1695,7 +1713,7 @@
    "start": "2027-02-14",
    "end": "2027-02-20",
    "venue": "Dubai, UAE",
-   "projected": true,
+   "projected": false,
    "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1751,7 +1769,7 @@
    "start": "2027-02-22",
    "end": "2027-02-28",
    "venue": "Austin, USA",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1771,20 +1789,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Dubai Duty Free Tennis Championships",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-02-22",
-   "end": "2027-02-27",
-   "venue": "Dubai, United Arab Emirates",
-   "projected": true,
-   "benchmark": 20495380,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "M\u00c9RIDA OPEN",
    "tier": "WTA 500",
    "tours": [
@@ -1793,7 +1797,7 @@
    "start": "2027-02-22",
    "end": "2027-02-28",
    "venue": "M\u00e9rida, MEX",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1814,31 +1818,29 @@
   },
   {
    "name": "BNP Paribas Open",
-   "tier": "ATP 1000",
+   "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-03-03",
    "end": "2027-03-14",
    "venue": "Indian Wells, USA",
-   "projected": true,
-   "benchmark": 61319889,
+   "projected": false,
+   "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
    "name": "Miami Open presented by Ita\u00fa",
-   "tier": "ATP 1000",
+   "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-03-16",
    "end": "2027-03-28",
    "venue": "Miami, USA",
-   "projected": true,
-   "benchmark": 61319889,
+   "projected": false,
+   "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -1851,7 +1853,7 @@
    "start": "2027-03-29",
    "end": "2027-04-04",
    "venue": "Bogota, COL",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1865,7 +1867,7 @@
    "start": "2027-03-29",
    "end": "2027-04-04",
    "venue": "Charleston, USA",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1935,7 +1937,7 @@
    "start": "2027-04-05",
    "end": "2027-04-11",
    "venue": "Linz, AUT",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1977,7 +1979,7 @@
    "start": "2027-04-12",
    "end": "2027-04-18",
    "venue": "Rouen, FRA",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1991,38 +1993,50 @@
    "start": "2027-04-12",
    "end": "2027-04-18",
    "venue": "Stuttgart, GER",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
    "name": "Mutua Madrid Open",
-   "tier": "ATP 1000",
+   "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-04-20",
    "end": "2027-05-02",
    "venue": "Madrid, ESP",
-   "projected": true,
-   "benchmark": 61319889,
+   "projected": false,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Grand Prix Son Altesse Royale La Princesse Lalla Meryem",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-04-27",
+   "end": "2027-05-02",
+   "venue": "Rabat, MAR",
+   "projected": false,
+   "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
    "name": "Internazionali BNL d'Italia",
-   "tier": "ATP 1000",
+   "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-05-04",
    "end": "2027-05-16",
    "venue": "Rome, ITA",
-   "projected": true,
-   "benchmark": 61319889,
+   "projected": false,
+   "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2063,22 +2077,8 @@
    "start": "2027-05-16",
    "end": "2027-05-22",
    "venue": "Strasbourg, FRA",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Grand Prix Son Altesse Royale La Princesse Lalla Meryem",
-   "tier": "WTA 250",
-   "tours": [
-    "WTA"
-   ],
-   "start": "2027-05-17",
-   "end": "2027-05-22",
-   "venue": "Rabat, MAR",
-   "projected": true,
-   "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2086,13 +2086,12 @@
    "name": "Roland Garros",
    "tier": "Grand Slam",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-05-23",
    "end": "2027-06-06",
    "venue": "Paris, FRA",
-   "projected": true,
+   "projected": false,
    "benchmark": 134185662,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2112,22 +2111,7 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Lib\u00e9ma Open - 's",
-   "tier": "ATP 250",
-   "tours": [
-    "WTA",
-    "ATP"
-   ],
-   "start": "2027-06-07",
-   "end": "2027-06-13",
-   "venue": "'S-Hertogenbosch, NED",
-   "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "The HSBC Championships",
+   "name": "HSBC Championships",
    "tier": "WTA 500",
    "tours": [
     "WTA"
@@ -2135,22 +2119,22 @@
    "start": "2027-06-07",
    "end": "2027-06-13",
    "venue": "London, GBR",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "HSBC Championships",
-   "tier": "ATP 500",
+   "name": "Lib\u00e9ma Open - 's",
+   "tier": "WTA 250",
    "tours": [
-    "ATP"
+    "WTA"
    ],
-   "start": "2027-06-14",
-   "end": "2027-06-20",
-   "venue": "London, Great Britain",
-   "projected": true,
-   "benchmark": 20495380,
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "venue": "'S-Hertogenbosch, NED",
+   "projected": false,
+   "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2163,7 +2147,7 @@
    "start": "2027-06-14",
    "end": "2027-06-20",
    "venue": "Nottingham, GBR",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2191,7 +2175,7 @@
    "start": "2027-06-14",
    "end": "2027-06-20",
    "venue": "Berlin, GER",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2205,7 +2189,7 @@
    "start": "2027-06-20",
    "end": "2027-06-26",
    "venue": "Bad Homburg, GER",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2243,13 +2227,12 @@
    "name": "The Championships, Wimbledon",
    "tier": "Grand Slam",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-06-28",
    "end": "2027-07-11",
    "venue": "Wimbledon, GBR",
-   "projected": true,
+   "projected": false,
    "benchmark": 134185662,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2265,6 +2248,20 @@
    "venue": "Gstaad, Switzerland",
    "projected": true,
    "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "MSC Hamburg Ladies Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-12",
+   "end": "2027-07-18",
+   "venue": "Hamburg, GER",
+   "projected": false,
+   "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2297,20 +2294,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "UniCredit Iasi Open",
-   "tier": "WTA 250",
-   "tours": [
-    "WTA"
-   ],
-   "start": "2027-07-12",
-   "end": "2027-07-18",
-   "venue": "Iasi, ROU",
-   "projected": true,
-   "benchmark": 9544818,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "Vanda Pharmaceuticals Athens Open",
    "tier": "WTA 250",
    "tours": [
@@ -2319,7 +2302,7 @@
    "start": "2027-07-12",
    "end": "2027-07-18",
    "venue": "Athens, GRE",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2347,21 +2330,7 @@
    "start": "2027-07-19",
    "end": "2027-07-25",
    "venue": "Prague, CZE",
-   "projected": true,
-   "benchmark": 9544818,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "MSC Hamburg Ladies Open",
-   "tier": "WTA 250",
-   "tours": [
-    "WTA"
-   ],
-   "start": "2027-07-19",
-   "end": "2027-07-25",
-   "venue": "Hamburg, GER",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2381,6 +2350,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "UniCredit Iasi Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "venue": "Iasi, ROU",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Mubadala DC Open",
    "tier": "WTA 500",
    "tours": [
@@ -2389,22 +2372,8 @@
    "start": "2027-07-26",
    "end": "2027-08-01",
    "venue": "Washington Dc, USA",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Mubadala DC Open",
-   "tier": "ATP 500",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-07-26",
-   "end": "2027-08-02",
-   "venue": "Washington, USA",
-   "projected": true,
-   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2417,7 +2386,7 @@
    "start": "2027-07-26",
    "end": "2027-08-01",
    "venue": "Memphis, USA",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2452,17 +2421,30 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Cincinnati Open",
-   "tier": "ATP 1000",
+   "name": "Omnium Banque Nationale pr\u00e9sent\u00e9 par Rogers",
+   "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
+   ],
+   "start": "2027-08-01",
+   "end": "2027-08-12",
+   "venue": "Montreal, CAN",
+   "projected": false,
+   "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Cincinnati Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA"
    ],
    "start": "2027-08-12",
    "end": "2027-08-22",
    "venue": "Cincinnati, USA",
-   "projected": true,
-   "benchmark": 61319889,
+   "projected": false,
+   "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2475,7 +2457,7 @@
    "start": "2027-08-22",
    "end": "2027-08-28",
    "venue": "Monterrey, MEX",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2498,13 +2480,12 @@
    "name": "US Open",
    "tier": "Grand Slam",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-08-29",
    "end": "2027-09-12",
    "venue": "New York, USA",
-   "projected": true,
+   "projected": false,
    "benchmark": 134185662,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2518,7 +2499,7 @@
    "start": "2027-09-12",
    "end": "2027-09-18",
    "venue": "Guadalajara, MEX",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2532,7 +2513,7 @@
    "start": "2027-09-13",
    "end": "2027-09-19",
    "venue": "Sao Paulo, BRA",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2546,8 +2527,22 @@
    "start": "2027-09-20",
    "end": "2027-09-26",
    "venue": "Seoul, KOR",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Singapore Tennis Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-09-20",
+   "end": "2027-09-26",
+   "venue": "Singapore, SGP",
+   "projected": false,
+   "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2597,13 +2592,12 @@
    "name": "China Open",
    "tier": "WTA 1000",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "start": "2027-09-29",
    "end": "2027-10-10",
    "venue": "Beijing, CHN",
-   "projected": true,
+   "projected": false,
    "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2645,7 +2639,7 @@
    "start": "2027-10-11",
    "end": "2027-10-17",
    "venue": "Wuhan, CHN",
-   "projected": true,
+   "projected": false,
    "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2715,8 +2709,22 @@
    "start": "2027-10-18",
    "end": "2027-10-24",
    "venue": "Osaka, JPN",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Ningbo Open",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-18",
+   "end": "2027-10-24",
+   "venue": "Ningbo, CHN",
+   "projected": false,
+   "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2743,7 +2751,7 @@
    "start": "2027-10-25",
    "end": "2027-10-31",
    "venue": "Guangzhou, CHN",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2771,7 +2779,7 @@
    "start": "2027-10-25",
    "end": "2027-10-31",
    "venue": "Tokyo, JPN",
-   "projected": true,
+   "projected": false,
    "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2791,6 +2799,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Philippine Women's Open",
+   "tier": "WTA 250",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-11-01",
+   "end": "2027-11-07",
+   "venue": "Manila, PHI",
+   "projected": false,
+   "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Prudential Hong Kong Tennis Open",
    "tier": "WTA 250",
    "tours": [
@@ -2799,7 +2821,7 @@
    "start": "2027-11-01",
    "end": "2027-11-07",
    "venue": "Hong Kong, HKG",
-   "projected": true,
+   "projected": false,
    "benchmark": 9544818,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
