@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T08:39:58+00:00",
+ "generated": "2026-10-02T16:18:56+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -2833,14 +2833,28 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2027-04-26"
-   },
-   "ends": {
-    "WTA": "2027-05-02"
-   },
-   "sources": {
-    "WTA": "projected"
+   "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
+   "key": "proj:wta:2034:2026-04-27",
+   "name": "L'Open 35 de Saint Malo",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Saint Malo, FRA",
+   "city": "Saint Malo",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -3321,6 +3335,29 @@
    "projected": true
   },
   {
+   "key": "proj:atp:415-2026",
+   "espn_id": "415",
+   "name": "Lib\u00e9ma Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "'s-Hertogenbosch, Netherlands",
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "qualifying_start": "2026-06-06",
+   "main_draw_matches": 27,
+   "qualifying_matches": 22,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
    "key": "wta:822:2027-06-07",
    "name": "Lib\u00e9ma Open - 's",
    "tour": "WTA",
@@ -3556,7 +3593,7 @@
    "projected": true
   },
   {
-   "key": "proj:wta:710:2026-06-22",
+   "key": "wta:710:2027-06-21",
    "name": "Lexus Eastbourne Open",
    "tour": "WTA",
    "tier": "WTA 250",
@@ -3567,30 +3604,16 @@
    "surface": "Grass",
    "draw": 0,
    "prize": 0,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
-    "WTA",
-    "ATP"
+    "WTA"
    ],
    "tiers": {
-    "WTA": "WTA 250",
-    "ATP": "ATP 250"
+    "WTA": "WTA 250"
    },
-   "starts": {
-    "WTA": "2027-06-21",
-    "ATP": "2027-06-21"
-   },
-   "ends": {
-    "WTA": "2027-06-26",
-    "ATP": "2027-06-27"
-   },
-   "sources": {
-    "WTA": "projected",
-    "ATP": "projected"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
+   "headline_tier": "WTA 250",
+   "projected": false
   },
   {
    "key": "wta:904:2027-06-28",
