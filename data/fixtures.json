@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T08:32:42+00:00",
+ "generated": "2026-10-04T15:26:56+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -499,10 +499,10 @@
    "venue": "Shanghai, China PR",
    "start": "2026-10-07",
    "end": "2026-10-18",
-   "qualifying_start": "2026-10-07",
+   "qualifying_start": "2026-10-05",
    "main_draw_matches": 127,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_matches": 36,
+   "start_source": "scheduled",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5030,9 +5030,9 @@
    "venue": "Shanghai, China PR",
    "start": "2027-10-06",
    "end": "2027-10-17",
-   "qualifying_start": "2026-10-07",
+   "qualifying_start": "2026-10-05",
    "main_draw_matches": 127,
-   "qualifying_matches": 0,
+   "qualifying_matches": 36,
    "start_source": "projected",
    "src": "espn",
    "tours": [
