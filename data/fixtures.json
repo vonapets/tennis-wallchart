@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T00:52:03+00:00",
+ "generated": "2026-10-07T08:52:09+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -515,7 +515,7 @@
   },
   {
    "key": "wta:1075:2026-10-12",
-   "name": "Dongfeng - Voyah Wuhan Open",
+   "name": "Dongfeng \u00b7 Voyah Wuhan Open",
    "tour": "WTA",
    "tier": "WTA 1000",
    "venue": "Wuhan, CHN",
@@ -5046,7 +5046,7 @@
   },
   {
    "key": "proj:wta:1075:2026-10-12",
-   "name": "Dongfeng - Voyah Wuhan Open",
+   "name": "Dongfeng \u00b7 Voyah Wuhan Open",
    "tour": "WTA",
    "tier": "WTA 1000",
    "venue": "Wuhan, CHN",
