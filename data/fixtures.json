@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T16:52:31+00:00",
+ "generated": "2026-10-07T00:52:03+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -514,6 +514,29 @@
    "projected": false
   },
   {
+   "key": "wta:1075:2026-10-12",
+   "name": "Dongfeng - Voyah Wuhan Open",
+   "tour": "WTA",
+   "tier": "WTA 1000",
+   "venue": "Wuhan, CHN",
+   "city": "Wuhan",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "surface": "Hard",
+   "draw": 56,
+   "prize": 4088211,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 1000"
+   },
+   "headline_tier": "WTA 1000",
+   "projected": false
+  },
+  {
    "key": "chal:Jinan Open:2026-10-12",
    "name": "Jinan Open",
    "tour": "Challenger",
@@ -608,29 +631,6 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": false
-  },
-  {
-   "key": "wta:1075:2026-10-12",
-   "name": "Wuhan Open",
-   "tour": "WTA",
-   "tier": "WTA 1000",
-   "venue": "Wuhan, CHN",
-   "city": "Wuhan",
-   "start": "2026-10-12",
-   "end": "2026-10-18",
-   "surface": "Hard",
-   "draw": 56,
-   "prize": 4088211,
-   "start_source": "official",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 1000"
-   },
-   "headline_tier": "WTA 1000",
    "projected": false
   },
   {
@@ -5042,6 +5042,29 @@
     "ATP": "ATP 1000"
    },
    "headline_tier": "ATP 1000",
+   "projected": true
+  },
+  {
+   "key": "proj:wta:1075:2026-10-12",
+   "name": "Dongfeng - Voyah Wuhan Open",
+   "tour": "WTA",
+   "tier": "WTA 1000",
+   "venue": "Wuhan, CHN",
+   "city": "Wuhan",
+   "start": "2027-10-11",
+   "end": "2027-10-17",
+   "surface": "Hard",
+   "draw": 56,
+   "prize": 4088211,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 1000"
+   },
+   "headline_tier": "WTA 1000",
    "projected": true
   },
   {

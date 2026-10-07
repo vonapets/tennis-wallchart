@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T16:52:32+00:00",
+ "generated": "2026-10-07T00:52:03+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -381,13 +381,13 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
-    "Wuhan Open"
+    "Dongfeng - Voyah Wuhan Open"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Wuhan Open"
+    "runs alongside Dongfeng - Voyah Wuhan Open"
    ],
    "rank": 19
   },
@@ -403,13 +403,13 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
-    "Wuhan Open"
+    "Dongfeng - Voyah Wuhan Open"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Wuhan Open"
+    "runs alongside Dongfeng - Voyah Wuhan Open"
    ],
    "rank": 20
   },
@@ -1000,13 +1000,14 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
+    "Dongfeng - Voyah Wuhan Open",
     "Wuhan Open"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Wuhan Open"
+    "runs alongside Dongfeng - Voyah Wuhan Open, Wuhan Open"
    ],
    "rank": 50
   },
@@ -1022,13 +1023,14 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
+    "Dongfeng - Voyah Wuhan Open",
     "Wuhan Open"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Wuhan Open"
+    "runs alongside Dongfeng - Voyah Wuhan Open, Wuhan Open"
    ],
    "rank": 51
   },
@@ -1270,7 +1272,7 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Wuhan Open",
+   "name": "Dongfeng - Voyah Wuhan Open",
    "tier": "WTA 1000",
    "tours": [
     "WTA"
@@ -2640,6 +2642,20 @@
    "venue": "Shanghai, China PR",
    "projected": true,
    "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Dongfeng - Voyah Wuhan Open",
+   "tier": "WTA 1000",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-10-11",
+   "end": "2027-10-17",
+   "venue": "Wuhan, CHN",
+   "projected": true,
+   "benchmark": 45175961,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
