@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T14:56:59+00:00",
+ "generated": "2026-10-16T23:44:28+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -642,10 +642,10 @@
    "venue": "Almaty, Kazakhstan",
    "start": "2026-10-19",
    "end": "2026-10-25",
-   "qualifying_start": "2026-10-19",
+   "qualifying_start": "2026-10-17",
    "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_matches": 12,
+   "start_source": "scheduled",
    "src": "espn",
    "tours": [
     "ATP"
@@ -688,10 +688,10 @@
    "venue": "Brussels, Belgium",
    "start": "2026-10-19",
    "end": "2026-10-25",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_start": "2026-10-17",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
+   "start_source": "scheduled",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5173,9 +5173,9 @@
    "venue": "Almaty, Kazakhstan",
    "start": "2027-10-18",
    "end": "2027-10-24",
-   "qualifying_start": "2026-10-19",
+   "qualifying_start": "2026-10-17",
    "main_draw_matches": 31,
-   "qualifying_matches": 0,
+   "qualifying_matches": 12,
    "start_source": "projected",
    "src": "espn",
    "tours": [
@@ -5219,9 +5219,9 @@
    "venue": "Brussels, Belgium",
    "start": "2027-10-18",
    "end": "2027-10-24",
-   "qualifying_start": "2026-10-19",
-   "main_draw_matches": 31,
-   "qualifying_matches": 0,
+   "qualifying_start": "2026-10-17",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
    "start_source": "projected",
    "src": "espn",
    "tours": [
