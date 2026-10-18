@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T07:18:26+00:00",
+ "generated": "2026-10-18T14:04:37+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -645,7 +645,7 @@
    "qualifying_start": "2026-10-17",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
-   "start_source": "scheduled",
+   "start_source": "drawn",
    "src": "espn",
    "tours": [
     "ATP"
@@ -714,7 +714,7 @@
    "qualifying_start": "2026-10-18",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
-   "start_source": "scheduled",
+   "start_source": "drawn",
    "src": "espn",
    "tours": [
     "ATP"
