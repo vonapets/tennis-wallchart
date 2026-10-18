@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T14:04:37+00:00",
+ "generated": "2026-10-18T23:25:27+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -691,29 +691,6 @@
    "qualifying_start": "2026-10-17",
    "main_draw_matches": 27,
    "qualifying_matches": 12,
-   "start_source": "scheduled",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": false
-  },
-  {
-   "key": "atp:452-2026",
-   "espn_id": "452",
-   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Lyon, France",
-   "start": "2026-10-19",
-   "end": "2026-10-25",
-   "qualifying_start": "2026-10-18",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
    "start_source": "drawn",
    "src": "espn",
    "tours": [
@@ -769,6 +746,29 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
+   "key": "atp:452-2026",
+   "espn_id": "452",
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2026-10-20",
+   "end": "2026-10-25",
+   "qualifying_start": "2026-10-18",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
    "projected": false
   },
   {
@@ -1164,6 +1164,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2026-11-09"
+   },
+   "ends": {
+    "WTA": "2026-11-14"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1214,6 +1223,15 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2026-11-16"
+   },
+   "ends": {
+    "WTA": "2026-11-22"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 125",
    "projected": false
@@ -1275,6 +1293,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2026-11-23"
+   },
+   "ends": {
+    "WTA": "2026-11-29"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1298,6 +1325,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2026-11-30"
+   },
+   "ends": {
+    "WTA": "2026-12-06"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1320,6 +1356,15 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2026-11-30"
+   },
+   "ends": {
+    "WTA": "2026-12-06"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 125",
    "projected": false
@@ -1367,6 +1412,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2026-12-14"
+   },
+   "ends": {
+    "WTA": "2026-12-20"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1389,6 +1443,15 @@
    ],
    "tiers": {
     "WTA": "WTA 500"
+   },
+   "starts": {
+    "WTA": "2027-01-01"
+   },
+   "ends": {
+    "WTA": "2027-01-10"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 500",
    "projected": false
@@ -1450,6 +1513,15 @@
    "tiers": {
     "WTA": "WTA 500"
    },
+   "starts": {
+    "WTA": "2027-01-03"
+   },
+   "ends": {
+    "WTA": "2027-01-10"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 500",
    "projected": false
   },
@@ -1472,6 +1544,15 @@
    ],
    "tiers": {
     "WTA": "WTA 250"
+   },
+   "starts": {
+    "WTA": "2027-01-04"
+   },
+   "ends": {
+    "WTA": "2027-01-10"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 250",
    "projected": false
@@ -1528,7 +1609,7 @@
    "projected": true
   },
   {
-   "key": "proj:wta:2096:2026-01-05",
+   "key": "wta:2096:2027-01-04",
    "name": "Workday Canberra International",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -1538,8 +1619,8 @@
    "end": "2027-01-09",
    "surface": "Hard",
    "draw": 32,
-   "prize": 225000,
-   "start_source": "projected",
+   "prize": 236250,
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -1548,7 +1629,7 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:2014:2027-01-11",
@@ -1569,6 +1650,15 @@
    ],
    "tiers": {
     "WTA": "WTA 500"
+   },
+   "starts": {
+    "WTA": "2027-01-11"
+   },
+   "ends": {
+    "WTA": "2027-01-16"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 500",
    "projected": false
@@ -1593,6 +1683,15 @@
    "tiers": {
     "WTA": "WTA 250"
    },
+   "starts": {
+    "WTA": "2027-01-11"
+   },
+   "ends": {
+    "WTA": "2027-01-16"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 250",
    "projected": false
   },
@@ -1615,6 +1714,15 @@
    ],
    "tiers": {
     "WTA": "Grand Slam"
+   },
+   "starts": {
+    "WTA": "2027-01-17"
+   },
+   "ends": {
+    "WTA": "2027-01-31"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "Grand Slam",
    "projected": false
@@ -1648,6 +1756,29 @@
    "projected": true
   },
   {
+   "key": "wta:1153:2027-01-25",
+   "name": "Philippine Women's Open",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Manila, PHI",
+   "city": "Manila",
+   "start": "2027-01-25",
+   "end": "2027-01-30",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
    "key": "wta:2088:2027-01-31",
    "name": "Mubadala Abu Dhabi Open presented by Abu Dhabi Sports Council",
    "tour": "WTA",
@@ -1666,6 +1797,15 @@
    ],
    "tiers": {
     "WTA": "WTA 500"
+   },
+   "starts": {
+    "WTA": "2027-01-31"
+   },
+   "ends": {
+    "WTA": "2027-02-06"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 500",
    "projected": false
@@ -1690,6 +1830,15 @@
    "tiers": {
     "WTA": "WTA 250"
    },
+   "starts": {
+    "WTA": "2027-01-31"
+   },
+   "ends": {
+    "WTA": "2027-02-06"
+   },
+   "sources": {
+    "WTA": "official"
+   },
    "headline_tier": "WTA 250",
    "projected": false
   },
@@ -1712,6 +1861,15 @@
    ],
    "tiers": {
     "WTA": "WTA 250"
+   },
+   "starts": {
+    "WTA": "2027-01-31"
+   },
+   "ends": {
+    "WTA": "2027-02-06"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 250",
    "projected": false
@@ -1795,6 +1953,15 @@
    ],
    "tiers": {
     "WTA": "WTA 1000"
+   },
+   "starts": {
+    "WTA": "2027-02-07"
+   },
+   "ends": {
+    "WTA": "2027-02-13"
+   },
+   "sources": {
+    "WTA": "official"
    },
    "headline_tier": "WTA 1000",
    "projected": false
@@ -5234,29 +5401,6 @@
    "projected": true
   },
   {
-   "key": "proj:atp:452-2026",
-   "espn_id": "452",
-   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Lyon, France",
-   "start": "2027-10-18",
-   "end": "2027-10-24",
-   "qualifying_start": "2026-10-18",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
    "key": "wta:405:2027-10-18",
    "name": "Kinoshita Group Japan Open",
    "tour": "WTA",
@@ -5323,6 +5467,29 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
+   "key": "proj:atp:452-2026",
+   "espn_id": "452",
+   "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-10-19",
+   "end": "2027-10-24",
+   "qualifying_start": "2026-10-18",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
    "projected": true
   },
   {
@@ -5741,6 +5908,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2027-11-08"
+   },
+   "ends": {
+    "WTA": "2027-11-13"
+   },
+   "sources": {
+    "WTA": "projected"
+   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -5815,6 +5991,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2027-11-15"
+   },
+   "ends": {
+    "WTA": "2027-11-21"
+   },
+   "sources": {
+    "WTA": "projected"
+   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -5875,6 +6060,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2027-11-22"
+   },
+   "ends": {
+    "WTA": "2027-11-28"
+   },
+   "sources": {
+    "WTA": "projected"
+   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -5898,6 +6092,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2027-11-29"
+   },
+   "ends": {
+    "WTA": "2027-12-05"
+   },
+   "sources": {
+    "WTA": "projected"
+   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -5920,6 +6123,15 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2027-11-29"
+   },
+   "ends": {
+    "WTA": "2027-12-05"
+   },
+   "sources": {
+    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -5966,6 +6178,15 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2027-12-13"
+   },
+   "ends": {
+    "WTA": "2027-12-19"
+   },
+   "sources": {
+    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true

@@ -22,5 +22,13 @@
   "from": "2026-09-30",
   "to": "2026-09-29",
   "seen": "2026-09-27"
+ },
+ {
+  "key": "atp:452-2026",
+  "name": "Grand Prix Auvergne-Rh\u00f4ne-Alpes",
+  "field": "start",
+  "from": "2026-10-19",
+  "to": "2026-10-20",
+  "seen": "2026-10-18"
  }
 ]
