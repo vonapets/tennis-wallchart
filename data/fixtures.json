@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T23:25:27+00:00",
+ "generated": "2026-10-19T07:55:20+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1164,15 +1164,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2026-11-09"
-   },
-   "ends": {
-    "WTA": "2026-11-14"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1223,15 +1214,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2026-11-16"
-   },
-   "ends": {
-    "WTA": "2026-11-22"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "WTA 125",
    "projected": false
@@ -1293,15 +1275,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2026-11-23"
-   },
-   "ends": {
-    "WTA": "2026-11-29"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1325,15 +1298,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2026-11-30"
-   },
-   "ends": {
-    "WTA": "2026-12-06"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1356,15 +1320,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2026-11-30"
-   },
-   "ends": {
-    "WTA": "2026-12-06"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "WTA 125",
    "projected": false
@@ -1412,15 +1367,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2026-12-14"
-   },
-   "ends": {
-    "WTA": "2026-12-20"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 125",
    "projected": false
   },
@@ -1443,15 +1389,6 @@
    ],
    "tiers": {
     "WTA": "WTA 500"
-   },
-   "starts": {
-    "WTA": "2027-01-01"
-   },
-   "ends": {
-    "WTA": "2027-01-10"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "WTA 500",
    "projected": false
@@ -1513,15 +1450,6 @@
    "tiers": {
     "WTA": "WTA 500"
    },
-   "starts": {
-    "WTA": "2027-01-03"
-   },
-   "ends": {
-    "WTA": "2027-01-10"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 500",
    "projected": false
   },
@@ -1544,15 +1472,6 @@
    ],
    "tiers": {
     "WTA": "WTA 250"
-   },
-   "starts": {
-    "WTA": "2027-01-04"
-   },
-   "ends": {
-    "WTA": "2027-01-10"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "WTA 250",
    "projected": false
@@ -1651,15 +1570,6 @@
    "tiers": {
     "WTA": "WTA 500"
    },
-   "starts": {
-    "WTA": "2027-01-11"
-   },
-   "ends": {
-    "WTA": "2027-01-16"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 500",
    "projected": false
   },
@@ -1683,15 +1593,6 @@
    "tiers": {
     "WTA": "WTA 250"
    },
-   "starts": {
-    "WTA": "2027-01-11"
-   },
-   "ends": {
-    "WTA": "2027-01-16"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 250",
    "projected": false
   },
@@ -1714,15 +1615,6 @@
    ],
    "tiers": {
     "WTA": "Grand Slam"
-   },
-   "starts": {
-    "WTA": "2027-01-17"
-   },
-   "ends": {
-    "WTA": "2027-01-31"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "Grand Slam",
    "projected": false
@@ -1798,15 +1690,6 @@
    "tiers": {
     "WTA": "WTA 500"
    },
-   "starts": {
-    "WTA": "2027-01-31"
-   },
-   "ends": {
-    "WTA": "2027-02-06"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 500",
    "projected": false
   },
@@ -1830,15 +1713,6 @@
    "tiers": {
     "WTA": "WTA 250"
    },
-   "starts": {
-    "WTA": "2027-01-31"
-   },
-   "ends": {
-    "WTA": "2027-02-06"
-   },
-   "sources": {
-    "WTA": "official"
-   },
    "headline_tier": "WTA 250",
    "projected": false
   },
@@ -1861,15 +1735,6 @@
    ],
    "tiers": {
     "WTA": "WTA 250"
-   },
-   "starts": {
-    "WTA": "2027-01-31"
-   },
-   "ends": {
-    "WTA": "2027-02-06"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "WTA 250",
    "projected": false
@@ -1953,15 +1818,6 @@
    ],
    "tiers": {
     "WTA": "WTA 1000"
-   },
-   "starts": {
-    "WTA": "2027-02-07"
-   },
-   "ends": {
-    "WTA": "2027-02-13"
-   },
-   "sources": {
-    "WTA": "official"
    },
    "headline_tier": "WTA 1000",
    "projected": false
@@ -2981,12 +2837,67 @@
    "projected": false
   },
   {
+   "key": "proj:wta:1142:2026-04-27",
+   "name": "2026 Huzhou Open \u00b7 HuzhouWuxing",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Huzhou, CHN",
+   "city": "Huzhou",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
    "key": "proj:wta:2081:2026-04-27",
    "name": "Catalonia Open Solgiron\u00e8s",
    "tour": "WTA",
    "tier": "WTA 125",
    "venue": "La Bisbal D'Empord\u00e1, ESP",
    "city": "La Bisbal D'Empord\u00e1",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2027-04-26"
+   },
+   "ends": {
+    "WTA": "2027-05-02"
+   },
+   "sources": {
+    "WTA": "projected"
+   },
+   "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
+   "key": "proj:wta:2034:2026-04-27",
+   "name": "L'Open 35 de Saint Malo",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Saint Malo, FRA",
+   "city": "Saint Malo",
    "start": "2027-04-26",
    "end": "2027-05-02",
    "surface": "Clay",
@@ -5908,15 +5819,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2027-11-08"
-   },
-   "ends": {
-    "WTA": "2027-11-13"
-   },
-   "sources": {
-    "WTA": "projected"
-   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -5991,15 +5893,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2027-11-15"
-   },
-   "ends": {
-    "WTA": "2027-11-21"
-   },
-   "sources": {
-    "WTA": "projected"
-   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -6060,15 +5953,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2027-11-22"
-   },
-   "ends": {
-    "WTA": "2027-11-28"
-   },
-   "sources": {
-    "WTA": "projected"
-   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -6092,15 +5976,6 @@
    "tiers": {
     "WTA": "WTA 125"
    },
-   "starts": {
-    "WTA": "2027-11-29"
-   },
-   "ends": {
-    "WTA": "2027-12-05"
-   },
-   "sources": {
-    "WTA": "projected"
-   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -6123,15 +5998,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2027-11-29"
-   },
-   "ends": {
-    "WTA": "2027-12-05"
-   },
-   "sources": {
-    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -6178,15 +6044,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2027-12-13"
-   },
-   "ends": {
-    "WTA": "2027-12-19"
-   },
-   "sources": {
-    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
