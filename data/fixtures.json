@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T15:15:12+00:00",
+ "generated": "2026-10-23T23:54:22+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -803,10 +803,10 @@
    "venue": "Vienna, Austria",
    "start": "2026-10-26",
    "end": "2026-11-01",
-   "qualifying_start": "2026-10-26",
+   "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_matches": 12,
+   "start_source": "scheduled",
    "src": "espn",
    "tours": [
     "ATP"
@@ -886,10 +886,10 @@
    "venue": "Basel, Switzerland",
    "start": "2026-10-26",
    "end": "2026-11-01",
-   "qualifying_start": "2026-10-26",
+   "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_matches": 12,
+   "start_source": "scheduled",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5435,9 +5435,9 @@
    "venue": "Vienna, Austria",
    "start": "2027-10-25",
    "end": "2027-10-31",
-   "qualifying_start": "2026-10-26",
+   "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 0,
+   "qualifying_matches": 12,
    "start_source": "projected",
    "src": "espn",
    "tours": [
@@ -5518,9 +5518,9 @@
    "venue": "Basel, Switzerland",
    "start": "2027-10-25",
    "end": "2027-10-31",
-   "qualifying_start": "2026-10-26",
+   "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 0,
+   "qualifying_matches": 12,
    "start_source": "projected",
    "src": "espn",
    "tours": [
