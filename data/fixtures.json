@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T07:25:03+00:00",
+ "generated": "2026-10-24T14:03:42+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -805,7 +805,7 @@
    "end": "2026-11-01",
    "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 12,
+   "qualifying_matches": 15,
    "start_source": "scheduled",
    "src": "espn",
    "tours": [
@@ -888,7 +888,7 @@
    "end": "2026-11-01",
    "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 12,
+   "qualifying_matches": 15,
    "start_source": "scheduled",
    "src": "espn",
    "tours": [
@@ -5437,7 +5437,7 @@
    "end": "2027-10-31",
    "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 12,
+   "qualifying_matches": 15,
    "start_source": "projected",
    "src": "espn",
    "tours": [
@@ -5520,7 +5520,7 @@
    "end": "2027-10-31",
    "qualifying_start": "2026-10-24",
    "main_draw_matches": 31,
-   "qualifying_matches": 12,
+   "qualifying_matches": 15,
    "start_source": "projected",
    "src": "espn",
    "tours": [
