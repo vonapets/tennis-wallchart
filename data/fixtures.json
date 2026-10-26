@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T23:24:17+00:00",
+ "generated": "2026-10-26T07:55:20+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -993,29 +993,6 @@
    "projected": false
   },
   {
-   "key": "wta:1110:2026-11-02",
-   "name": "Cali Open",
-   "tour": "WTA",
-   "tier": "WTA 125",
-   "venue": "Cali, COL",
-   "city": "Cali",
-   "start": "2026-11-02",
-   "end": "2026-11-07",
-   "surface": "Clay",
-   "draw": 32,
-   "prize": 115000,
-   "start_source": "official",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 125"
-   },
-   "headline_tier": "WTA 125",
-   "projected": false
-  },
-  {
    "key": "wta:1148:2026-11-02",
    "name": "Chennai Open",
    "tour": "WTA",
@@ -1076,6 +1053,29 @@
    "projected": false
   },
   {
+   "key": "wta:1110:2026-11-02",
+   "name": "Reto Win Tennis Cali Open",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Cali, COL",
+   "city": "Cali",
+   "start": "2026-11-02",
+   "end": "2026-11-07",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
    "key": "atp:13-2026",
    "espn_id": "13",
    "name": "Rolex Paris Masters",
@@ -1123,7 +1123,7 @@
   },
   {
    "key": "wta:808:2026-11-08",
-   "name": "WTA Finals Indian Wells",
+   "name": "FAGE WTA Finals Indian Wells",
    "tour": "WTA",
    "tier": "WTA Finals",
    "venue": "Indian Wells, USA",
@@ -1146,7 +1146,7 @@
   },
   {
    "key": "wta:1181:2026-11-09",
-   "name": "Cundinamarca Open",
+   "name": "DIRECTV Open Presentado por Compesar",
    "tour": "WTA",
    "tier": "WTA 125",
    "venue": "Sopo, COL",
@@ -2837,29 +2837,6 @@
    "projected": false
   },
   {
-   "key": "proj:wta:1142:2026-04-27",
-   "name": "2026 Huzhou Open \u00b7 HuzhouWuxing",
-   "tour": "WTA",
-   "tier": "WTA 125",
-   "venue": "Huzhou, CHN",
-   "city": "Huzhou",
-   "start": "2027-04-26",
-   "end": "2027-05-02",
-   "surface": "Clay",
-   "draw": 32,
-   "prize": 115000,
-   "start_source": "projected",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 125"
-   },
-   "headline_tier": "WTA 125",
-   "projected": true
-  },
-  {
    "key": "proj:wta:2081:2026-04-27",
    "name": "Catalonia Open Solgiron\u00e8s",
    "tour": "WTA",
@@ -2878,15 +2855,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2027-04-26"
-   },
-   "ends": {
-    "WTA": "2027-05-02"
-   },
-   "sources": {
-    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -5625,29 +5593,6 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1110:2026-11-02",
-   "name": "Cali Open",
-   "tour": "WTA",
-   "tier": "WTA 125",
-   "venue": "Cali, COL",
-   "city": "Cali",
-   "start": "2027-11-01",
-   "end": "2027-11-06",
-   "surface": "Clay",
-   "draw": 32,
-   "prize": 115000,
-   "start_source": "projected",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 125"
-   },
-   "headline_tier": "WTA 125",
-   "projected": true
-  },
-  {
    "key": "proj:wta:1148:2026-11-02",
    "name": "Chennai Open",
    "tour": "WTA",
@@ -5731,6 +5676,29 @@
    "projected": false
   },
   {
+   "key": "proj:wta:1110:2026-11-02",
+   "name": "Reto Win Tennis Cali Open",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Cali, COL",
+   "city": "Cali",
+   "start": "2027-11-01",
+   "end": "2027-11-06",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
    "key": "proj:atp:13-2026",
    "espn_id": "13",
    "name": "Rolex Paris Masters",
@@ -5778,7 +5746,7 @@
   },
   {
    "key": "proj:wta:808:2026-11-08",
-   "name": "WTA Finals Indian Wells",
+   "name": "FAGE WTA Finals Indian Wells",
    "tour": "WTA",
    "tier": "WTA Finals",
    "venue": "Indian Wells, USA",
@@ -5801,7 +5769,7 @@
   },
   {
    "key": "proj:wta:1181:2026-11-09",
-   "name": "Cundinamarca Open",
+   "name": "DIRECTV Open Presentado por Compesar",
    "tour": "WTA",
    "tier": "WTA 125",
    "venue": "Sopo, COL",
@@ -5838,7 +5806,7 @@
   },
   {
    "key": "wta:808:2027-11-10",
-   "name": "WTA Finals Charlotte",
+   "name": "FAGE WTA Finals Charlotte",
    "tour": "WTA",
    "tier": "WTA Finals",
    "venue": "Charlotte, USA",

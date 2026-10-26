@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T23:24:17+00:00",
+ "generated": "2026-10-26T07:55:20+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -444,14 +444,14 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
-    "Rolex Paris Masters",
-    "WTA Finals Indian Wells"
+    "FAGE WTA Finals Indian Wells",
+    "Rolex Paris Masters"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Rolex Paris Masters, WTA Finals Indian Wells"
+    "runs alongside FAGE WTA Finals Indian Wells, Rolex Paris Masters"
    ],
    "rank": 22
   },
@@ -1065,14 +1065,14 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
-    "Rolex Paris Masters",
-    "WTA Finals Indian Wells"
+    "FAGE WTA Finals Indian Wells",
+    "Rolex Paris Masters"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside Rolex Paris Masters, WTA Finals Indian Wells"
+    "runs alongside FAGE WTA Finals Indian Wells, Rolex Paris Masters"
    ],
    "rank": 53
   },
@@ -1088,13 +1088,13 @@
    "north_america": false,
    "runs_alongside": true,
    "clash": [
-    "WTA Finals Charlotte"
+    "FAGE WTA Finals Charlotte"
    ],
    "evidence": "E",
    "confidence": "none",
    "why": [
     "Challenger 125",
-    "runs alongside WTA Finals Charlotte"
+    "runs alongside FAGE WTA Finals Charlotte"
    ],
    "rank": 54
   },
