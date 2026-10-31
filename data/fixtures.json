@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T16:45:14+00:00",
+ "generated": "2026-10-31T00:54:54+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1084,10 +1084,10 @@
    "venue": "Paris, France",
    "start": "2026-11-02",
    "end": "2026-11-08",
-   "qualifying_start": "2026-11-02",
-   "main_draw_matches": 63,
-   "qualifying_matches": 0,
-   "start_source": "undrawn",
+   "qualifying_start": "2026-10-31",
+   "main_draw_matches": 55,
+   "qualifying_matches": 21,
+   "start_source": "scheduled",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5707,9 +5707,9 @@
    "venue": "Paris, France",
    "start": "2027-11-01",
    "end": "2027-11-07",
-   "qualifying_start": "2026-11-02",
-   "main_draw_matches": 63,
-   "qualifying_matches": 0,
+   "qualifying_start": "2026-10-31",
+   "main_draw_matches": 55,
+   "qualifying_matches": 21,
    "start_source": "projected",
    "src": "espn",
    "tours": [
