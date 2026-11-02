@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T00:55:42+00:00",
+ "generated": "2026-11-02T09:39:21+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -2123,20 +2123,6 @@
    "venue": "London, GBR",
    "projected": false,
    "benchmark": 14069124,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Lib\u00e9ma Open",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-06-07",
-   "end": "2027-06-13",
-   "venue": "'s-Hertogenbosch, Netherlands",
-   "projected": true,
-   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },

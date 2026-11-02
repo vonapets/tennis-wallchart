@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T00:55:42+00:00",
+ "generated": "2026-11-02T09:39:20+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -2837,6 +2837,29 @@
    "projected": false
   },
   {
+   "key": "proj:wta:1142:2026-04-27",
+   "name": "2026 Huzhou Open \u00b7 HuzhouWuxing",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Huzhou, CHN",
+   "city": "Huzhou",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "surface": "Clay",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
    "key": "proj:wta:2081:2026-04-27",
    "name": "Catalonia Open Solgiron\u00e8s",
    "tour": "WTA",
@@ -2855,6 +2878,15 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2027-04-26"
+   },
+   "ends": {
+    "WTA": "2027-05-02"
+   },
+   "sources": {
+    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -3355,29 +3387,6 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
-  },
-  {
-   "key": "proj:atp:415-2026",
-   "espn_id": "415",
-   "name": "Lib\u00e9ma Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "'s-Hertogenbosch, Netherlands",
-   "start": "2027-06-07",
-   "end": "2027-06-13",
-   "qualifying_start": "2026-06-06",
-   "main_draw_matches": 27,
-   "qualifying_matches": 22,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
    "projected": true
   },
   {
