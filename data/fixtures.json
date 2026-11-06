@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T09:31:43+00:00",
+ "generated": "2026-11-06T17:36:21+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -5888,18 +5888,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:339-2026",
+   "key": "atp:339-2027",
    "espn_id": "339",
    "name": "Nitto ATP Finals",
    "tour": "ATP",
    "tier": "ATP Finals",
    "venue": "",
-   "start": "2027-11-15",
-   "end": "2027-11-21",
-   "qualifying_start": "2026-11-14",
+   "start": "2027-11-16",
+   "end": "2027-11-22",
+   "qualifying_start": "2027-11-14",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
-   "start_source": "projected",
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5908,7 +5908,7 @@
     "ATP": "ATP Finals"
    },
    "headline_tier": "ATP Finals",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:2052:2026-11-23",
@@ -5980,7 +5980,7 @@
    "projected": true
   },
   {
-   "key": "proj:atp:865-2026",
+   "key": "atp:865-2027",
    "espn_id": "865",
    "name": "Next Gen ATP Finals presented by PIF",
    "tour": "ATP",
@@ -5988,10 +5988,10 @@
    "venue": "",
    "start": "2027-12-09",
    "end": "2027-12-12",
-   "qualifying_start": "2026-12-08",
+   "qualifying_start": "2027-12-07",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
-   "start_source": "projected",
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -6000,7 +6000,7 @@
     "ATP": "Next Gen ATP Finals"
    },
    "headline_tier": "Next Gen ATP Finals",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:1072:2026-12-14",
