@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:56:24+00:00",
+ "generated": "2026-11-09T20:53:33+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1132,7 +1132,7 @@
    "end": "2026-11-15",
    "surface": "Hard",
    "draw": 8,
-   "prize": 0,
+   "prize": 10000000,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -1620,6 +1620,29 @@
    "projected": false
   },
   {
+   "key": "atp:154-2027",
+   "espn_id": "154",
+   "name": "Australian Open",
+   "tour": "ATP",
+   "tier": "Grand Slam",
+   "venue": "",
+   "start": "2027-01-17",
+   "end": "2027-01-31",
+   "qualifying_start": "2027-01-10",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "Grand Slam"
+   },
+   "headline_tier": "Grand Slam",
+   "projected": false
+  },
+  {
    "key": "proj:chal:Bahrain Ministry of Interior Tennis Challenger:2026-01-26",
    "name": "Bahrain Ministry of Interior Tennis Challenger",
    "tour": "Challenger",
@@ -1680,8 +1703,8 @@
    "start": "2027-01-31",
    "end": "2027-02-06",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 28,
+   "prize": 1206446,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -1703,8 +1726,8 @@
    "start": "2027-01-31",
    "end": "2027-02-06",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 32,
+   "prize": 291847,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -1726,8 +1749,8 @@
    "start": "2027-01-31",
    "end": "2027-02-06",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 32,
+   "prize": 291847,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -1809,8 +1832,8 @@
    "start": "2027-02-07",
    "end": "2027-02-13",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 56,
+   "prize": 4521459,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -1961,8 +1984,8 @@
    "start": "2027-02-14",
    "end": "2027-02-20",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 56,
+   "prize": 4521459,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -2136,8 +2159,8 @@
    "start": "2027-02-22",
    "end": "2027-02-28",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 32,
+   "prize": 291847,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -2182,8 +2205,8 @@
    "start": "2027-02-22",
    "end": "2027-02-28",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 28,
+   "prize": 1206446,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -2274,8 +2297,8 @@
    "start": "2027-03-03",
    "end": "2027-03-14",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 96,
+   "prize": 9643464,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -2371,8 +2394,8 @@
    "start": "2027-03-16",
    "end": "2027-03-28",
    "surface": "Hard",
-   "draw": 0,
-   "prize": 0,
+   "draw": 96,
+   "prize": 9643464,
    "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
@@ -2837,29 +2860,6 @@
    "projected": false
   },
   {
-   "key": "proj:wta:1142:2026-04-27",
-   "name": "2026 Huzhou Open \u00b7 HuzhouWuxing",
-   "tour": "WTA",
-   "tier": "WTA 125",
-   "venue": "Huzhou, CHN",
-   "city": "Huzhou",
-   "start": "2027-04-26",
-   "end": "2027-05-02",
-   "surface": "Clay",
-   "draw": 32,
-   "prize": 115000,
-   "start_source": "projected",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 125"
-   },
-   "headline_tier": "WTA 125",
-   "projected": true
-  },
-  {
    "key": "proj:wta:2081:2026-04-27",
    "name": "Catalonia Open Solgiron\u00e8s",
    "tour": "WTA",
@@ -2878,15 +2878,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2027-04-26"
-   },
-   "ends": {
-    "WTA": "2027-05-02"
-   },
-   "sources": {
-    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -3390,6 +3381,29 @@
    "projected": true
   },
   {
+   "key": "proj:atp:415-2026",
+   "espn_id": "415",
+   "name": "Lib\u00e9ma Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "'s-Hertogenbosch, Netherlands",
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "qualifying_start": "2026-06-06",
+   "main_draw_matches": 27,
+   "qualifying_matches": 22,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
    "key": "wta:822:2027-06-07",
    "name": "Lib\u00e9ma Open - 's",
    "tour": "WTA",
@@ -3433,6 +3447,29 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
+   "projected": true
+  },
+  {
+   "key": "proj:wta:1111:2026-06-08",
+   "name": "The HSBC Championships",
+   "tour": "WTA",
+   "tier": "WTA 500",
+   "venue": "London, GBR",
+   "city": "London",
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "surface": "Grass",
+   "draw": 28,
+   "prize": 1915000,
+   "start_source": "projected",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 500"
+   },
+   "headline_tier": "WTA 500",
    "projected": true
   },
   {
@@ -5764,7 +5801,7 @@
    "end": "2027-11-14",
    "surface": "Hard",
    "draw": 8,
-   "prize": 0,
+   "prize": 10000000,
    "start_source": "projected",
    "src": "api.wtatennis.com",
    "tours": [

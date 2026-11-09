@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:56:24+00:00",
+ "generated": "2026-11-09T20:53:33+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1581,6 +1581,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Australian Open",
+   "tier": "Grand Slam",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-17",
+   "end": "2027-01-31",
+   "venue": "",
+   "projected": false,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Mubadala Abu Dhabi Open presented by Abu Dhabi Sports Council",
    "tier": "WTA 500",
    "tours": [
@@ -2127,6 +2141,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Lib\u00e9ma Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "venue": "'s-Hertogenbosch, Netherlands",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Lib\u00e9ma Open - 's",
    "tier": "WTA 250",
    "tours": [
@@ -2137,6 +2165,20 @@
    "venue": "'S-Hertogenbosch, NED",
    "projected": false,
    "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "The HSBC Championships",
+   "tier": "WTA 500",
+   "tours": [
+    "WTA"
+   ],
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "venue": "London, GBR",
+   "projected": true,
+   "benchmark": 14069124,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
