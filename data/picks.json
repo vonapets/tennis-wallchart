@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T10:02:12+00:00",
+ "generated": "2026-11-10T18:01:52+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -2113,6 +2113,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Roland Garros",
+   "tier": "Grand Slam",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-05-23",
+   "end": "2027-06-06",
+   "venue": "",
+   "projected": false,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Boss Open",
    "tier": "ATP 250",
    "tours": [
@@ -2263,6 +2277,20 @@
    "venue": "Eastbourne, GREAT BRITAIN",
    "projected": false,
    "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Wimbledon",
+   "tier": "Grand Slam",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-27",
+   "end": "2027-07-11",
+   "venue": "",
+   "projected": false,
+   "benchmark": 134185662,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
