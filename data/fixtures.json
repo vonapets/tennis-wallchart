@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T01:20:46+00:00",
+ "generated": "2026-11-11T09:35:57+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1454,6 +1454,29 @@
    "projected": false
   },
   {
+   "key": "atp:970-2027",
+   "espn_id": "970",
+   "name": "Brisbane International presented by ANZ",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-01-03",
+   "end": "2027-01-11",
+   "qualifying_start": "2027-01-01",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
    "key": "wta:1049:2027-01-04",
    "name": "ASB Classic",
    "tour": "WTA",
@@ -1477,18 +1500,18 @@
    "projected": false
   },
   {
-   "key": "proj:atp:971-2026",
+   "key": "atp:971-2027",
    "espn_id": "971",
    "name": "Bank of China Hong Kong Tennis Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Hong Kong, Hong Kong, China",
+   "venue": "",
    "start": "2027-01-04",
    "end": "2027-01-10",
-   "qualifying_start": "2026-01-03",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-01-02",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -1497,7 +1520,7 @@
     "ATP": "ATP 250"
    },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:chal:Bengaluru Open:2026-01-05",
@@ -1571,6 +1594,38 @@
     "WTA": "WTA 500"
    },
    "headline_tier": "WTA 500",
+   "projected": false
+  },
+  {
+   "key": "atp:611-2027",
+   "espn_id": "611",
+   "name": "Adelaide International",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-01-11",
+   "end": "2027-01-16",
+   "qualifying_start": "2027-01-09",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "starts": {
+    "ATP": "2027-01-11"
+   },
+   "ends": {
+    "ATP": "2027-01-16"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
+   "headline_tier": "ATP 250",
    "projected": false
   },
   {
@@ -3035,6 +3090,29 @@
    "projected": false
   },
   {
+   "key": "atp:172-2027",
+   "espn_id": "172",
+   "name": "Roland Garros",
+   "tour": "ATP",
+   "tier": "Grand Slam",
+   "venue": "",
+   "start": "2027-05-07",
+   "end": "2027-06-06",
+   "qualifying_start": "2027-04-30",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "Grand Slam"
+   },
+   "headline_tier": "Grand Slam",
+   "projected": false
+  },
+  {
    "key": "proj:chal:BNP Paribas Primrose Bordeaux:2026-05-11",
    "name": "BNP Paribas Primrose Bordeaux",
    "tour": "Challenger",
@@ -3196,29 +3274,6 @@
    ],
    "tiers": {
     "WTA": "Grand Slam"
-   },
-   "headline_tier": "Grand Slam",
-   "projected": false
-  },
-  {
-   "key": "atp:172-2027",
-   "espn_id": "172",
-   "name": "Roland Garros",
-   "tour": "ATP",
-   "tier": "Grand Slam",
-   "venue": "",
-   "start": "2027-05-23",
-   "end": "2027-06-06",
-   "qualifying_start": "2027-05-16",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "Grand Slam"
    },
    "headline_tier": "Grand Slam",
    "projected": false
