@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T18:01:52+00:00",
+ "generated": "2026-11-11T01:20:46+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -4542,6 +4542,29 @@
    ],
    "tiers": {
     "WTA": "Grand Slam"
+   },
+   "headline_tier": "Grand Slam",
+   "projected": false
+  },
+  {
+   "key": "atp:189-2027",
+   "espn_id": "189",
+   "name": "US Open",
+   "tour": "ATP",
+   "tier": "Grand Slam",
+   "venue": "",
+   "start": "2027-08-29",
+   "end": "2027-09-12",
+   "qualifying_start": "2027-08-22",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "Grand Slam"
    },
    "headline_tier": "Grand Slam",
    "projected": false

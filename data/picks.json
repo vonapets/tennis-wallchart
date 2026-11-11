@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T18:01:52+00:00",
+ "generated": "2026-11-11T01:20:46+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -2556,6 +2556,20 @@
    "start": "2027-08-29",
    "end": "2027-09-12",
    "venue": "New York, USA",
+   "projected": false,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "US Open",
+   "tier": "Grand Slam",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-08-29",
+   "end": "2027-09-12",
+   "venue": "",
    "projected": false,
    "benchmark": 134185662,
    "confidence": "range",
