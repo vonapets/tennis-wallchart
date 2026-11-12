@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:57:21+00:00",
+ "generated": "2026-11-12T18:28:32+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -279,12 +279,12 @@
    "projected": false
   },
   {
-   "key": "atp:1001-2026",
-   "espn_id": "1001",
-   "name": "AITO Hangzhou Open",
+   "key": "atp:441-2026",
+   "espn_id": "441",
+   "name": "Chengdu Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Hangzhou, China PR",
+   "venue": "Chengdu, China PR",
    "start": "2026-09-23",
    "end": "2026-09-29",
    "qualifying_start": "2026-09-22",
@@ -302,12 +302,12 @@
    "projected": false
   },
   {
-   "key": "atp:441-2026",
-   "espn_id": "441",
-   "name": "Chengdu Open",
+   "key": "atp:1001-2026",
+   "espn_id": "1001",
+   "name": "Hangzhou Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Chengdu, China PR",
+   "venue": "Hangzhou, China PR",
    "start": "2026-09-23",
    "end": "2026-09-29",
    "qualifying_start": "2026-09-22",
@@ -1182,6 +1182,29 @@
    "projected": false
   },
   {
+   "key": "atp:339-2026",
+   "espn_id": "339",
+   "name": "Nitto ATP Finals",
+   "tour": "ATP",
+   "tier": "ATP Finals",
+   "venue": "Turin, Italy",
+   "start": "2026-11-15",
+   "end": "2026-11-22",
+   "qualifying_start": "2026-11-15",
+   "main_draw_matches": 15,
+   "qualifying_matches": 0,
+   "start_source": "drawn",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP Finals"
+   },
+   "headline_tier": "ATP Finals",
+   "projected": false
+  },
+  {
    "key": "chal:HPP Open:2026-11-16",
    "name": "HPP Open",
    "tour": "Challenger",
@@ -1230,29 +1253,6 @@
    "surface": "Hard (i)",
    "start_source": "static",
    "src": "wikipedia-static",
-   "projected": false
-  },
-  {
-   "key": "atp:339-2026",
-   "espn_id": "339",
-   "name": "Nitto ATP Finals",
-   "tour": "ATP",
-   "tier": "ATP Finals",
-   "venue": "",
-   "start": "2026-11-16",
-   "end": "2026-11-22",
-   "qualifying_start": "2026-11-14",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP Finals"
-   },
-   "headline_tier": "ATP Finals",
    "projected": false
   },
   {
@@ -1451,6 +1451,29 @@
     "WTA": "WTA 500"
    },
    "headline_tier": "WTA 500",
+   "projected": false
+  },
+  {
+   "key": "atp:970-2027",
+   "espn_id": "970",
+   "name": "Brisbane International presented by ANZ",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-01-03",
+   "end": "2027-01-11",
+   "qualifying_start": "2027-01-01",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
    "projected": false
   },
   {
@@ -2062,29 +2085,6 @@
    "projected": false
   },
   {
-   "key": "atp:25-2027",
-   "espn_id": "25",
-   "name": "Dubai Duty Free Tennis Championships",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "",
-   "start": "2027-02-14",
-   "end": "2027-02-20",
-   "qualifying_start": "2027-02-12",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
-   "projected": false
-  },
-  {
    "key": "proj:atp:296-2026",
    "espn_id": "296",
    "name": "Delray Beach Open",
@@ -2269,14 +2269,37 @@
    "projected": false
   },
   {
-   "key": "atp:620-2027",
+   "key": "proj:atp:620-2026",
    "espn_id": "620",
    "name": "BCI Seguros Chile Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "",
+   "venue": "Santiago, Chile",
    "start": "2027-02-22",
    "end": "2027-02-28",
+   "qualifying_start": "2026-02-21",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
+   "key": "atp:25-2027",
+   "espn_id": "25",
+   "name": "Dubai Duty Free Tennis Championships",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "",
+   "start": "2027-02-22",
+   "end": "2027-02-27",
    "qualifying_start": "2027-02-20",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -2513,29 +2536,6 @@
    "projected": true
   },
   {
-   "key": "atp:713-2027",
-   "espn_id": "713",
-   "name": "Miami Open presented by Itau",
-   "tour": "ATP",
-   "tier": "ATP 1000",
-   "venue": "",
-   "start": "2027-03-16",
-   "end": "2027-03-28",
-   "qualifying_start": "2027-03-14",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 1000"
-   },
-   "headline_tier": "ATP 1000",
-   "projected": false
-  },
-  {
    "key": "wta:902:2027-03-16",
    "name": "Miami Open presented by Ita\u00fa",
    "tour": "WTA",
@@ -2556,6 +2556,29 @@
     "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
+   "projected": false
+  },
+  {
+   "key": "atp:713-2027",
+   "espn_id": "713",
+   "name": "Miami Open presented by Itau",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-03-17",
+   "end": "2027-03-28",
+   "qualifying_start": "2027-03-15",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -4525,6 +4548,29 @@
    "projected": false
   },
   {
+   "key": "proj:atp:888-2026",
+   "espn_id": "888",
+   "name": "Mubadala Citi DC Open",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "Washington, USA",
+   "start": "2027-07-26",
+   "end": "2027-08-02",
+   "qualifying_start": "2026-07-25",
+   "main_draw_matches": 31,
+   "qualifying_matches": 33,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
+   "projected": true
+  },
+  {
    "key": "wta:1045:2027-07-26",
    "name": "Mubadala DC Open",
    "tour": "WTA",
@@ -4659,6 +4705,29 @@
    "projected": false
   },
   {
+   "key": "atp:421-2027",
+   "espn_id": "421",
+   "name": "Omnium Banque Nationale pr\u00e9sent\u00e9 par Rogers",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-08-01",
+   "end": "2028-08-12",
+   "qualifying_start": "2027-07-30",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
+   "projected": false
+  },
+  {
    "key": "proj:wta:2087:2026-08-03",
    "name": "Warsaw T-Mobile Polish Open",
    "tour": "WTA",
@@ -4730,6 +4799,29 @@
     "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
+   "projected": false
+  },
+  {
+   "key": "atp:718-2027",
+   "espn_id": "718",
+   "name": "Cincinnati Open",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-08-12",
+   "end": "2027-08-23",
+   "qualifying_start": "2027-08-10",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -5242,7 +5334,7 @@
   {
    "key": "proj:atp:1001-2026",
    "espn_id": "1001",
-   "name": "AITO Hangzhou Open",
+   "name": "Hangzhou Open",
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "Hangzhou, China PR",
@@ -5263,18 +5355,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:441-2026",
+   "key": "atp:441-2027",
    "espn_id": "441",
    "name": "Chengdu Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Chengdu, China PR",
-   "start": "2027-09-22",
-   "end": "2027-09-28",
-   "qualifying_start": "2026-09-22",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "venue": "",
+   "start": "2027-09-23",
+   "end": "2027-09-29",
+   "qualifying_start": "2027-09-21",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5282,8 +5374,17 @@
    "tiers": {
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2027-09-23"
+   },
+   "ends": {
+    "ATP": "2027-09-29"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:1179:2026-09-28",
@@ -5369,18 +5470,18 @@
    "projected": false
   },
   {
-   "key": "proj:atp:5-2026",
+   "key": "atp:5-2027",
    "espn_id": "5",
    "name": "Kinoshita Group Japan Open Tennis Championships",
    "tour": "ATP",
    "tier": "ATP 500",
-   "venue": "Tokyo, Japan",
+   "venue": "",
    "start": "2027-09-29",
    "end": "2027-10-05",
-   "qualifying_start": "2026-09-27",
-   "main_draw_matches": 31,
-   "qualifying_matches": 15,
-   "start_source": "projected",
+   "qualifying_start": "2027-09-27",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5388,8 +5489,17 @@
    "tiers": {
     "ATP": "ATP 500"
    },
+   "starts": {
+    "ATP": "2027-09-29"
+   },
+   "ends": {
+    "ATP": "2027-10-10"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 500",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:1149:2026-10-05",
@@ -5438,18 +5548,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:315-2026",
+   "key": "atp:315-2027",
    "espn_id": "315",
    "name": "Rolex Shanghai Masters",
    "tour": "ATP",
    "tier": "ATP 1000",
-   "venue": "Shanghai, China PR",
+   "venue": "",
    "start": "2027-10-06",
    "end": "2027-10-17",
-   "qualifying_start": "2026-10-05",
-   "main_draw_matches": 95,
-   "qualifying_matches": 36,
-   "start_source": "projected",
+   "qualifying_start": "2027-10-04",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5458,7 +5568,7 @@
     "ATP": "ATP 1000"
    },
    "headline_tier": "ATP 1000",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:1075:2026-10-12",
@@ -5650,18 +5760,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:440-2026",
-   "espn_id": "440",
-   "name": "BNP Paribas Fortis European Open",
+   "key": "atp:148-2027",
+   "espn_id": "148",
+   "name": "Bybit Stockholm Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Brussels, Belgium",
+   "venue": "",
    "start": "2027-10-18",
    "end": "2027-10-24",
-   "qualifying_start": "2026-10-17",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-10-16",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5669,8 +5779,17 @@
    "tiers": {
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2027-10-18"
+   },
+   "ends": {
+    "ATP": "2027-10-24"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:405:2027-10-18",
@@ -5788,18 +5907,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:10-2026",
+   "key": "atp:10-2027",
    "espn_id": "10",
    "name": "Erste Bank Open",
    "tour": "ATP",
    "tier": "ATP 500",
-   "venue": "Vienna, Austria",
+   "venue": "",
    "start": "2027-10-25",
    "end": "2027-10-31",
-   "qualifying_start": "2026-10-24",
-   "main_draw_matches": 31,
-   "qualifying_matches": 15,
-   "start_source": "projected",
+   "qualifying_start": "2027-10-23",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -5807,8 +5926,17 @@
    "tiers": {
     "ATP": "ATP 500"
    },
+   "starts": {
+    "ATP": "2027-10-25"
+   },
+   "ends": {
+    "ATP": "2027-10-31"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 500",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:1023:2027-10-25",
@@ -6092,18 +6220,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:13-2026",
+   "key": "atp:13-2027",
    "espn_id": "13",
    "name": "Rolex Paris Masters",
    "tour": "ATP",
    "tier": "ATP 1000",
-   "venue": "Paris, France",
+   "venue": "",
    "start": "2027-11-01",
    "end": "2027-11-07",
-   "qualifying_start": "2026-10-31",
-   "main_draw_matches": 55,
-   "qualifying_matches": 21,
-   "start_source": "projected",
+   "qualifying_start": "2027-10-30",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -6112,21 +6240,21 @@
     "ATP": "ATP 1000"
    },
    "headline_tier": "ATP 1000",
-   "projected": true
+   "projected": false
   },
   {
-   "key": "proj:atp:148-2026",
-   "espn_id": "148",
-   "name": "Bybit Stockholm Open",
+   "key": "atp:440-2027",
+   "espn_id": "440",
+   "name": "BNP Paribas Fortis European Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Stockholm, Sweden",
+   "venue": "",
    "start": "2027-11-07",
    "end": "2027-11-13",
-   "qualifying_start": "2026-11-07",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-11-05",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -6135,7 +6263,7 @@
     "ATP": "ATP 250"
    },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:808:2026-11-08",
