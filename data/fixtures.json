@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:20:54+00:00",
+ "generated": "2026-11-12T09:57:21+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -2062,6 +2062,29 @@
    "projected": false
   },
   {
+   "key": "atp:25-2027",
+   "espn_id": "25",
+   "name": "Dubai Duty Free Tennis Championships",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "",
+   "start": "2027-02-14",
+   "end": "2027-02-20",
+   "qualifying_start": "2027-02-12",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
+   "projected": false
+  },
+  {
    "key": "proj:atp:296-2026",
    "espn_id": "296",
    "name": "Delray Beach Open",
@@ -2246,37 +2269,14 @@
    "projected": false
   },
   {
-   "key": "proj:atp:620-2026",
+   "key": "atp:620-2027",
    "espn_id": "620",
    "name": "BCI Seguros Chile Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Santiago, Chile",
-   "start": "2027-02-22",
-   "end": "2027-02-28",
-   "qualifying_start": "2026-02-21",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
-   "key": "atp:25-2027",
-   "espn_id": "25",
-   "name": "Dubai Duty Free Tennis Championships",
-   "tour": "ATP",
-   "tier": "ATP 500",
    "venue": "",
    "start": "2027-02-22",
-   "end": "2027-02-27",
+   "end": "2027-02-28",
    "qualifying_start": "2027-02-20",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
@@ -2513,6 +2513,29 @@
    "projected": true
   },
   {
+   "key": "atp:713-2027",
+   "espn_id": "713",
+   "name": "Miami Open presented by Itau",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "qualifying_start": "2027-03-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
+   "projected": false
+  },
+  {
    "key": "wta:902:2027-03-16",
    "name": "Miami Open presented by Ita\u00fa",
    "tour": "WTA",
@@ -2533,29 +2556,6 @@
     "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
-   "projected": false
-  },
-  {
-   "key": "atp:713-2027",
-   "espn_id": "713",
-   "name": "Miami Open presented by Itau",
-   "tour": "ATP",
-   "tier": "ATP 1000",
-   "venue": "",
-   "start": "2027-03-18",
-   "end": "2027-03-28",
-   "qualifying_start": "2027-03-16",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 1000"
-   },
-   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -3531,18 +3531,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:49-2026",
+   "key": "atp:49-2027",
    "espn_id": "49",
    "name": "Boss Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Stuttgart, Germany",
+   "venue": "",
    "start": "2027-06-07",
    "end": "2027-06-13",
-   "qualifying_start": "2026-06-06",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-06-05",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -3550,8 +3550,17 @@
    "tiers": {
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2027-06-07"
+   },
+   "ends": {
+    "ATP": "2027-06-13"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:1111:2027-06-07",
@@ -3803,18 +3812,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:27-2026",
+   "key": "atp:27-2027",
    "espn_id": "27",
    "name": "Terra Wortmann Open",
    "tour": "ATP",
    "tier": "ATP 500",
-   "venue": "Halle, Germany",
+   "venue": "",
    "start": "2027-06-14",
    "end": "2027-06-20",
-   "qualifying_start": "2026-06-13",
-   "main_draw_matches": 31,
-   "qualifying_matches": 14,
-   "start_source": "projected",
+   "qualifying_start": "2027-06-12",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -3822,8 +3831,17 @@
    "tiers": {
     "ATP": "ATP 500"
    },
+   "starts": {
+    "ATP": "2027-06-14"
+   },
+   "ends": {
+    "ATP": "2027-07-20"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 500",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:2012:2027-06-14",
@@ -3872,18 +3890,18 @@
    "projected": false
   },
   {
-   "key": "proj:atp:637-2026",
+   "key": "atp:637-2027",
    "espn_id": "637",
    "name": "Vanda Pharmaceuticals Mallorca Championships",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Mallorca, Spain",
+   "venue": "",
    "start": "2027-06-20",
    "end": "2027-06-26",
-   "qualifying_start": "2026-06-20",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-06-18",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -3892,7 +3910,7 @@
     "ATP": "ATP 250"
    },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:710:2027-06-21",
@@ -3915,6 +3933,29 @@
     "WTA": "WTA 250"
    },
    "headline_tier": "WTA 250",
+   "projected": false
+  },
+  {
+   "key": "atp:444-2027",
+   "espn_id": "444",
+   "name": "Lexus Eastbourne Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-06-21",
+   "end": "2027-06-26",
+   "qualifying_start": "2027-06-19",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
    "projected": false
   },
   {
@@ -4084,18 +4125,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:7-2026",
+   "key": "atp:7-2027",
    "espn_id": "7",
    "name": "EFG Swiss Open Gstaad",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Gstaad, Switzerland",
+   "venue": "",
    "start": "2027-07-12",
    "end": "2027-07-18",
-   "qualifying_start": "2026-07-11",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-07-10",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -4103,8 +4144,17 @@
    "tiers": {
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2027-07-12"
+   },
+   "ends": {
+    "ATP": "2027-07-18"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:wta:1172:2026-07-13",
@@ -4282,18 +4332,18 @@
    "projected": true
   },
   {
-   "key": "proj:atp:304-2026",
+   "key": "atp:304-2027",
    "espn_id": "304",
    "name": "Generali Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Kitzb\u00fchel, Austria",
+   "venue": "",
    "start": "2027-07-19",
    "end": "2027-07-24",
-   "qualifying_start": "2026-07-18",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-07-17",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -4301,8 +4351,17 @@
    "tiers": {
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2027-07-19"
+   },
+   "ends": {
+    "ATP": "2027-07-25"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 250",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:1082:2027-07-19",
@@ -4434,6 +4493,38 @@
    "projected": true
   },
   {
+   "key": "atp:424-2027",
+   "espn_id": "424",
+   "name": "Mifel Tennis Open by Telcel Oppo",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-07-26",
+   "end": "2027-07-31",
+   "qualifying_start": "2027-07-24",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "starts": {
+    "ATP": "2027-07-26"
+   },
+   "ends": {
+    "ATP": "2027-08-01"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
+   "headline_tier": "ATP 500",
+   "projected": false
+  },
+  {
    "key": "wta:1045:2027-07-26",
    "name": "Mubadala DC Open",
    "tour": "WTA",
@@ -4506,29 +4597,6 @@
    },
    "headline_tier": "WTA 250",
    "projected": false
-  },
-  {
-   "key": "proj:atp:424-2026",
-   "espn_id": "424",
-   "name": "Mifel Tennis Open by Telcel Oppo",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Los Cabos, Mexico",
-   "start": "2027-07-27",
-   "end": "2027-08-01",
-   "qualifying_start": "2026-07-25",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
   },
   {
    "key": "proj:wta:806:2026-08-02",

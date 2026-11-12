@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T02:20:54+00:00",
+ "generated": "2026-11-12T09:57:21+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1763,6 +1763,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Dubai Duty Free Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-14",
+   "end": "2027-02-20",
+   "venue": "",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Delray Beach Open",
    "tier": "ATP 250",
    "tours": [
@@ -1820,26 +1834,12 @@
   },
   {
    "name": "BCI Seguros Chile Open",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-02-22",
-   "end": "2027-02-28",
-   "venue": "Santiago, Chile",
-   "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Dubai Duty Free Tennis Championships",
    "tier": "ATP 500",
    "tours": [
     "ATP"
    ],
    "start": "2027-02-22",
-   "end": "2027-02-27",
+   "end": "2027-02-28",
    "venue": "",
    "projected": false,
    "benchmark": 20495380,
@@ -1903,6 +1903,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Miami Open presented by Itau",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "venue": "",
+   "projected": false,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Miami Open presented by Ita\u00fa",
    "tier": "WTA 1000",
    "tours": [
@@ -1913,20 +1927,6 @@
    "venue": "Miami, USA",
    "projected": false,
    "benchmark": 45175961,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Miami Open presented by Itau",
-   "tier": "ATP 1000",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-03-18",
-   "end": "2027-03-28",
-   "venue": "",
-   "projected": false,
-   "benchmark": 61319889,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2218,8 +2218,8 @@
    ],
    "start": "2027-06-07",
    "end": "2027-06-13",
-   "venue": "Stuttgart, Germany",
-   "projected": true,
+   "venue": "",
+   "projected": false,
    "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2302,8 +2302,8 @@
    ],
    "start": "2027-06-14",
    "end": "2027-06-20",
-   "venue": "Halle, Germany",
-   "projected": true,
+   "venue": "",
+   "projected": false,
    "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2344,8 +2344,8 @@
    ],
    "start": "2027-06-20",
    "end": "2027-06-26",
-   "venue": "Mallorca, Spain",
-   "projected": true,
+   "venue": "",
+   "projected": false,
    "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2361,6 +2361,20 @@
    "venue": "Eastbourne, GREAT BRITAIN",
    "projected": false,
    "benchmark": 9544818,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Lexus Eastbourne Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-06-21",
+   "end": "2027-06-26",
+   "venue": "",
+   "projected": false,
+   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2400,8 +2414,8 @@
    ],
    "start": "2027-07-12",
    "end": "2027-07-18",
-   "venue": "Gstaad, Switzerland",
-   "projected": true,
+   "venue": "",
+   "projected": false,
    "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2470,8 +2484,8 @@
    ],
    "start": "2027-07-19",
    "end": "2027-07-24",
-   "venue": "Kitzb\u00fchel, Austria",
-   "projected": true,
+   "venue": "",
+   "projected": false,
    "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2519,6 +2533,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Mifel Tennis Open by Telcel Oppo",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-07-26",
+   "end": "2027-07-31",
+   "venue": "",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Mubadala DC Open",
    "tier": "WTA 500",
    "tours": [
@@ -2543,20 +2571,6 @@
    "venue": "Memphis, USA",
    "projected": false,
    "benchmark": 9544818,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Mifel Tennis Open by Telcel Oppo",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-07-27",
-   "end": "2027-08-01",
-   "venue": "Los Cabos, Mexico",
-   "projected": true,
-   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
