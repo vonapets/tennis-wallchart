@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T17:57:50+00:00",
+ "generated": "2026-11-12T02:20:54+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1525,6 +1525,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "ASB Classic",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "venue": "",
+   "projected": false,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Bank of China Hong Kong Tennis Open",
    "tier": "ATP 250",
    "tours": [
@@ -1534,20 +1548,6 @@
    "end": "2027-01-10",
    "venue": "Hong Kong, Hong Kong, China",
    "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Brisbane International presented by ANZ",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "venue": "",
-   "projected": false,
    "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2036,8 +2036,8 @@
    ],
    "start": "2027-04-12",
    "end": "2027-04-18",
-   "venue": "Munich, Germany",
-   "projected": true,
+   "venue": "",
+   "projected": false,
    "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -2099,6 +2099,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Mutua Madrid Open",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-04-20",
+   "end": "2027-05-02",
+   "venue": "",
+   "projected": false,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Grand Prix Son Altesse Royale La Princesse Lalla Meryem",
    "tier": "WTA 250",
    "tours": [
@@ -2128,7 +2142,7 @@
   },
   {
    "name": "Roland Garros",
-   "tier": "Grand Slam",
+   "tier": "ATP 1000",
    "tours": [
     "ATP"
    ],
@@ -2136,21 +2150,21 @@
    "end": "2027-06-06",
    "venue": "",
    "projected": false,
-   "benchmark": 134185662,
+   "benchmark": 61319889,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
    "name": "Gonet Geneva Open",
-   "tier": "ATP 250",
+   "tier": "ATP 500",
    "tours": [
     "ATP"
    ],
    "start": "2027-05-16",
    "end": "2027-05-22",
-   "venue": "Geneva, Switzerland",
-   "projected": true,
-   "benchmark": 13089791,
+   "venue": "",
+   "projected": false,
+   "benchmark": 20495380,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },

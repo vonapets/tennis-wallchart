@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T17:57:50+00:00",
+ "generated": "2026-11-12T02:20:54+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1477,6 +1477,38 @@
    "projected": false
   },
   {
+   "key": "atp:925-2027",
+   "espn_id": "925",
+   "name": "ASB Classic",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "qualifying_start": "2027-01-02",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "starts": {
+    "ATP": "2027-01-04"
+   },
+   "ends": {
+    "ATP": "2027-01-10"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
    "key": "proj:atp:971-2026",
    "espn_id": "971",
    "name": "Bank of China Hong Kong Tennis Open",
@@ -1512,38 +1544,6 @@
    "start_source": "projected",
    "src": "wikipedia-static",
    "projected": true
-  },
-  {
-   "key": "atp:970-2027",
-   "espn_id": "970",
-   "name": "Brisbane International presented by ANZ",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "",
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "qualifying_start": "2027-01-02",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "starts": {
-    "ATP": "2027-01-04"
-   },
-   "ends": {
-    "ATP": "2027-01-10"
-   },
-   "sources": {
-    "ATP": "estimated"
-   },
-   "headline_tier": "ATP 250",
-   "projected": false
   },
   {
    "key": "proj:chal:Canberra Tennis International:2026-01-05",
@@ -2831,18 +2831,18 @@
    "projected": false
   },
   {
-   "key": "proj:atp:12-2026",
+   "key": "atp:12-2027",
    "espn_id": "12",
    "name": "BMW Open by Bitpanda",
    "tour": "ATP",
    "tier": "ATP 500",
-   "venue": "Munich, Germany",
+   "venue": "",
    "start": "2027-04-12",
    "end": "2027-04-18",
-   "qualifying_start": "2026-04-11",
-   "main_draw_matches": 31,
-   "qualifying_matches": 15,
-   "start_source": "projected",
+   "qualifying_start": "2027-04-10",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
@@ -2850,8 +2850,17 @@
    "tiers": {
     "ATP": "ATP 500"
    },
+   "starts": {
+    "ATP": "2027-04-12"
+   },
+   "ends": {
+    "ATP": "2027-04-18"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 500",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:atp:338-2026",
@@ -3017,6 +3026,29 @@
     "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
+   "projected": false
+  },
+  {
+   "key": "atp:413-2027",
+   "espn_id": "413",
+   "name": "Mutua Madrid Open",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-04-20",
+   "end": "2027-05-02",
+   "qualifying_start": "2027-04-18",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -3212,9 +3244,18 @@
     "ATP"
    ],
    "tiers": {
-    "ATP": "Grand Slam"
+    "ATP": "ATP 1000"
    },
-   "headline_tier": "Grand Slam",
+   "starts": {
+    "ATP": "2027-05-05"
+   },
+   "ends": {
+    "ATP": "2027-05-16"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
+   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -3292,27 +3333,36 @@
    "projected": true
   },
   {
-   "key": "proj:atp:396-2026",
+   "key": "atp:396-2027",
    "espn_id": "396",
    "name": "Gonet Geneva Open",
    "tour": "ATP",
    "tier": "ATP 250",
-   "venue": "Geneva, Switzerland",
+   "venue": "",
    "start": "2027-05-16",
    "end": "2027-05-22",
-   "qualifying_start": "2026-05-16",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
+   "qualifying_start": "2027-05-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
    "src": "espn",
    "tours": [
     "ATP"
    ],
    "tiers": {
-    "ATP": "ATP 250"
+    "ATP": "ATP 500"
    },
-   "headline_tier": "ATP 250",
-   "projected": true
+   "starts": {
+    "ATP": "2027-05-16"
+   },
+   "ends": {
+    "ATP": "2027-05-22"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
+   "headline_tier": "ATP 500",
+   "projected": false
   },
   {
    "key": "proj:atp:942-2026",
