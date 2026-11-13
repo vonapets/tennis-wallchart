@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T09:43:54+00:00",
+ "generated": "2026-11-13T17:55:45+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1454,6 +1454,29 @@
    "projected": false
   },
   {
+   "key": "atp:970-2027",
+   "espn_id": "970",
+   "name": "Brisbane International presented by ANZ",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-01-03",
+   "end": "2027-01-11",
+   "qualifying_start": "2027-01-01",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
    "key": "wta:1049:2027-01-04",
    "name": "ASB Classic",
    "tour": "WTA",
@@ -1477,46 +1500,9 @@
    "projected": false
   },
   {
-   "key": "proj:atp:971-2026",
+   "key": "atp:971-2027",
    "espn_id": "971",
    "name": "Bank of China Hong Kong Tennis Open",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "Hong Kong, Hong Kong, China",
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "qualifying_start": "2026-01-03",
-   "main_draw_matches": 27,
-   "qualifying_matches": 12,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
-   "key": "proj:chal:Bengaluru Open:2026-01-05",
-   "name": "Bengaluru Open",
-   "tour": "Challenger",
-   "tier": "Challenger 125",
-   "venue": "Bengaluru, India",
-   "country": "India",
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "surface": "Hard",
-   "start_source": "projected",
-   "src": "wikipedia-static",
-   "projected": true
-  },
-  {
-   "key": "atp:970-2027",
-   "espn_id": "970",
-   "name": "Brisbane International presented by ANZ",
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "",
@@ -1533,17 +1519,22 @@
    "tiers": {
     "ATP": "ATP 250"
    },
-   "starts": {
-    "ATP": "2027-01-04"
-   },
-   "ends": {
-    "ATP": "2027-01-10"
-   },
-   "sources": {
-    "ATP": "estimated"
-   },
    "headline_tier": "ATP 250",
    "projected": false
+  },
+  {
+   "key": "proj:chal:Bengaluru Open:2026-01-05",
+   "name": "Bengaluru Open",
+   "tour": "Challenger",
+   "tier": "Challenger 125",
+   "venue": "Bengaluru, India",
+   "country": "India",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "surface": "Hard",
+   "start_source": "projected",
+   "src": "wikipedia-static",
+   "projected": true
   },
   {
    "key": "proj:chal:Canberra Tennis International:2026-01-05",
@@ -1583,6 +1574,38 @@
    "projected": false
   },
   {
+   "key": "atp:925-2027",
+   "espn_id": "925",
+   "name": "ASB Classic",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "",
+   "start": "2027-01-11",
+   "end": "2027-01-16",
+   "qualifying_start": "2027-01-09",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "starts": {
+    "ATP": "2027-01-11"
+   },
+   "ends": {
+    "ATP": "2027-01-16"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
+   "headline_tier": "ATP 250",
+   "projected": false
+  },
+  {
    "key": "wta:2014:2027-01-11",
    "name": "Adelaide International",
    "tour": "WTA",
@@ -1603,29 +1626,6 @@
     "WTA": "WTA 500"
    },
    "headline_tier": "WTA 500",
-   "projected": false
-  },
-  {
-   "key": "atp:611-2027",
-   "espn_id": "611",
-   "name": "Adelaide International",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "",
-   "start": "2027-01-11",
-   "end": "2027-01-16",
-   "qualifying_start": "2027-01-09",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
    "projected": false
   },
   {
@@ -1878,6 +1878,29 @@
    "projected": true
   },
   {
+   "key": "atp:836-2027",
+   "espn_id": "836",
+   "name": "Nexo Dallas Open",
+   "tour": "ATP",
+   "tier": "ATP 500",
+   "venue": "",
+   "start": "2027-02-07",
+   "end": "2027-02-14",
+   "qualifying_start": "2027-02-05",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 500"
+   },
+   "headline_tier": "ATP 500",
+   "projected": false
+  },
+  {
    "key": "wta:1003:2027-02-07",
    "name": "Qatar Ladies Open",
    "tour": "WTA",
@@ -1941,7 +1964,7 @@
     "ATP"
    ],
    "tiers": {
-    "ATP": "ATP 500"
+    "ATP": "ATP 250"
    },
    "starts": {
     "ATP": "2027-02-08"
@@ -1952,7 +1975,7 @@
    "sources": {
     "ATP": "estimated"
    },
-   "headline_tier": "ATP 500",
+   "headline_tier": "ATP 250",
    "projected": false
   },
   {
@@ -1976,29 +1999,6 @@
     "ATP": "ATP 250"
    },
    "headline_tier": "ATP 250",
-   "projected": true
-  },
-  {
-   "key": "proj:atp:836-2026",
-   "espn_id": "836",
-   "name": "Nexo Dallas Open",
-   "tour": "ATP",
-   "tier": "ATP 500",
-   "venue": "Dallas, USA",
-   "start": "2027-02-08",
-   "end": "2027-02-14",
-   "qualifying_start": "2026-02-07",
-   "main_draw_matches": 31,
-   "qualifying_matches": 15,
-   "start_source": "projected",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 500"
-   },
-   "headline_tier": "ATP 500",
    "projected": true
   },
   {
@@ -2513,6 +2513,29 @@
    "projected": true
   },
   {
+   "key": "atp:713-2027",
+   "espn_id": "713",
+   "name": "Miami Open presented by Itau",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "qualifying_start": "2027-03-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
+   "projected": false
+  },
+  {
    "key": "wta:902:2027-03-16",
    "name": "Miami Open presented by Ita\u00fa",
    "tour": "WTA",
@@ -2533,29 +2556,6 @@
     "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
-   "projected": false
-  },
-  {
-   "key": "atp:713-2027",
-   "espn_id": "713",
-   "name": "Miami Open presented by Itau",
-   "tour": "ATP",
-   "tier": "ATP 1000",
-   "venue": "",
-   "start": "2027-03-17",
-   "end": "2027-03-28",
-   "qualifying_start": "2027-03-15",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 1000"
-   },
-   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -3035,9 +3035,9 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "",
-   "start": "2027-04-20",
+   "start": "2027-04-21",
    "end": "2027-05-02",
-   "qualifying_start": "2027-04-18",
+   "qualifying_start": "2027-04-19",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
    "start_source": "estimated",
@@ -3233,9 +3233,9 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "",
-   "start": "2027-05-04",
+   "start": "2027-05-05",
    "end": "2027-05-16",
-   "qualifying_start": "2027-05-02",
+   "qualifying_start": "2027-05-03",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
    "start_source": "estimated",
