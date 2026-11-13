@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:28:32+00:00",
+ "generated": "2026-11-13T01:59:47+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1914,6 +1914,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Miami Open presented by Itau",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "venue": "",
+   "projected": false,
+   "benchmark": 61319889,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Miami Open presented by Ita\u00fa",
    "tier": "WTA 1000",
    "tours": [
@@ -1924,20 +1938,6 @@
    "venue": "Miami, USA",
    "projected": false,
    "benchmark": 45175961,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Miami Open presented by Itau",
-   "tier": "ATP 1000",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-03-17",
-   "end": "2027-03-28",
-   "venue": "",
-   "projected": false,
-   "benchmark": 61319889,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2115,7 +2115,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-04-20",
+   "start": "2027-04-21",
    "end": "2027-05-02",
    "venue": "",
    "projected": false,

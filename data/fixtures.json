@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:28:32+00:00",
+ "generated": "2026-11-13T01:59:47+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -2536,6 +2536,29 @@
    "projected": true
   },
   {
+   "key": "atp:713-2027",
+   "espn_id": "713",
+   "name": "Miami Open presented by Itau",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "qualifying_start": "2027-03-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 1000"
+   },
+   "headline_tier": "ATP 1000",
+   "projected": false
+  },
+  {
    "key": "wta:902:2027-03-16",
    "name": "Miami Open presented by Ita\u00fa",
    "tour": "WTA",
@@ -2556,29 +2579,6 @@
     "WTA": "WTA 1000"
    },
    "headline_tier": "WTA 1000",
-   "projected": false
-  },
-  {
-   "key": "atp:713-2027",
-   "espn_id": "713",
-   "name": "Miami Open presented by Itau",
-   "tour": "ATP",
-   "tier": "ATP 1000",
-   "venue": "",
-   "start": "2027-03-17",
-   "end": "2027-03-28",
-   "qualifying_start": "2027-03-15",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 1000"
-   },
-   "headline_tier": "ATP 1000",
    "projected": false
   },
   {
@@ -3058,9 +3058,9 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "",
-   "start": "2027-04-20",
+   "start": "2027-04-21",
    "end": "2027-05-02",
-   "qualifying_start": "2027-04-18",
+   "qualifying_start": "2027-04-19",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
    "start_source": "estimated",
