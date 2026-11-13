@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T01:59:47+00:00",
+ "generated": "2026-11-13T09:43:54+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1508,20 +1508,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Brisbane International presented by ANZ",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-03",
-   "end": "2027-01-11",
-   "venue": "",
-   "projected": false,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "ASB Classic",
    "tier": "WTA 250",
    "tours": [
@@ -1536,20 +1522,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "ASB Classic",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "venue": "",
-   "projected": false,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "Bank of China Hong Kong Tennis Open",
    "tier": "ATP 250",
    "tours": [
@@ -1559,6 +1531,20 @@
    "end": "2027-01-10",
    "venue": "Hong Kong, Hong Kong, China",
    "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Brisbane International presented by ANZ",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "venue": "",
+   "projected": false,
    "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
@@ -1774,6 +1760,20 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
+   "name": "Dubai Duty Free Tennis Championships",
+   "tier": "ATP 500",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-02-14",
+   "end": "2027-02-20",
+   "venue": "",
+   "projected": false,
+   "benchmark": 20495380,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
    "name": "Delray Beach Open",
    "tier": "ATP 250",
    "tours": [
@@ -1831,26 +1831,12 @@
   },
   {
    "name": "BCI Seguros Chile Open",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-02-22",
-   "end": "2027-02-28",
-   "venue": "Santiago, Chile",
-   "projected": true,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
-   "name": "Dubai Duty Free Tennis Championships",
    "tier": "ATP 500",
    "tours": [
     "ATP"
    ],
    "start": "2027-02-22",
-   "end": "2027-02-27",
+   "end": "2027-02-28",
    "venue": "",
    "projected": false,
    "benchmark": 20495380,
@@ -1914,20 +1900,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Miami Open presented by Itau",
-   "tier": "ATP 1000",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-03-16",
-   "end": "2027-03-28",
-   "venue": "",
-   "projected": false,
-   "benchmark": 61319889,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "Miami Open presented by Ita\u00fa",
    "tier": "WTA 1000",
    "tours": [
@@ -1938,6 +1910,20 @@
    "venue": "Miami, USA",
    "projected": false,
    "benchmark": 45175961,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Miami Open presented by Itau",
+   "tier": "ATP 1000",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-03-17",
+   "end": "2027-03-28",
+   "venue": "",
+   "projected": false,
+   "benchmark": 61319889,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
@@ -2115,7 +2101,7 @@
    "tours": [
     "ATP"
    ],
-   "start": "2027-04-21",
+   "start": "2027-04-20",
    "end": "2027-05-02",
    "venue": "",
    "projected": false,
@@ -2152,13 +2138,13 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Roland Garros",
+   "name": "Internazionali BNL d'Italia",
    "tier": "ATP 1000",
    "tours": [
     "ATP"
    ],
-   "start": "2027-05-07",
-   "end": "2027-06-06",
+   "start": "2027-05-04",
+   "end": "2027-05-16",
    "venue": "",
    "projected": false,
    "benchmark": 61319889,
@@ -2216,6 +2202,20 @@
    "start": "2027-05-23",
    "end": "2027-06-06",
    "venue": "Paris, FRA",
+   "projected": false,
+   "benchmark": 134185662,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Roland Garros",
+   "tier": "Grand Slam",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-05-23",
+   "end": "2027-06-06",
+   "venue": "",
    "projected": false,
    "benchmark": 134185662,
    "confidence": "range",
@@ -2635,7 +2635,7 @@
     "ATP"
    ],
    "start": "2027-08-01",
-   "end": "2028-08-12",
+   "end": "2027-08-12",
    "venue": "",
    "projected": false,
    "benchmark": 61319889,
@@ -2663,7 +2663,7 @@
     "ATP"
    ],
    "start": "2027-08-12",
-   "end": "2027-08-23",
+   "end": "2027-08-22",
    "venue": "",
    "projected": false,
    "benchmark": 61319889,
