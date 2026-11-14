@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:55:45+00:00",
+ "generated": "2026-11-14T01:31:54+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1574,9 +1574,32 @@
    "projected": false
   },
   {
-   "key": "atp:925-2027",
-   "espn_id": "925",
-   "name": "ASB Classic",
+   "key": "wta:2014:2027-01-11",
+   "name": "Adelaide International",
+   "tour": "WTA",
+   "tier": "WTA 500",
+   "venue": "Adelaide, AUS",
+   "city": "Adelaide",
+   "start": "2027-01-11",
+   "end": "2027-01-16",
+   "surface": "Hard",
+   "draw": 30,
+   "prize": 1206446,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 500"
+   },
+   "headline_tier": "WTA 500",
+   "projected": false
+  },
+  {
+   "key": "atp:611-2027",
+   "espn_id": "611",
+   "name": "Adelaide International",
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "",
@@ -1603,29 +1626,6 @@
     "ATP": "estimated"
    },
    "headline_tier": "ATP 250",
-   "projected": false
-  },
-  {
-   "key": "wta:2014:2027-01-11",
-   "name": "Adelaide International",
-   "tour": "WTA",
-   "tier": "WTA 500",
-   "venue": "Adelaide, AUS",
-   "city": "Adelaide",
-   "start": "2027-01-11",
-   "end": "2027-01-16",
-   "surface": "Hard",
-   "draw": 30,
-   "prize": 1206446,
-   "start_source": "official",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 500"
-   },
-   "headline_tier": "WTA 500",
    "projected": false
   },
   {

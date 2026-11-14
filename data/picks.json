@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T17:55:45+00:00",
+ "generated": "2026-11-14T01:31:54+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1550,20 +1550,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "ASB Classic",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-11",
-   "end": "2027-01-16",
-   "venue": "",
-   "projected": false,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "Adelaide International",
    "tier": "WTA 500",
    "tours": [
@@ -1574,6 +1560,20 @@
    "venue": "Adelaide, AUS",
    "projected": false,
    "benchmark": 14069124,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Adelaide International",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-11",
+   "end": "2027-01-16",
+   "venue": "",
+   "projected": false,
+   "benchmark": 13089791,
    "confidence": "range",
    "basis": "class-A Polymarket benchmark for the tier"
   },
