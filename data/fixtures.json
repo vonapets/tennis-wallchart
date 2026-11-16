@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T09:55:23+00:00",
+ "generated": "2026-11-16T20:36:01+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1454,29 +1454,6 @@
    "projected": false
   },
   {
-   "key": "atp:970-2027",
-   "espn_id": "970",
-   "name": "Brisbane International presented by ANZ",
-   "tour": "ATP",
-   "tier": "ATP 250",
-   "venue": "",
-   "start": "2027-01-03",
-   "end": "2027-01-11",
-   "qualifying_start": "2027-01-01",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 250"
-   },
-   "headline_tier": "ATP 250",
-   "projected": false
-  },
-  {
    "key": "wta:1049:2027-01-04",
    "name": "ASB Classic",
    "tour": "WTA",
@@ -1500,9 +1477,46 @@
    "projected": false
   },
   {
-   "key": "atp:971-2027",
+   "key": "proj:atp:971-2026",
    "espn_id": "971",
    "name": "Bank of China Hong Kong Tennis Open",
+   "tour": "ATP",
+   "tier": "ATP 250",
+   "venue": "Hong Kong, Hong Kong, China",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "qualifying_start": "2026-01-03",
+   "main_draw_matches": 27,
+   "qualifying_matches": 12,
+   "start_source": "projected",
+   "src": "espn",
+   "tours": [
+    "ATP"
+   ],
+   "tiers": {
+    "ATP": "ATP 250"
+   },
+   "headline_tier": "ATP 250",
+   "projected": true
+  },
+  {
+   "key": "proj:chal:Bengaluru Open:2026-01-05",
+   "name": "Bengaluru Open",
+   "tour": "Challenger",
+   "tier": "Challenger 125",
+   "venue": "Bengaluru, India",
+   "country": "India",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "surface": "Hard",
+   "start_source": "projected",
+   "src": "wikipedia-static",
+   "projected": true
+  },
+  {
+   "key": "atp:970-2027",
+   "espn_id": "970",
+   "name": "Brisbane International presented by ANZ",
    "tour": "ATP",
    "tier": "ATP 250",
    "venue": "",
@@ -1519,22 +1533,17 @@
    "tiers": {
     "ATP": "ATP 250"
    },
+   "starts": {
+    "ATP": "2027-01-04"
+   },
+   "ends": {
+    "ATP": "2027-01-10"
+   },
+   "sources": {
+    "ATP": "estimated"
+   },
    "headline_tier": "ATP 250",
    "projected": false
-  },
-  {
-   "key": "proj:chal:Bengaluru Open:2026-01-05",
-   "name": "Bengaluru Open",
-   "tour": "Challenger",
-   "tier": "Challenger 125",
-   "venue": "Bengaluru, India",
-   "country": "India",
-   "start": "2027-01-04",
-   "end": "2027-01-10",
-   "surface": "Hard",
-   "start_source": "projected",
-   "src": "wikipedia-static",
-   "projected": true
   },
   {
    "key": "proj:chal:Canberra Tennis International:2026-01-05",
@@ -5484,7 +5493,7 @@
     "ATP": "2027-09-29"
    },
    "ends": {
-    "ATP": "2027-10-05"
+    "ATP": "2027-10-10"
    },
    "sources": {
     "ATP": "estimated"

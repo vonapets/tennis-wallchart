@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T09:55:23+00:00",
+ "generated": "2026-11-16T20:36:01+00:00",
  "method": "The 17 Sep playbook's rule, applied to the whole season instead of one quarter.",
  "caveat": "Every Challenger pick is [E] none: no individual Challenger has settled history on either venue. The ranking is a prior, not a measurement.",
  "na_premium_caveat": "83.9M vs 35.2M Kalshi median. A TIEBREAKER, not a law - the cohort is confounded with Kalshi's 11 July launch.",
@@ -1508,20 +1508,6 @@
    "basis": "class-A Polymarket benchmark for the tier"
   },
   {
-   "name": "Brisbane International presented by ANZ",
-   "tier": "ATP 250",
-   "tours": [
-    "ATP"
-   ],
-   "start": "2027-01-03",
-   "end": "2027-01-11",
-   "venue": "",
-   "projected": false,
-   "benchmark": 13089791,
-   "confidence": "range",
-   "basis": "class-A Polymarket benchmark for the tier"
-  },
-  {
    "name": "ASB Classic",
    "tier": "WTA 250",
    "tours": [
@@ -1537,6 +1523,20 @@
   },
   {
    "name": "Bank of China Hong Kong Tennis Open",
+   "tier": "ATP 250",
+   "tours": [
+    "ATP"
+   ],
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "venue": "Hong Kong, Hong Kong, China",
+   "projected": true,
+   "benchmark": 13089791,
+   "confidence": "range",
+   "basis": "class-A Polymarket benchmark for the tier"
+  },
+  {
+   "name": "Brisbane International presented by ANZ",
    "tier": "ATP 250",
    "tours": [
     "ATP"
