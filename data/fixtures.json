@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T01:14:32+00:00",
+ "generated": "2026-11-16T09:55:23+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -3071,6 +3071,15 @@
    "tiers": {
     "WTA": "WTA 125"
    },
+   "starts": {
+    "WTA": "2027-04-26"
+   },
+   "ends": {
+    "WTA": "2027-05-02"
+   },
+   "sources": {
+    "WTA": "projected"
+   },
    "headline_tier": "WTA 125",
    "projected": true
   },
@@ -3093,15 +3102,6 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
-   },
-   "starts": {
-    "WTA": "2027-04-26"
-   },
-   "ends": {
-    "WTA": "2027-05-02"
-   },
-   "sources": {
-    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
