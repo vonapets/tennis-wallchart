@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T01:52:34+00:00",
+ "generated": "2026-11-23T10:55:20+00:00",
  "window": [
   "2026-09-18",
   "2027-12-31"
@@ -1827,6 +1827,29 @@
    "projected": false
   },
   {
+   "key": "wta:1100:2027-02-01",
+   "name": "L&T Maha Open",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Pune, IND",
+   "city": "Pune",
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
    "key": "proj:wta:1100:2026-02-02",
    "name": "L&T Mumbai Open",
    "tour": "WTA",
@@ -1873,6 +1896,29 @@
    "projected": false
   },
   {
+   "key": "wta:1184:2027-02-01",
+   "name": "Perth Tennis International #1",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Perth, AUS",
+   "city": "Perth",
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
    "key": "proj:chal:Rosario Challenger:2026-02-02",
    "name": "Rosario Challenger",
    "tour": "Challenger",
@@ -1911,7 +1957,7 @@
   },
   {
    "key": "wta:1003:2027-02-07",
-   "name": "Qatar Ladies Open",
+   "name": "Qatar Doha Bank Open",
    "tour": "WTA",
    "tier": "WTA 1000",
    "venue": "Doha, QAT",
@@ -2011,7 +2057,7 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1155:2026-02-09",
+   "key": "wta:1155:2027-02-08",
    "name": "Oeiras 1 Jamor Indoor",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -2022,7 +2068,7 @@
    "surface": "Hard",
    "draw": 32,
    "prize": 115000,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -2031,7 +2077,30 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
+  },
+  {
+   "key": "wta:1185:2027-02-08",
+   "name": "Perth Tennis International #2",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Perth, AUS",
+   "city": "Perth",
+   "start": "2027-02-08",
+   "end": "2027-02-14",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
   },
   {
    "key": "proj:chal:Ter\u00e9ga Open Pau\u2013Pyr\u00e9n\u00e9es:2026-02-09",
@@ -2046,6 +2115,29 @@
    "start_source": "projected",
    "src": "wikipedia-static",
    "projected": true
+  },
+  {
+   "key": "wta:1186:2027-02-08",
+   "name": "Thailand Open, Hua Hin, THA",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Hua Hin, THA",
+   "city": "Hua Hin",
+   "start": "2027-02-08",
+   "end": "2027-02-14",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
   },
   {
    "key": "wta:718:2027-02-14",
@@ -2140,7 +2232,7 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1156:2026-02-16",
+   "key": "wta:1156:2027-02-15",
    "name": "Oeiras 2 Jamor Indoor",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -2151,7 +2243,7 @@
    "surface": "Hard",
    "draw": 32,
    "prize": 115000,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -2160,30 +2252,7 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
-  },
-  {
-   "key": "proj:wta:1157:2026-02-16",
-   "name": "Open Arena Les Sables d'Olonne",
-   "tour": "WTA",
-   "tier": "WTA 125",
-   "venue": "Les Sables D'Olonne, FRA",
-   "city": "Les Sables D'Olonne",
-   "start": "2027-02-15",
-   "end": "2027-02-21",
-   "surface": "Hard",
-   "draw": 32,
-   "prize": 115000,
-   "start_source": "projected",
-   "src": "api.wtatennis.com",
-   "tours": [
-    "WTA"
-   ],
-   "tiers": {
-    "WTA": "WTA 125"
-   },
-   "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:chal:Play In Challenger:2026-02-16",
@@ -2333,6 +2402,29 @@
    "projected": false
   },
   {
+   "key": "wta:1157:2027-02-22",
+   "name": "Open Arena Les Sables d'Olonne",
+   "tour": "WTA",
+   "tier": "WTA 125",
+   "venue": "Les Sables D'Olonne, FRA",
+   "city": "Les Sables D'Olonne",
+   "start": "2027-02-22",
+   "end": "2027-02-27",
+   "surface": "Hard",
+   "draw": 32,
+   "prize": 115000,
+   "start_source": "official",
+   "src": "api.wtatennis.com",
+   "tours": [
+    "WTA"
+   ],
+   "tiers": {
+    "WTA": "WTA 125"
+   },
+   "headline_tier": "WTA 125",
+   "projected": false
+  },
+  {
    "key": "proj:atp:711-2026",
    "espn_id": "711",
    "name": "Abierto Mexicano Telcel presentado por HSBC",
@@ -2356,7 +2448,7 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1124:2026-02-24",
+   "key": "wta:1124:2027-02-23",
    "name": "Megasaray Hotels Open",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -2367,7 +2459,7 @@
    "surface": "Clay",
    "draw": 32,
    "prize": 115000,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -2376,10 +2468,10 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
   },
   {
-   "key": "proj:wta:1107:2026-03-03",
+   "key": "wta:1107:2027-03-02",
    "name": "Megasaray Hotels Open",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -2390,7 +2482,7 @@
    "surface": "Clay",
    "draw": 32,
    "prize": 115000,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -2399,7 +2491,7 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
   },
   {
    "key": "wta:609:2027-03-03",
@@ -2462,7 +2554,7 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1161:2026-03-09",
+   "key": "wta:1161:2027-03-08",
    "name": "Austin 125",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -2473,7 +2565,7 @@
    "surface": "Hard",
    "draw": 32,
    "prize": 115000,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -2482,7 +2574,7 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:chal:Copa Cap Cana:2026-03-09",
@@ -2499,27 +2591,27 @@
    "projected": true
   },
   {
-   "key": "proj:wta:1125:2026-03-10",
-   "name": "Megasaray Hotels Open",
-   "tour": "WTA",
-   "tier": "WTA 125",
-   "venue": "Antalya, TUR",
-   "city": "Antalya",
-   "start": "2027-03-09",
-   "end": "2027-03-14",
-   "surface": "Clay",
-   "draw": 32,
-   "prize": 115000,
-   "start_source": "projected",
-   "src": "api.wtatennis.com",
+   "key": "atp:713-2027",
+   "espn_id": "713",
+   "name": "Miami Open presented by Itau",
+   "tour": "ATP",
+   "tier": "ATP 1000",
+   "venue": "",
+   "start": "2027-03-16",
+   "end": "2027-03-28",
+   "qualifying_start": "2027-03-14",
+   "main_draw_matches": 0,
+   "qualifying_matches": 0,
+   "start_source": "estimated",
+   "src": "espn",
    "tours": [
-    "WTA"
+    "ATP"
    ],
    "tiers": {
-    "WTA": "WTA 125"
+    "ATP": "ATP 1000"
    },
-   "headline_tier": "WTA 125",
-   "projected": true
+   "headline_tier": "ATP 1000",
+   "projected": false
   },
   {
    "key": "wta:902:2027-03-16",
@@ -2545,30 +2637,7 @@
    "projected": false
   },
   {
-   "key": "atp:713-2027",
-   "espn_id": "713",
-   "name": "Miami Open presented by Itau",
-   "tour": "ATP",
-   "tier": "ATP 1000",
-   "venue": "",
-   "start": "2027-03-17",
-   "end": "2027-03-28",
-   "qualifying_start": "2027-03-15",
-   "main_draw_matches": 0,
-   "qualifying_matches": 0,
-   "start_source": "estimated",
-   "src": "espn",
-   "tours": [
-    "ATP"
-   ],
-   "tiers": {
-    "ATP": "ATP 1000"
-   },
-   "headline_tier": "ATP 1000",
-   "projected": false
-  },
-  {
-   "key": "proj:wta:1158:2026-03-23",
+   "key": "wta:1158:2027-03-22",
    "name": "Dubrovnik Open",
    "tour": "WTA",
    "tier": "WTA 125",
@@ -2579,7 +2648,7 @@
    "surface": "Clay",
    "draw": 32,
    "prize": 115000,
-   "start_source": "projected",
+   "start_source": "official",
    "src": "api.wtatennis.com",
    "tours": [
     "WTA"
@@ -2588,7 +2657,7 @@
     "WTA": "WTA 125"
    },
    "headline_tier": "WTA 125",
-   "projected": true
+   "projected": false
   },
   {
    "key": "proj:chal:Morelia Open:2026-03-23",
@@ -3044,9 +3113,9 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "",
-   "start": "2027-04-20",
+   "start": "2027-04-21",
    "end": "2027-05-02",
-   "qualifying_start": "2027-04-18",
+   "qualifying_start": "2027-04-19",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
    "start_source": "estimated",
@@ -3111,6 +3180,15 @@
    ],
    "tiers": {
     "WTA": "WTA 125"
+   },
+   "starts": {
+    "WTA": "2027-04-26"
+   },
+   "ends": {
+    "WTA": "2027-05-02"
+   },
+   "sources": {
+    "WTA": "projected"
    },
    "headline_tier": "WTA 125",
    "projected": true
@@ -3242,9 +3320,9 @@
    "tour": "ATP",
    "tier": "ATP 1000",
    "venue": "",
-   "start": "2027-05-04",
+   "start": "2027-05-05",
    "end": "2027-05-16",
-   "qualifying_start": "2027-05-02",
+   "qualifying_start": "2027-05-03",
    "main_draw_matches": 0,
    "qualifying_matches": 0,
    "start_source": "estimated",
